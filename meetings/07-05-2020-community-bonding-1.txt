@@ -1,0 +1,196 @@
+date: Thursday 7 May 2020
+participants: valcos, vchrombie, dlumbrer, polaris000, inishchith
+start time: 9:19:10 PM IST
+end time: 10:24:47 PM IST
+duration: 1:05:37 hours
+--------------------------------------------------------------------------------
+
+[9:19:10 PM IST] Join	You (~p0tt3r@49.206.221.243) have joined the channel #grimoirelab.
+[9:19:12 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[9:19:12 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[9:28:51 PM IST] Join	polaris000 (~polaris00@124.123.75.129) has joined this channel.
+[9:29:56 PM IST] <vchrombie>	Hello everyone :)
+[9:30:29 PM IST] <polaris000>	Hi venu. Hope you're ok
+[9:30:51 PM IST] <valcos>	Hi vchrombie and polaris000
+[9:30:54 PM IST] <valcos>	how are you doing?
+[9:31:01 PM IST] Join	inishchith (7aa90eab@122.169.14.171) has joined this channel.
+[9:31:03 PM IST] <dlumbrer>	Hi everyone! :)
+[9:31:08 PM IST] <vchrombie>	I am doing good. I hope you are great too.
+[9:31:11 PM IST] <polaris000>	I'm good valcos
+[9:31:13 PM IST] <inishchith>	Hi everyone
+[9:31:19 PM IST] <polaris000>	hi inishchith
+[9:31:45 PM IST] <vchrombie>	I think everyone joined, so we are good to go.
+[9:31:59 PM IST] <inishchith>	Hope everyone is doing good and safe :)
+[9:32:26 PM IST] <valcos>	cool! Thank venu for organizing the meeting
+[9:32:44 PM IST] <valcos>	Did you have time to prepare the google doc?
+[9:33:40 PM IST] <vchrombie>	Yes, I have shared it you all just now.
+[9:33:45 PM IST] <vchrombie>	Here is the link too
+[9:33:46 PM IST] <vchrombie>	https://docs.google.com/document/d/1RMD66ZDlXLL5uzCY6ttfoMGDPD6QaVIswc59a4l_qiY/edit?usp=sharing
+[9:34:16 PM IST] <polaris000>	thanks vchrombie
+[9:34:17 PM IST] <vchrombie>	So the first thing on the list is what are the next steps?
+[9:34:17 PM IST] <dlumbrer>	I'm in, thanks vchrombie
+[9:34:56 PM IST] <vchrombie>	I have seen polaris000 and inischith had made a repository for storing the progress and everything.
+[9:35:39 PM IST] <valcos>	Yes, having a repo/blog to share your advances is a good idea
+[9:36:01 PM IST] <vchrombie>	I have a blog.
+[9:36:02 PM IST] <vchrombie>	https://vchrombie.github.io/blog/
+[9:36:24 PM IST] <vchrombie>	I will be writing each week progress as a different blog post.
+[9:36:27 PM IST] <valcos>	that's perfect
+[9:36:41 PM IST] <polaris000>	good vchrombie. maybe maintain a repo as well where you keep all the logs, and where you try out code before creating pull requests
+[9:37:00 PM IST] <polaris000>	WDYT?
+[9:37:11 PM IST] <inishchith>	Yes.
+[9:37:19 PM IST] <vchrombie>	so that repo is for storing everything, the meeting logs and weekly summary
+[9:37:31 PM IST] <vchrombie>	Am I correct ?
+[9:37:57 PM IST] <inishchith>	Yes. Exactly
+[9:38:05 PM IST] <polaris000>	the weekly summary can be a blog post. The meeting logs + any code you want us to review can reside in the repo
+[9:38:30 PM IST] <polaris000>	Yes youre right vchrombie
+[9:39:15 PM IST] <vchrombie>	Ok, thanks. I looked around the previous years gsoc repositories. Those helped me to understand the workflow.
+[9:40:28 PM IST] <vchrombie>	and do you have any pointers for the community mailing list?
+[9:41:28 PM IST] <vchrombie>	I mean I understand it is good to send weekly updates to the mailing list too.
+[9:41:51 PM IST] <valcos>	I like the idea
+[9:41:56 PM IST] <polaris000>	me too
+[9:42:20 PM IST] <valcos>	maybe the content could be a short summary and a link to a blogpost?
+[9:42:24 PM IST] <vchrombie>	Attaching the link of blog post so that the interested can look at the work.
+[9:42:37 PM IST] <vchrombie>	Yes, exactly. I was thinking of the same.
+[9:42:55 PM IST] <valcos>	cool!
+[9:42:58 PM IST] <polaris000>	last year, we created an issue in the governance repo where we dropped the links as well.
+[9:43:04 PM IST] <valcos>	this is the link of the grimoirelab mailing list: https://lists.linuxfoundation.org/mailman/listinfo/grimoirelab-discussions
+[9:43:26 PM IST] <valcos>	you can find it at the very very end of https://chaoss.github.io/grimoirelab/
+[9:43:32 PM IST] <valcos>	under "Join us"
+[9:43:47 PM IST] <valcos>	I guess you already have the pointer to the CHAOSS mailing list
+[9:43:49 PM IST] <valcos>	right?
+[9:44:22 PM IST] <vchrombie>	Yes, I have. I have the grimoirelab too.
+[9:44:29 PM IST] <valcos>	perfect!
+[9:44:48 PM IST] <vchrombie>	Thanks polaris000, I was coming to that point. So, do I need to make an issue in the governance repo?
+[9:45:00 PM IST] <vchrombie>	I am happy to make one, if needed.
+[9:45:57 PM IST] <polaris000>	Though the content is redundant with the mailing list, I find the presentation much better and more accessible in the issue
+[9:46:22 PM IST] <polaris000>	its up to you though...
+[9:47:45 PM IST] <vchrombie>	Ok, maybe I have an idea. The mailing list can be grimoirelab and I will open an issue in governance.
+[9:47:51 PM IST] <vchrombie>	How does it sound?
+[9:48:14 PM IST] <vchrombie>	I mean the grimoirelab-discussions mailing list.
+[9:48:37 PM IST] <polaris000>	This seems reasonable to me
+[9:48:41 PM IST] <valcos>	ok!
+[9:49:02 PM IST] <valcos>	maybe you can send once per month a summary of your work in the chaoss mailing list
+[9:49:12 PM IST] <valcos>	or a summary for every coding period
+[9:49:28 PM IST] <valcos>	the communication in the grimoirelab mailing list can be weekly
+[9:49:36 PM IST] <polaris000>	yes, thats a good idea
+[9:49:37 PM IST] <vchrombie>	that seems to be perfect to me
+[9:50:23 PM IST] <vchrombie>	I will have the log of this chat and I will note the things to be done after the meeting.
+[9:50:33 PM IST] <valcos>	ok! thanks
+[9:50:51 PM IST] <valcos>	is there anything else to discuss about the communication/dissemination part?
+[9:51:22 PM IST] <polaris000>	maybe schedule the weekly IRC meets?
+[9:51:37 PM IST] <valcos>	sure!
+[9:52:10 PM IST] <valcos>	when is it convenient to meet for all of you?
+[9:52:43 PM IST] <vchrombie>	I am free most of the time as my course is almost done.
+[9:52:45 PM IST] <inishchith>	I'm available most days except for friday.
+[9:53:22 PM IST] <polaris000>	is the time slot for the current meeting ok for everyone or is it too late?
+[9:54:00 PM IST] <polaris000>	18h to 19h (CEST) <-> 21h30 to 22h30 (IST)
+[9:54:16 PM IST] <valcos>	if it could be 1h/30mins earlier, it would be great
+[9:54:16 PM IST] <dlumbrer>	It works for me
+[9:54:19 PM IST] <vchrombie>	I am ok with it.
+[9:54:38 PM IST] <valcos>	if this isn't possible, this time is ok
+[9:54:49 PM IST] <polaris000>	1hr early is fine for me.
+[9:54:58 PM IST] <dlumbrer>	I agree with valcos
+[9:55:20 PM IST] <inishchith>	Yup. Agree with valcos:
+[9:55:22 PM IST] <polaris000>	So 17h to 18h (CEST) <-> 20h30 to 21h30 (IST) then?
+[9:55:43 PM IST] <valcos>	thanks guys!
+[9:56:02 PM IST] <polaris000>	Great!
+[9:57:00 PM IST] <vchrombie>	Ok, let me confirm it once.
+[9:57:01 PM IST] <valcos>	(I'm updating the doc in the meanwhile)
+[9:57:04 PM IST] <vchrombie>	from 16h30 to 17h30 (CEST) <-> 20h to 21h (IST) or 17h to 18h (CEST) <-> 20h30 to 21h30 (IST)
+[9:57:40 PM IST] <vchrombie>	sorry for the confusion
+[9:57:46 PM IST] <vchrombie>	is it from 16h30 to 17h30 (CEST) <-> 20h to 21h (IST)
+[9:57:48 PM IST] <vchrombie>	or 17h to 18h (CEST) <-> 20h30 to 21h30 (IST)
+[9:58:05 PM IST] <polaris000>	I thought we were decided on the latter...
+[9:58:06 PM IST] <valcos>	17h to 18h (CEST) <-> 20h30 to 21h30 (IST)
+[9:58:15 PM IST] <polaris000>	vchrombie: are you ok with that slot?
+[9:58:33 PM IST] <vchrombie>	Yes, works for me. Not a problem. :)
+[9:59:28 PM IST] <inishchith>	Works for me too.
+[9:59:51 PM IST] <vchrombie>	Ok, I will head on to the next part. Do you have any tasks for me to work on before the coding period starts?
+[10:00:20 PM IST] <vchrombie>	I saw a few tasks updated byy valcos. I will look into them. the next week.
+[10:01:10 PM IST] <valcos>	In general, it would be great if you can get confident with ELK
+[10:01:27 PM IST] <vchrombie>	Okay, I got it.
+[10:02:12 PM IST] <valcos>	Animesh should be working on the raw/enrich for rocketchat. You can check with him if you can take over
+[10:02:22 PM IST] <valcos>	otherwise, if the backend for zulip is ready
+[10:02:31 PM IST] <valcos>	you can try to work on the ELK connectors
+[10:02:54 PM IST] <vchrombie>	I am working on the perceval zulip backend, maybe I will continue with it and work on its enricher.
+[10:03:00 PM IST] <valcos>	ok, perfect
+[10:03:11 PM IST] <inishchith>	Sounds good.
+[10:03:22 PM IST] <valcos>	dlumbrer do you have any suggestion about things to look at in prosoul?
+[10:05:18 PM IST] <dlumbrer>	Got deeper with django for instance
+[10:06:10 PM IST] <dlumbrer>	And maybe some JS libraries in order to improve the dendrogram or adding more interaction with it
+[10:06:50 PM IST] <valcos>	Inishchith polaris000 do you have some suggestions for this precoding period?
+[10:07:11 PM IST] <inishchith>	valcos: No.
+[10:07:12 PM IST] <vchrombie>	dlumberer, you meant the dendogram in the prosoul viewer?
+[10:07:33 PM IST] <polaris000>	Nothing at the moment, valcos.
+[10:07:50 PM IST] <dlumbrer>	yes vchrombie that one and the one that shows the assesment by project
+[10:07:58 PM IST] <inishchith>	vchrombie: feel free to ping us on the thread in case you want reviews or any sort of help. Thanks!
+[10:08:08 PM IST] <vchrombie>	Yes, I got it.
+[10:08:25 PM IST] <vchrombie>	Sure inishchith.
+[10:09:06 PM IST] <vchrombie>	Also, I thought of having a look at the issue #53
+[10:09:07 PM IST] <vchrombie>	https://github.com/Bitergia/prosoul/issues/53
+[10:09:32 PM IST] <vchrombie>	Do you have any thoughts on it?
+[10:10:11 PM IST] <valcos>	yes, that's a good idea
+[10:10:25 PM IST] <valcos>	tests in prosoul are missing, since it was developed as PoC
+[10:10:34 PM IST] <dlumbrer>	yes, I agree.
+[10:11:22 PM IST] <valcos>	it can be convenient to have a look at the code and do some reverse engineering to extract the main blocks of prosoul
+[10:11:38 PM IST] <valcos>	with this info, I guess it will be easier to understand the tests
+[10:11:43 PM IST] <valcos>	and what is missing
+[10:12:00 PM IST] <valcos>	now in Prosoul there is a part of the code used to process CROSSMINER data
+[10:12:18 PM IST] <valcos>	and another part that was created (and then abandoned) to cope with grimoirelab data
+[10:12:58 PM IST] <vchrombie>	Yes, I saw a document regarding that.
+[10:12:59 PM IST] <vchrombie>	https://github.com/Bitergia/prosoul/blob/master/doc/prosoul-grimoirelab.md
+[10:13:10 PM IST] <vchrombie>	I didn't really try it tho.
+[10:13:49 PM IST] <valcos>	it shouldn't work. We removed the connection with grimoirelab during the CROSSMINER project
+[10:14:08 PM IST] <vchrombie>	Okay, I got it.
+[10:15:03 PM IST] <vchrombie>	Anyways, I will get to work on tests with the pointers given and let you know if I have any doubts regarding it.
+[10:15:32 PM IST] <valcos>	sure!
+[10:15:47 PM IST] <valcos>	I have added a note in the doc
+[10:16:06 PM IST] <valcos>	feel free to complete/correct it
+[10:16:35 PM IST] <inishchith>	Guys, Sorry I have to leave now.
+[10:16:51 PM IST] <inishchith>	I'll make sure to read through the meeting logs later today.
+[10:16:55 PM IST] <inishchith>	Thanks for the time.
+[10:16:59 PM IST] <inishchith>	Bye :)
+[10:17:05 PM IST] <polaris000>	bye inishchith
+[10:17:16 PM IST] <vchrombie>	Thanks inishchith. Bye.
+[10:17:19 PM IST] <dlumbrer>	bye inishchith
+[10:17:27 PM IST] <valcos>	Bye!
+[10:17:27 PM IST] Quit	inishchith (7aa90eab@122.169.14.171) has left this server (Remote host closed the connection).
+[10:17:48 PM IST] <vchrombie>	Sure valcos, I will check it.
+[10:18:00 PM IST] <valcos>	Is there something else to discuss?
+[10:18:20 PM IST] <vchrombie>	I think I am done with the questions as I of now.
+[10:19:00 PM IST] <valcos>	ok, perfect!
+[10:19:23 PM IST] <vchrombie>	So, the weekly meetings on Thursday will be only in the coding period. Can we have it in the community bonding too?
+[10:19:41 PM IST] <valcos>	Yes, that's perfect for me
+[10:19:48 PM IST] <polaris000>	and me too
+[10:20:02 PM IST] <dlumbrer>	+1!
+[10:20:08 PM IST] <vchrombie>	Ok, thanks.
+[10:20:10 PM IST] <valcos>	I'd suggest also to exchange our googlehangouts handlers
+[10:20:32 PM IST] <valcos>	for quick communications or blockers we may found
+[10:20:34 PM IST] <valcos>	wdyt?
+[10:20:50 PM IST] <polaris000>	I agree with Valerio
+[10:21:06 PM IST] <dlumbrer>	Sounds good to me
+[10:21:06 PM IST] <vchrombie>	How about a group for everyone?
+[10:21:15 PM IST] <valcos>	yes!
+[10:21:20 PM IST] <valcos>	good point!
+[10:21:25 PM IST] <vchrombie>	Ok, perfect. I can create it. :)
+[10:21:32 PM IST] <valcos>	thanks!
+[10:21:38 PM IST] <polaris000>	thanks vchrombie
+[10:21:52 PM IST] <dlumbrer>	thank you!
+[10:22:14 PM IST] <vchrombie>	I am done with my questions for now. Do you have anything to discuss about?
+[10:22:42 PM IST] <polaris000>	Nothing from my side. dlumbrer, valcos?
+[10:22:52 PM IST] <dlumbrer>	nothing else from my side!
+[10:23:14 PM IST] <valcos>	just a last comment on my side, we can rely also on the issue tracker of prosoul to sync on the dev advances
+[10:23:33 PM IST] <valcos>	for instance, if you are going to check the tests, feel free to ping us there
+[10:23:41 PM IST] <vchrombie>	Sure valcos.
+[10:23:58 PM IST] <valcos>	thank you venu, polaris and dlumbrer
+[10:24:01 PM IST] <valcos>	for your time
+[10:24:19 PM IST] <polaris000>	Thanks valcos, dlumbrer and vchrombie.
+[10:24:28 PM IST] <valcos>	bye!
+[10:24:28 PM IST] <polaris000>	Lets meet next week then
+[10:24:28 PM IST] <dlumbrer>	Thank you all!
+[10:24:32 PM IST] <vchrombie>	Thank you all. Looking forward to meeting you on the next Thursday. :)
+[10:24:33 PM IST] <polaris000>	Bye all!
+[10:24:37 PM IST] Quit	valcos (~valcos@2a0c:5a80:3800:2d00:78eb:101b:5e69:a27e) has left this server (Quit: Leaving).
+[10:24:42 PM IST] Part	polaris000 (~polaris00@124.123.75.129) has left this channel ("Konversation terminated!").
+[10:24:44 PM IST] <dlumbrer>	Bye!
+[10:24:47 PM IST] Part	dlumbrer (02899b3c@60.red-2-137-155.dynamicip.rima-tde.net) has left this channel.
