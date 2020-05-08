@@ -1,2 +1,80 @@
-# gsoc
-Project Tracker for GSoC 2020: Creating Quality models using GrimoireLab and CHAOSS metrics
+<div align="center">
+    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="https://i.imgur.com/0fol3k5.png" width="720" alt="google-summer-of-code"></a>
+    <h2>
+    Creating Quality models using GrimoireLab and <a href="https://github.com/chaoss">CHAOSS</a> metrics
+    </h2>
+</div>
+
+<p align="center">
+	<a href="#project-abstract">Project Abstract</a> | 
+	<a href="#pull-requests--issues">Pull Requests & Issues</a> | 
+	<a href="#weekly-summary">Weekly Summary</a> | 
+	<a href="#links">Links</a>
+</p>
+
+<p align="center">
+	Check out my <a href="https://vchrombie.github.io/blog">blog</a> or follow me on <a href="https://twitter.com/vchrombie">Twitter</a> for more updates.
+</p>
+<br>
+
+## Project Abstract
+
+GrimoireLab is a powerful open-source platform that provides support for monitoring and in-depth analysis of software projects. It produces a rich set of dashboards, which can be easily inspected by decision-makers to help them understand the evolution and health of their projects. Despite the large set of dashboards available in GrimoireLab, comparing projects between each other is not straightforward since it requires navigating and drilling down the data in different dashboards.
+
+Prosoul is a web application that empowers decision-makers with the means to create and manage their own quality models, which are useful means to evaluate and compare software projects. This project idea is about supporting the definition of Quality Models using GrimoireLab data and Prosoul.
+
+The main aim of the project is to design an approach to shape the GrimoireLab data in a format that can easily be consumed by Prosoul and implement it on the data obtained from a few data sources like git, github and mailing list repositories to obtain simple quality models.
+
+**Mentors**: [@Polaris000](https://github.com/Polaris000), [@inishchith](https://github.com/inishchith), [@dlumbrer](https://github.com/dlumbrer) and [@valeriocos](https://github.com/valeriocos).
+
+
+## Pull Requests & Issues
+
+#### [Bitergia/prosoul](https://github.com/Bitergia/prosoul)
+
+Pull Requests
+
+- [#207](https://github.com/Bitergia/prosoul/pull/207): [panels] update attribute-template.json **`/ap`**
+- [#206](https://github.com/Bitergia/prosoul/pull/206): [views] update the viz result kibana_url **`/ap`**
+- [#203](https://github.com/Bitergia/prosoul/pull/203): [assessment] Fix the TemplateSyntaxError **`/ap`**
+- [#201](https://github.com/Bitergia/prosoul/pull/201): [UI] Improve the Login UI **`/ap`**
+- [#200](https://github.com/Bitergia/prosoul/pull/200): [docs] Update README.md with installation video **`/ap`**
+- [#199](https://github.com/Bitergia/prosoul/pull/199): add license headers and copyright information **`/ap`**
+- [#196](https://github.com/Bitergia/prosoul/pull/196): [docs] fixed minor typos in README.md **`/ap`**
+
+Issues
+
+- [#205](https://github.com/Bitergia/prosoul/issues/205): Kibana dashboard URL doesn't have the port number **`/ap`**
+- [#204](https://github.com/Bitergia/prosoul/issues/204): index_pattern is not up to date in the templates **`/ap`**
+
+#### [chaoss/grimoirelab-elk](https://github.com/chaoss/grimoirelab-elk)
+
+Pull Requests
+
+- [#815](https://github.com/chaoss/grimoirelab-elk/pull/815): [schema] Update mattermost.csv **`/ap`**
+- [#814](https://github.com/chaoss/grimoirelab-elk/pull/814): [schema] Update dockerhub.csv **`/ap`**
+- [#812](https://github.com/chaoss/grimoirelab-elk/pull/812): [schema] Update askbot.csv **`/ap`**
+- [#788](https://github.com/chaoss/grimoirelab-elk/pull/788): Update README.md **`/ap`**
+- [#787](https://github.com/chaoss/grimoirelab-elk/pull/787): [doc] fix mistake in README.md **`/ap`**
+
+> **Tags**:
+> - **a**pplication **p**eriod : **`/ap`**
+> - **c**ommunity **b**onding period : **`/cb`** 
+> - **c**oding **p**eriod **x** - **`/cpx`** <br>
+
+
+## Weekly Updates
+
+
+## Links
+
+- [GSoC 2020 Proposal CHAOSS - Venu](notes/gsoc-proposal-venu.pdf)
+- [Project Link](https://summerofcode.withgoogle.com/projects/#5489558193438720) on GSoC Website.
+- [Microtasks](https://github.com/vchrombie/chaoss-microtasks) repository.
+- [Contributions](notes/application-period-contributions.md) during application period.
+
+
+## Footnotes
+
+- We will be discussing about the progress of this project every week at the `#grimoirelab` channel on freenode IRC (scheduled for every Thursday 17h to 18h (CEST) or 20h30 to 21h30 (IST)). The transcripts of the meetings (chats) are available in [meetings](meetings/) directory.
+- I will be writing a blog post every week (mostly on Monday) explaning the work I did over the week. You can find the links to the work summary and blog posts in the [work](work/) directory.
