@@ -68,6 +68,7 @@ Pull Requests
 ### Community Bonding (May 4, 2020 - June 1, 2020)
 
 - GSoC Acceptance, [aceptación gsoc](https://vchrombie.github.io/blog/gsoc-acceptance).
+- Week 1: [Report](work/community-bonding#week-1-summary) | Blog Post :point_right: [unión comunitaria 1](https://vchrombie.github.io/blog/community-bonding-1).
 
 ## Links
 
