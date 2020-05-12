@@ -65,6 +65,9 @@ Pull Requests
 
 ## Weekly Updates
 
+### Community Bonding (May 4, 2020 - June 1, 2020)
+
+- GSoC Acceptance, [aceptación gsoc](https://vchrombie.github.io/blog/gsoc-acceptance).
 
 ## Links
 
