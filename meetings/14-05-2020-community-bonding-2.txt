@@ -1,0 +1,148 @@
+date: Thursday 14 May 2020
+participants: dlumbrer, vchrombie, valcos, polaris000
+start time: 8:17:57 PM IST
+end time: 9:24:57 PM IST
+duration: 1:07:00 hours
+--------------------------------------------------------------------------------
+
+[8:17:57 PM IST] Join	You (~p0tt3r@49.206.221.243) have joined the channel #grimoirelab.
+[8:17:58 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:17:59 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:23:24 PM IST] Join	dlumbrer (02899b3c@60.red-2-137-155.dynamicip.rima-tde.net) has joined this channel.
+[8:30:20 PM IST] <vchrombie>	Hello everyone. :)
+[8:31:17 PM IST] Join	polaris000 (~polaris00@124.123.75.129) has joined this channel.
+[8:31:26 PM IST] <dlumbrer>	Hello vchrombie!
+[8:31:36 PM IST] <vchrombie>	Hi David.
+[8:31:42 PM IST] <vchrombie>	How are you?
+[8:31:50 PM IST] <polaris000>	Hi all!
+[8:32:21 PM IST] <vchrombie>	Hi polaris000, how are you doing?
+[8:32:39 PM IST] <dlumbrer>	Good :), how about you, everything right?
+[8:32:40 PM IST] <polaris000>	im good. Hope you and dlumbrerare doing well
+[8:33:34 PM IST] <vchrombie>	Everything is fine, I finished my final year project review too this week.
+[8:34:04 PM IST] <vchrombie>	So in a way, my bachelors is completed. ^^
+[8:34:19 PM IST] <polaris000>	congrats!
+[8:34:39 PM IST] <dlumbrer>	that's nice, congrats!
+[8:34:48 PM IST] <vchrombie>	thanks. :)
+[8:35:28 PM IST] <vchrombie>	let me just ping Valerio & Nishchith and see if they are joining the meeting
+[8:35:55 PM IST] <polaris000>	sure vchrombie
+[8:36:05 PM IST] <vchrombie>	also, sorry for the inconvenience
+[8:36:12 PM IST] <vchrombie>	I forgot to update the timings.
+[8:36:31 PM IST] Join	valcos (~valcos@2a0c:5a80:3800:2d00:5d16:6ff9:5747:c2ef) has joined this channel.
+[8:36:39 PM IST] <valcos>	Hi all, sorry for being late
+[8:36:53 PM IST] <polaris000>	hi valcos hope you're doing well.
+[8:37:03 PM IST] <valcos>	yes, thanks! how are you doing?
+[8:37:11 PM IST] <vchrombie>	Hi Valerio. :)
+[8:37:12 PM IST] <polaris000>	Im good
+[8:37:12 PM IST] <vchrombie>	I was about to ping you.
+[8:37:46 PM IST] <vchrombie>	I am sending the meetings docs here
+[8:37:47 PM IST] <vchrombie>	https://docs.google.com/document/d/1RMD66ZDlXLL5uzCY6ttfoMGDPD6QaVIswc59a4l_qiY/edit?usp=sharing
+[8:38:04 PM IST] <valcos>	Hi vchrombie! sorry, I didn't see/receive the reminder on the calendar. I'll double check for the next time
+[8:38:11 PM IST] <valcos>	ok, thanks!
+[8:38:35 PM IST] <vchrombie>	sorry for the inconvenience, I forgot to update the new timings
+[8:38:57 PM IST] <valcos>	no worries, I think it's on my side the mistake
+[8:39:14 PM IST] <vchrombie>	I am afraid that Nishchith is expecting the meeting at the not-updated timing.
+[8:39:59 PM IST] <polaris000>	did you ping him vchrombie?
+[8:40:46 PM IST] <vchrombie>	Yes, I just dropped an invite on hangouts. Let me ping once in group too.
+[8:40:53 PM IST] <polaris000>	good, thanks
+[8:42:42 PM IST] <vchrombie>	or maybe we can start the meeting
+[8:42:48 PM IST] <vchrombie>	I will send him the log after the meeting.
+[8:43:02 PM IST] <valcos>	yes! good idea
+[8:43:11 PM IST] <polaris000>	yes, i think we should start...
+[8:43:18 PM IST] <valcos>	ok!
+[8:43:24 PM IST] <vchrombie>	Ok, so first thing on my list is
+[8:43:25 PM IST] <polaris000>	Could you give us a brief summary of what you did vchrombie>
+[8:44:06 PM IST] <polaris000>	carry on vchrombie
+[8:44:31 PM IST] <vchrombie>	I mostly worked on setting up the project-tracker, blog, preparing schedule of mails to the mailing list.
+[8:45:35 PM IST] <valcos>	did you find any blockers?
+[8:45:37 PM IST] <polaris000>	good, carry on with your list please :)
+[8:45:54 PM IST] <vchrombie>	Apart from that, I worked on the perceval support for zulip and went around to see how the enrich index can be created.
+[8:46:19 PM IST] <vchrombie>	Ok, I will come in the queue then.
+[8:46:54 PM IST] <vchrombie>	Do you have any feedback for the project-tracker, https://github.com/vchrombie/gsoc
+[8:47:04 PM IST] <vchrombie>	or the blog posts, vchrombie.github.io/blog/
+[8:47:59 PM IST] <vchrombie>	I found great help from the previous years project trackers. Thanks to polaris000 and Nishchith.
+[8:48:26 PM IST] <polaris000>	they look fine to me vchrombie. You're welcom
+[8:48:31 PM IST] <polaris000>	e :)
+[8:48:45 PM IST] <valcos>	they look good
+[8:48:54 PM IST] <dlumbrer>	It looks good!
+[8:49:13 PM IST] <dlumbrer>	And the blog as well! ;)
+[8:49:36 PM IST] <vchrombie>	I hope the mails and the reports are fine too, I didn't get much time to do any tech things before Monday. I will update in the coming week reports.
+[8:50:41 PM IST] <polaris000>	ok vchrombie.
+[8:51:06 PM IST] <vchrombie>	Coming to the next point, about the perceval zulip backend. I did a little work on this during the application period.
+[8:52:02 PM IST] <polaris000>	any blockers vchrombie?
+[8:52:03 PM IST] <vchrombie>	The only blocker I faced is I didn't get a clear idea of the offset based implementation.
+[8:53:18 PM IST] <valcos>	Ok no worries :) Can you share a pointer to the code?
+[8:53:33 PM IST] <valcos>	I can have a look at it tomorrow
+[8:54:04 PM IST] <vchrombie>	I went through the telegram and nntp backends but I didn't really understand the working.
+[8:54:29 PM IST] <vchrombie>	Can I send a draft PR by tonight do that you can have a look at it tomorrow ?
+[8:54:42 PM IST] <valcos>	yes, sure
+[8:55:28 PM IST] <vchrombie>	I have figured out the fetching part, earlier it was kinda confusing but later digging into the zulip wrapper code gave me a little idea of how it can be implemented.
+[8:55:46 PM IST] <valcos>	that's a good idea
+[8:56:10 PM IST] <valcos>	when you say that you didn't really understand the working of the offset-based backends
+[8:56:20 PM IST] <valcos>	is there something specific I should look at
+[8:56:43 PM IST] <valcos>	or it's a general problem about how offset-based data is retrieved from an API?
+[8:57:42 PM IST] <vchrombie>	Yes, the second question. I didn't understand how offset-based data is retrieved from the API.
+[8:58:54 PM IST] <valcos>	Ok, if you agree we can have this discussion in the upcoming PR.
+[8:59:18 PM IST] <valcos>	we can tailor it to the specific case of zulip
+[8:59:20 PM IST] <valcos>	WDYT?
+[8:59:33 PM IST] <vchrombie>	Sure valcos. Even I felt that it better. We can discuss the points after I send the PR.
+[8:59:45 PM IST] <valcos>	ok, perfect
+[9:00:02 PM IST] <vchrombie>	I will be working on this, during this week.
+[9:00:16 PM IST] <valcos>	great, thanks
+[9:00:20 PM IST] <polaris000>	good vchrombie
+[9:01:55 PM IST] <vchrombie>	Also, do you think Trello would be good data source for collecting the data?
+[9:02:35 PM IST] <valcos>	Interesting
+[9:03:22 PM IST] <valcos>	we can have a look at the API. The keypoint is to check if we can get historical data, for instance the different columns a task was moved from/to
+[9:03:52 PM IST] <valcos>	I think it could be a nice data source to have to get insights about kanban processes
+[9:04:15 PM IST] <vchrombie>	I think those are called activities in trello.
+[9:04:42 PM IST] <valcos>	perfect
+[9:05:25 PM IST] <valcos>	can you open an issue in perceval? we can try to get the feedback from the community
+[9:05:36 PM IST] <vchrombie>	Sure, I was about to ask that.
+[9:05:42 PM IST] <polaris000>	good idea valcos
+[9:06:04 PM IST] <valcos>	cool ^^
+[9:06:05 PM IST] <vchrombie>	I will open an issue and we can discuss what all data can be extracted from the trello API.
+[9:06:44 PM IST] <polaris000>	perfect
+[9:06:45 PM IST] <valcos>	perfect, thanks
+[9:06:57 PM IST] <dlumbrer>	Good! :)
+[9:08:16 PM IST] <vchrombie>	I had a look a elk enrichers too but I think I should spend some more time in this week to get a better understanding.
+[9:09:31 PM IST] <valcos>	Perfect, some simple enrichers are: https://github.com/chaoss/grimoirelab-elk/blob/master/grimoire_elk/enriched/google_hits.py
+[9:09:42 PM IST] <valcos>	(this is the super basic one ^^)
+[9:09:57 PM IST] <valcos>	https://github.com/chaoss/grimoirelab-elk/blob/master/grimoire_elk/enriched/slack.py
+[9:10:14 PM IST] <vchrombie>	I was concentrating on the github enricher. I will have a look at these too this time.
+[9:10:53 PM IST] <valcos>	ok, the github enricher is a bit more complex because it deals with different categories of data (issues, pull requests, repo)
+[9:11:18 PM IST] <valcos>	the one for gitlab is similar but with less logic
+[9:11:18 PM IST] <valcos>	https://github.com/chaoss/grimoirelab-elk/blob/master/grimoire_elk/enriched/gitlab.py
+[9:12:25 PM IST] <vchrombie>	Ok, then I will have a look at the simple enrichers first and then move to the other ones.
+[9:12:44 PM IST] <vchrombie>	Thanks for the pointers valcos. :)
+[9:13:07 PM IST] <valcos>	you're welcome vchrombie
+[9:13:56 PM IST] <polaris000>	anything else you'd like to discuss vchrombie?
+[9:15:16 PM IST] <vchrombie>	I will clear my rest of the doubts in the PR. I dont have anymore from my side to discuss now.
+[9:16:04 PM IST] <valcos>	how is it going with learning spanish? ^^
+[9:16:12 PM IST] <polaris000>	haha!
+[9:16:17 PM IST] <valcos>	ehehe
+[9:16:27 PM IST] <vchrombie>	bueno :)
+[9:17:09 PM IST] <vchrombie>	I was concentrating on enrichers for now, but will look at the django part too in the coming week. According to the timeline, the first coding period is more related to enrichers, so I am more inclined towards it. I hope it is ok.
+[9:18:03 PM IST] <valcos>	it sounds good to me
+[9:18:30 PM IST] <valcos>	what do you think polaris000 and dlumbrer?
+[9:18:53 PM IST] <polaris000>	i think he should focus on enrichers too
+[9:19:18 PM IST] <dlumbrer>	I agree
+[9:20:04 PM IST] <polaris000>	sry, i agree (did not read it properly)
+[9:20:17 PM IST] <vchrombie>	that's fine, no problem
+[9:20:28 PM IST] <polaris000>	but make sure you're clear with enrichers...
+[9:20:53 PM IST] <vchrombie>	Yes, sure. It is the one of the core part of the project.
+[9:21:17 PM IST] <polaris000>	good vchrombie.
+[9:21:27 PM IST] <polaris000>	anything else left to discuss?
+[9:21:46 PM IST] <vchrombie>	I think that's it from my side.
+[9:22:45 PM IST] <valcos>	perfect, I don't have anything to discuss either
+[9:22:56 PM IST] <polaris000>	nothing else from my side too.. @dlumbrer?
+[9:23:04 PM IST] <dlumbrer>	ok vchrombie, I don't have anything from my side
+[9:23:09 PM IST] <dlumbrer>	so let's have the meeting next week at same time, right?
+[9:23:23 PM IST] <vchrombie>	Yes yes, same time.
+[9:23:27 PM IST] <valcos>	great!
+[9:23:32 PM IST] <dlumbrer>	perfect!
+[9:23:35 PM IST] <polaris000>	great! seey you then
+[9:23:37 PM IST] <vchrombie>	Thanks, bye! (gracias, adios :))
+[9:23:53 PM IST] Part	polaris000 (~polaris00@124.123.75.129) has left this channel ("Konversation terminated!").
+[9:23:56 PM IST] <dlumbrer>	See you! take care!
+[9:24:08 PM IST] Quit	dlumbrer (02899b3c@60.red-2-137-155.dynamicip.rima-tde.net) has left this server (Remote host closed the connection).
+[9:24:28 PM IST] <valcos>	hasta pronto vchrombie!
+[9:24:57 PM IST] Quit	valcos (~valcos@2a0c:5a80:3800:2d00:5d16:6ff9:5747:c2ef) has left this server (Quit: Leaving).
