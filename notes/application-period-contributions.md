@@ -12,10 +12,12 @@
 
 #### [chaoss/grimoirelab](https://github.com/chaoss/grimoirelab)
 
+- [#317](https://github.com/chaoss/grimoirelab/pull/317): [docker/full-3p] update the link for fossology source
 - [#309](https://github.com/chaoss/grimoirelab/pull/309): [README] Add a picture of GrimoireLab
 
 #### [chaoss/grimoirelab-sirmordred](https://github.com/chaoss/grimoirelab-sirmordred)
 
+- [#450](https://github.com/chaoss/grimoirelab-sirmordred/pull/450): [docs] revamp of getting-started.md
 - [#431](https://github.com/chaoss/grimoirelab-sirmordred/pull/431): Fix askbot configuration typos
 
 Made a script which automates a part of the process while setting up the GrimoireLab developer environment, [glab-dev-env-setup.py](https://gist.github.com/vchrombie/4403193198cd79e7ee0079259311f6e8).
@@ -27,15 +29,18 @@ Made a script which automates a part of the process while setting up the Grimoir
 - [#812](https://github.com/chaoss/grimoirelab-elk/pull/812): [schema] Update askbot.csv
 - [#788](https://github.com/chaoss/grimoirelab-elk/pull/788): Update README.md 
 - [#787](https://github.com/chaoss/grimoirelab-elk/pull/787): [doc] fix mistake in README.md
+- [#699](https://github.com/chaoss/grimoirelab-elk/pull/699): remove the dashboards folder
 
 #### [chaoss/grimoirelab-tutorial](https://github.com/chaoss/grimoirelab-tutorial)
 
 - [#117](https://github.com/chaoss/grimoirelab-tutorial/pull/117): fix minor typos and broken links in the tutorials
+- [#108](https://github.com/chaoss/grimoirelab-tutorial/pull/108): added reference links for non-python packages at required places
 
 #### [chaoss/grimoirelab-perceval](https://github.com/chaoss/grimoirelab-perceval)
 
 - [#624](https://github.com/chaoss/grimoirelab-perceval/pull/624), [#623](https://github.com/chaoss/grimoirelab-perceval/pull/623): [perceval] Update license and copyright information
 - [#615](https://github.com/chaoss/grimoirelab-perceval/pull/615): [github] Update the docstrings
+- [#502](https://github.com/chaoss/grimoirelab-perceval/pull/502): [doc] Update documentation for github and gitlab backends
 
 #### [chaoss/website](https://github.com/chaoss/website)
 

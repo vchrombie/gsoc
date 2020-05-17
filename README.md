@@ -57,6 +57,17 @@ Pull Requests
 - [#788](https://github.com/chaoss/grimoirelab-elk/pull/788): Update README.md **`/ap`**
 - [#787](https://github.com/chaoss/grimoirelab-elk/pull/787): [doc] fix mistake in README.md **`/ap`**
 
+#### [chaoss/grimoirelab-perceval](https://github.com/chaoss/grimoirelab-perceval)
+
+Pull Requests
+
+- [#624](https://github.com/chaoss/grimoirelab-perceval/pull/624), [#623](https://github.com/chaoss/grimoirelab-perceval/pull/623): [perceval] Update license and copyright information **`/ap`**
+- [#615](https://github.com/chaoss/grimoirelab-perceval/pull/615): [github] Update the docstrings **`/ap`**
+
+Issues
+
+- [#630](https://github.com/chaoss/grimoirelab-perceval/pull/630): [Feature Request] Add support for Zulip **`/ap`**
+
 > **Tags**:
 > - **a**pplication **p**eriod : **`/ap`**
 > - **c**ommunity **b**onding period : **`/cb`** 
