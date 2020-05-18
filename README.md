@@ -57,15 +57,23 @@ Pull Requests
 - [#788](https://github.com/chaoss/grimoirelab-elk/pull/788): Update README.md **`/ap`**
 - [#787](https://github.com/chaoss/grimoirelab-elk/pull/787): [doc] fix mistake in README.md **`/ap`**
 
+Issues
+
+- [#876](https://github.com/chaoss/grimoirelab-elk/issues/876): [Rocket.Chat] Add rocketchat backend support to ELK **`/cb`**
+
 #### [chaoss/grimoirelab-perceval](https://github.com/chaoss/grimoirelab-perceval)
 
 Pull Requests
 
+- [#667](https://github.com/chaoss/grimoirelab-perceval/pull/667): [backend] Add Zulip Backend **`/cb`**
 - [#624](https://github.com/chaoss/grimoirelab-perceval/pull/624), [#623](https://github.com/chaoss/grimoirelab-perceval/pull/623): [perceval] Update license and copyright information **`/ap`**
 - [#615](https://github.com/chaoss/grimoirelab-perceval/pull/615): [github] Update the docstrings **`/ap`**
 
 Issues
 
+- [#668](https://github.com/chaoss/grimoirelab-perceval/pull/668): [googlehits] Returns None object **`/cb`**
+- [#665](https://github.com/chaoss/grimoirelab-perceval/pull/665): Issue template **`/cb`**
+- [#664](https://github.com/chaoss/grimoirelab-perceval/pull/664): [Feature Request] Add support for Trello **`/cb`**
 - [#630](https://github.com/chaoss/grimoirelab-perceval/pull/630): [Feature Request] Add support for Zulip **`/ap`**
 
 > **Tags**:
@@ -80,6 +88,7 @@ Issues
 
 - GSoC Acceptance, [aceptación gsoc](https://vchrombie.github.io/blog/gsoc-acceptance).
 - Week 1: [Report](work/community-bonding#week-1-summary) | Blog Post :point_right: [unión comunitaria 1](https://vchrombie.github.io/blog/community-bonding-1).
+- Week 2: [Report](work/community-bonding#week-2-summary) | Blog Post :point_right: [unión comunitaria 2](https://vchrombie.github.io/blog/community-bonding-2).
 
 ## Links
 
