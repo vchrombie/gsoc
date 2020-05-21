@@ -1,0 +1,138 @@
+date: Thursday 21 May 2020
+participants: inishchith, valcos, vchrombie, dlumbrer, polaris000
+start time: 8:26:39 PM IST
+end time: 9:24:21 PM IST
+duration: 0:57:42 hours
+--------------------------------------------------------------------------------
+
+[8:26:39 PM IST] Join	You (~p0tt3r@49.206.221.243) have joined the channel #grimoirelab.
+[8:26:41 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:26:41 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:29:47 PM IST] Join	dlumbrer (02899b3c@60.red-2-137-155.dynamicip.rima-tde.net) has joined this channel.
+[8:30:52 PM IST] <vchrombie>	Hello everyone :)
+[8:31:12 PM IST] Quit	davidam79 (~user@213.37.229.82.dyn.user.ono.com) has left this server (Ping timeout: 256 seconds).
+[8:31:47 PM IST] <valcos>	Hi vchrombie
+[8:32:00 PM IST] <dlumbrer>	Hi everyone!
+[8:32:10 PM IST] Join	polaris000 (~polaris00@124.123.75.129) has joined this channel.
+[8:32:31 PM IST] <vchrombie>	Hola valcos dlumbrer!
+[8:32:43 PM IST] <polaris000>	hi all. Hope you're all doing well!
+[8:32:48 PM IST] <vchrombie>	Hi polaris000
+[8:32:55 PM IST] <valcos>	Hi all
+[8:33:13 PM IST] <vchrombie>	I am doing great. :)
+[8:33:19 PM IST] Join	inishchith (dfe59bc9@223.229.155.201) has joined this channel.
+[8:33:19 PM IST] <vchrombie>	I hope the same with you all.
+[8:33:31 PM IST] <inishchith>	Hi everyone.
+[8:33:39 PM IST] <inishchith>	Sorry for the delay :(
+[8:34:12 PM IST] <polaris000>	hi inishchith
+[8:34:15 PM IST] <vchrombie>	Hi inishchith, you are almost on the right time.
+[8:34:16 PM IST] <polaris000>	no issues
+[8:34:58 PM IST] <inishchith>	Cool. How is it going vchrombie?
+[8:35:23 PM IST] <vchrombie>	Pretty well, I will share what I was doing this week.
+[8:36:15 PM IST] <inishchith>	Great.
+[8:36:16 PM IST] <inishchith>	Sure.
+[8:36:27 PM IST] <inishchith>	Are we waiting for someone to join?
+[8:36:51 PM IST] <vchrombie>	I dont think so, everyone joined. We can start the meeting.
+[8:37:20 PM IST] <dlumbrer>	Yes!
+[8:37:42 PM IST] <polaris000>	lets start vchrombie
+[8:37:51 PM IST] <vchrombie>	First thing was I started working on the perceval support for zulip backend.
+[8:38:06 PM IST] <vchrombie>	This is not really on my proposal but I want to complete this to get a better understanding with perceval backends.
+[8:39:40 PM IST] <vchrombie>	I felt this backend is kinda peculiar than the others as it doesn't have 'from_date' which is one of the required things for fetching the data.
+[8:40:17 PM IST] <vchrombie>	I went through the offset approach too but I felt it doesn't support that approach too.
+[8:41:13 PM IST] Away	You are now marked as being away (reason: Gone away for now).
+[8:41:19 PM IST] Away	You are no longer marked as being away.
+[8:43:17 PM IST] <vchrombie>	I checked the telegram backend too but I couldn't figure out how to frame the approach in this backend.
+[8:45:18 PM IST] <vchrombie>	My straight doubt is
+[8:45:45 PM IST] <vchrombie>	https://github.com/chaoss/grimoirelab-perceval/blob/417339887396ce387eb100fe8d8c9b2c07213f5e/perceval/backends/core/telegram.py#L108
+[8:47:00 PM IST] <vchrombie>	Is 'offset' a parameter, just like 'from_date'?
+[8:47:04 PM IST] <valcos>	yes
+[8:47:32 PM IST] <vchrombie>	Okay
+[8:47:38 PM IST] <valcos>	I'm looking for pointer
+[8:47:40 PM IST] <valcos>	s
+[8:47:44 PM IST] <vchrombie>	Ok
+[8:48:20 PM IST] <valcos>	https://github.com/chaoss/grimoirelab-elk/blob/master/grimoire_elk/elk.py#L72
+[8:48:57 PM IST] <valcos>	from L72 to L162
+[8:49:18 PM IST] <valcos>	you can see that offset and from_date are basically equivalent params
+[8:49:55 PM IST] <vchrombie>	Yes, I got that point.
+[8:50:06 PM IST] <valcos>	I'm looking for another pointer
+[8:50:42 PM IST] <valcos>	https://github.com/chaoss/grimoirelab-elk/blob/a5aaeaa7a81fd6c1ae42e535c3231e6a91ed33cf/grimoire_elk/enriched/utils.py#L138
+[8:51:04 PM IST] <valcos>	this method retrieves the last document in an index
+[8:51:19 PM IST] <valcos>	as you can see here https://github.com/chaoss/grimoirelab-elk/blob/a5aaeaa7a81fd6c1ae42e535c3231e6a91ed33cf/grimoire_elk/enriched/utils.py#L193
+[8:51:47 PM IST] <valcos>	if the offset exists, it will call a specific method to retrieve the last document based on the value of the offset
+[8:53:18 PM IST] <valcos>	https://github.com/chaoss/grimoirelab-elk/blob/a5aaeaa7a81fd6c1ae42e535c3231e6a91ed33cf/grimoire_elk/elastic.py#L418
+[8:54:04 PM IST] <valcos>	this is the core method to retrieve the last offset/date
+[8:54:23 PM IST] <vchrombie>	Ok
+[8:55:38 PM IST] <valcos>	we can move this conversation on the issue
+[8:56:15 PM IST] <vchrombie>	Sure valcos. I will check the links you have provided and let you know about further doubts (if any) in the issue.
+[8:56:26 PM IST] <polaris000>	thanks and good idea valcos! Any other blocks vchrombie?
+[8:56:31 PM IST] <valcos>	ok, great
+[8:57:56 PM IST] <vchrombie>	The second thing I was working on is the gitlabcomments enricher. valcos suggested this and I started working it.
+[8:58:38 PM IST] <vchrombie>	Basically it is almost same as github2, but for gitlab. It includes the review comments and emojis.
+[8:59:49 PM IST] <vchrombie>	I started working on it today. I had a few hiccups initially with the installation of cross-nlp-rest-api but I solved it.
+[9:00:14 PM IST] <vchrombie>	I had one problem after that.
+[9:02:13 PM IST] <vchrombie>	I have everything running using the docker container, es kibiter and api too. Everything is well configured ttbomk.
+[9:02:20 PM IST] <valcos>	cool!
+[9:03:00 PM IST] <vchrombie>	but I am facing this error during the enrichment phase, that too in specific enrich_feelings
+[9:03:02 PM IST] <vchrombie>	urllib3.exceptions.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+[9:03:49 PM IST] <vchrombie>	seems like a small error, I googled up but no good result
+[9:04:25 PM IST] <valcos>	to simplify things, since you are already dealing with the enrichers of ELK
+[9:04:37 PM IST] <valcos>	you can discard the part of study enrich_feelings
+[9:04:53 PM IST] <valcos>	and we will include it in a second iteration of gitlabcomments
+[9:05:05 PM IST] <vchrombie>	Ok
+[9:05:30 PM IST] <valcos>	the error should be easy to solve, but it's better to focus on the general understanding of elk
+[9:05:51 PM IST] <vchrombie>	Yes, I got it.
+[9:06:57 PM IST] <vchrombie>	Other than these two works, I started going through the prosoul codebase. I dont have any issues with it as of now. It is going good.
+[9:07:27 PM IST] <valcos>	perfect
+[9:07:43 PM IST] <dlumbrer>	nice!
+[9:08:07 PM IST] <polaris000>	good progress vchrombie
+[9:08:28 PM IST] <vchrombie>	:)
+[9:08:42 PM IST] <vchrombie>	need to speed up a bit tho
+[9:09:14 PM IST] <vchrombie>	I will put on some more effort.
+[9:09:32 PM IST] <inishchith>	You're doing great already ;)
+[9:09:44 PM IST] <inishchith>	Keep at it.
+[9:10:04 PM IST] <vchrombie>	sure :)
+[9:10:18 PM IST] <vchrombie>	That's it from my side. Do you have any more suggestions?
+[9:12:07 PM IST] <valcos>	not really suggestions, but your feedback
+[9:12:12 PM IST] <inishchith>	Nothing from my side as of now. anything valcos polaris000?
+[9:12:21 PM IST] <polaris000>	nothing else from my side
+[9:12:55 PM IST] <valcos>	do you think we should improve something for communication or syncronization?
+[9:13:05 PM IST] <dlumbrer>	nothing else here, either
+[9:15:08 PM IST] <dlumbrer>	I'm not sure about that valcos, any suggestion?
+[9:15:22 PM IST] <polaris000>	what do you have in mind, valcos?
+[9:15:22 PM IST] <vchrombie>	One thing I found which I might need to change is clearing the doubts. I was hesitating to mail the doubts but I will get it right from now.
+[9:16:23 PM IST] <valcos>	nothing in mind polaris000 ^^, it is just that we need feedback from vchrombie to see if we can improve something
+[9:16:39 PM IST] <valcos>	to reduce the blockers, improve the communication, etc.
+[9:16:46 PM IST] <polaris000>	got it. Thanks valcos :)
+[9:18:01 PM IST] <valcos>	you're welcome! thanks vchrombie, don't hesitate to share your feedback
+[9:18:11 PM IST] <vchrombie>	I will better mail or put them hangouts my doubts (if I am hanging on it for more time).
+[9:18:30 PM IST] <vchrombie>	to speed up the process
+[9:18:35 PM IST] <valcos>	ok, great
+[9:18:46 PM IST] <vchrombie>	Ok, thanks.
+[9:18:52 PM IST] <polaris000>	maybe vchrombie could open some specific issues in his GSoC tracker repo with relevant code? It helped me last year tremendously, without creating noise in the concerned repos
+[9:18:54 PM IST] <inishchith>	Sure.
+[9:19:20 PM IST] <inishchith>	Agree with polaris000.
+[9:19:50 PM IST] <vchrombie>	Ok, that seems a very good option.
+[9:19:56 PM IST] <polaris000>	it'll be easier to share code / discuss compared to hangouts IMO
+[9:20:37 PM IST] <valcos>	good idea!
+[9:20:59 PM IST] <vchrombie>	I will do that. +1
+[9:21:16 PM IST] <vchrombie>	thanks polaris000 for the idea
+[9:21:19 PM IST] <inishchith>	Great.
+[9:21:26 PM IST] <polaris000>	:)
+[9:21:53 PM IST] <polaris000>	anything else left to discuss today?
+[9:22:09 PM IST] <vchrombie>	I have nothing.
+[9:23:00 PM IST] <vchrombie>	I think we can end the meeting, if you are ok.
+[9:23:20 PM IST] <polaris000>	I'm ok with it. @valcos@inishchith @dlumbrer?
+[9:23:37 PM IST] <valcos>	I'm ok, we can end it
+[9:23:39 PM IST] <inishchith>	Nothing from my side. Thanks!
+[9:23:42 PM IST] <inishchith>	Yes
+[9:23:47 PM IST] <dlumbrer>	ok!
+[9:23:48 PM IST] <valcos>	thank you for your time
+[9:23:50 PM IST] <vchrombie>	See you all next Thursday then. :)
+[9:23:52 PM IST] <polaris000>	Great. Thanks for your time everyone!
+[9:23:55 PM IST] <polaris000>	Bye!
+[9:24:00 PM IST] <vchrombie>	gracias, adios. :)
+[9:24:01 PM IST] Part	polaris000 (~polaris00@124.123.75.129) has left this channel ("Konversation terminated!").
+[9:24:02 PM IST] <dlumbrer>	Thank you all! :)
+[9:24:07 PM IST] <dlumbrer>	Bye, adios!
+[9:24:13 PM IST] <inishchith>	Bye :)
+[9:24:16 PM IST] Quit	inishchith (dfe59bc9@223.229.155.201) has left this server (Remote host closed the connection).
+[9:24:21 PM IST] Quit	dlumbrer (02899b3c@60.red-2-137-155.dynamicip.rima-tde.net) has left this server (Remote host closed the connection).
