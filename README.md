@@ -89,6 +89,7 @@ Issues
 - GSoC Acceptance, [aceptación gsoc](https://vchrombie.github.io/blog/gsoc-acceptance).
 - Week 1: [Report](work/community-bonding#week-1-summary) | Blog Post :point_right: [unión comunitaria 1](https://vchrombie.github.io/blog/community-bonding-1).
 - Week 2: [Report](work/community-bonding#week-2-summary) | Blog Post :point_right: [unión comunitaria 2](https://vchrombie.github.io/blog/community-bonding-2).
+- Week 3: [Report](work/community-bonding#week-3-summary) | Blog Post :point_right: [unión comunitaria 3](https://vchrombie.github.io/blog/community-bonding-3).
 
 ## Links
 

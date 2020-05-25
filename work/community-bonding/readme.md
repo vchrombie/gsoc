@@ -33,3 +33,16 @@ work reports over there. :rocket:
   - Found that googlehits backend was not working since the id used to parse the data is changed. Following up on the discussion and looking forward to fixing it, [chaoss/grimoirelab-perceval#668](https://github.com/chaoss/grimoirelab-perceval/issues/668).
   - I proposed a new feature for adding perceval support to Trello. We need to discuss the feasibility of storing all the backends in the same repository or different repositories. So, this feature [chaoss/grimoirelab-perceval#664](https://github.com/chaoss/grimoirelab-perceval/issues/664) might need to wait.
   - I proposed having an issue template, but it was already suggested and we need to discuss it, [chaoss/grimoirelab-perceval#665](https://github.com/chaoss/grimoirelab-perceval/issues/665).
+
+### Week-3 Summary
+
+> I planned to work on adding perceval support for zulip chat and start working on a new enricher.
+
+- I started working on adding zulip backend for perceval last week. Valerio reviewed the PR and suggested a lot of changes. With his help, I was able to extract a few data items. Later, I implemented the logic for incremental fetching and got it working, [chaoss/grimoirelab-perceval#667](https://github.com/chaoss/grimoirelab-perceval/pull/667). :running_man: 
+- You can retrieve the messages sent to any particular stream of a zulip chat by
+  ```
+  perceval zulip 'https://example.zulipchat.com/' 'stream_name' -e 'BOT_EMAIL_ADDRESS' -t 'BOT_API_KEY'
+  ```
+- I tested it across a few streams and reported the results, [chaoss/grimoirelab-perceval#667-comment](https://github.com/chaoss/grimoirelab-perceval/pull/667#issuecomment-633218035). I started working on the unit tests, planning to finish this by this week. :flying_saucer:
+- Apart from this, Valerio suggested working on the *gitlabcomments* enricher. The initial discussion about this feature happened here, [chaoss/grimoirelab#208](https://github.com/chaoss/grimoirelab/issues/208). The proposal was to create a new enricher, similar to *github2*, which would focus on enriching the gitlab comments data.
+- Also, I went through the Prosoul codebase to have some idea about the data format which can be easily consumable by prosoul. Hoping to get this done soon, preferably before the coding period. :cold_face:
