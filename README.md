@@ -8,7 +8,7 @@
 <p align="center">
 	<a href="#project-abstract">Project Abstract</a> | 
 	<a href="#pull-requests--issues">Pull Requests & Issues</a> | 
-	<a href="#weekly-summary">Weekly Summary</a> | 
+	<a href="#weekly-updates">Weekly Updates</a> | 
 	<a href="#links">Links</a>
 </p>
 
