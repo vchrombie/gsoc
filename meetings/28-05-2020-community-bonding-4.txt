@@ -1,0 +1,152 @@
+date: Thursday 28 May 2020
+participants: inishchith, polaris000, valcos, vchrombie, dlumbrer
+start time: 8:28:29 PM IST
+end time: 9:24:26 PM IST
+duration: 0:55:57 hours
+--------------------------------------------------------------------------------
+
+[8:28:29 PM IST] Join	You (~p0tt3r@49.206.221.243) have joined the channel #grimoirelab.
+[8:28:32 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:28:32 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:29:46 PM IST] Join	inishchith (dfe59cee@223.229.156.238) has joined this channel.
+[8:30:24 PM IST] <vchrombie>	Hello everyone :)
+[8:30:57 PM IST] Join	dlumbrer (02899b3c@60.red-2-137-155.dynamicip.rima-tde.net) has joined this channel.
+[8:31:03 PM IST] <inishchith>	Hi everyone ;)
+[8:31:17 PM IST] <dlumbrer>	hi all!
+[8:31:22 PM IST] <valcos>	Hi everyone!
+[8:31:25 PM IST] <valcos>	how are you doing?
+[8:31:50 PM IST] Join	polaris000 (~polaris00@124.123.75.129) has joined this channel.
+[8:32:12 PM IST] <polaris000>	hi all!
+[8:32:16 PM IST] <polaris000>	Sorry for the delay...
+[8:32:54 PM IST] <valcos>	no worries
+[8:33:05 PM IST] <valcos>	shall we start?
+[8:33:10 PM IST] <polaris000>	yes!
+[8:33:13 PM IST] <vchrombie>	I am doing great. I hope everyone is doing good too.
+[8:33:20 PM IST] <vchrombie>	Yes, sure. We can start.
+[8:33:29 PM IST] <vchrombie>	I will get the minutes doc link
+[8:34:14 PM IST] <vchrombie>	https://docs.google.com/document/d/1RMD66ZDlXLL5uzCY6ttfoMGDPD6QaVIswc59a4l_qiY/edit?usp=sharing
+[8:35:21 PM IST] <vchrombie>	I will start by giving updates regarding the work I was doing.
+[8:35:36 PM IST] <inishchith>	Sure.
+[8:35:45 PM IST] <polaris000>	sure vchrombie
+[8:36:01 PM IST] <vchrombie>	First on the list was working on the gitlabcomments enricher. I started working on it and made considerable progress.
+[8:36:52 PM IST] <vchrombie>	I almost completed the gitlab issue section and currently doing working on the completing it and moving onto the merge requests data.
+[8:37:18 PM IST] <vchrombie>	I opened a draft PR too, I will mark it ready for review once it is in good shape.
+[8:38:18 PM IST] <vchrombie>	As inishchith and polaris000 suggested to use issues, I tried and it was good idea. :)
+[8:38:23 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/issues/4
+[8:38:41 PM IST] <polaris000>	nice to hear vchrombie
+[8:38:50 PM IST] <vchrombie>	We haven't used it much, but I would be opening similiar issues in future to communicate.
+[8:39:48 PM IST] <vchrombie>	I am planning to complete the PR to as much extent as possible before the community bonding ends.
+[8:40:13 PM IST] <vchrombie>	Maybe I will try to cath up during the coding phase 1, when I get free time.
+[8:40:57 PM IST] <vchrombie>	TBH, it was a good choice of deciding to work on this as it helped understand how enrichers work which is very much useful for the project.
+[8:41:21 PM IST] <inishchith>	No hurry vchrombie ;)
+[8:41:22 PM IST] <inishchith>	Great.
+[8:42:11 PM IST] <inishchith>	Anything else that you were working on?
+[8:42:15 PM IST] <vchrombie>	then coming to the second thing was zulip backend for perceval
+[8:42:53 PM IST] <vchrombie>	With the help of valcos, I almost completed the PR. There are a few tests pending though.
+[8:43:22 PM IST] <vchrombie>	I had some initial trouble but I contacted Valerio and discussed about it.
+[8:43:49 PM IST] <vchrombie>	Later, we found out that the whole issue was due to an extra '/' in the URL. :(
+[8:44:39 PM IST] <vchrombie>	Yea, we fixed it and I moved on solving other errors and completing the tests.
+[8:45:55 PM IST] <vchrombie>	valcos and I were also evaluating the logic implemented for the same backend and looking for improvements.
+[8:46:43 PM IST] <vchrombie>	I will try to wrap this PR soo, mostly before CB in order to avoid the work overlap.
+[8:46:48 PM IST] <vchrombie>	soon*
+[8:47:03 PM IST] <polaris000>	nice work vchrombie! :)
+[8:47:42 PM IST] <vchrombie>	thanks
+[8:47:51 PM IST] <vchrombie>	I will head on to the next point.
+[8:48:16 PM IST] <vchrombie>	I have listed out the tasks which we framed during the community bonding.
+[8:48:41 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/issues/3
+[8:49:05 PM IST] <inishchith>	Looks good.
+[8:49:54 PM IST] <valcos>	cool!
+[8:50:01 PM IST] <polaris000>	I agree
+[8:50:08 PM IST] <vchrombie>	There are a few pending on the list, I will try to wrap it up before CB ends.
+[8:50:27 PM IST] <vchrombie>	I have one doubt.
+[8:50:36 PM IST] <vchrombie>	We have a tasks saying
+[8:50:38 PM IST] <vchrombie>	UML diagram (or any similar representation) of the current implementation of Prosoul.
+[8:51:33 PM IST] <vchrombie>	so is it enough to understand or do I need to make any UML structure?
+[8:51:56 PM IST] <vchrombie>	I went through the prosoul codebase and have a decent idea about the implementation.
+[8:52:36 PM IST] <valcos>	that's good!
+[8:52:53 PM IST] <dlumbrer>	I agree!
+[8:52:56 PM IST] <vchrombie>	I was thinking was the task meant to make any diagram. If yes, I will try it in the coming days.
+[8:53:05 PM IST] <valcos>	the idea is to sketch the main components and how they relate each other
+[8:53:12 PM IST] <valcos>	any diagram is fine
+[8:53:12 PM IST] <vchrombie>	Perfect.
+[8:53:32 PM IST] <valcos>	it just to have a base to discuss (without going to the code)
+[8:53:35 PM IST] <valcos>	cool!
+[8:54:00 PM IST] <vchrombie>	I will work on it. I will try to sync with dlumbrer to get any review on it.
+[8:54:35 PM IST] <polaris000>	excellent vchrombie!
+[8:55:33 PM IST] <vchrombie>	Okay.
+[8:55:55 PM IST] <dlumbrer>	Perfect vchrombie!
+[8:56:33 PM IST] <vchrombie>	Then I will move on. I have a few doubts regarding the coding phase 1.
+[8:56:35 PM IST] <dlumbrer>	Just let me know whenever :-)
+[8:57:06 PM IST] <vchrombie>	Sure.:D
+[8:59:20 PM IST] <vchrombie>	do you have any pattern on how to start with the coding phase?
+[8:59:36 PM IST] <vchrombie>	I meant like shall we plan something like weekly tasks
+[9:00:07 PM IST] <polaris000>	yes I think having weekly tasks is good to stay organized
+[9:00:13 PM IST] <vchrombie>	or something like week goals
+[9:00:24 PM IST] <vchrombie>	something like by the end of this week, this should be completed
+[9:00:30 PM IST] <inishchith>	Agree. Even I had kept it weekly.
+[9:00:33 PM IST] <vchrombie>	something like that
+[9:00:50 PM IST] <valcos>	agree!
+[9:01:25 PM IST] <vchrombie>	Okay
+[9:01:45 PM IST] <vchrombie>	here is my link to the proposal
+[9:01:47 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/blob/master/notes/gsoc-proposal-venu.pdf
+[9:02:53 PM IST] <vchrombie>	Is the timeline well framed, do you have any comments on it?
+[9:03:51 PM IST] <vchrombie>	Can you suggest the tasks for the first week if the timeline works well?
+[9:04:17 PM IST] <polaris000>	its a little hard to say right now (we'll have to see how things go), but it seems managable to me
+[9:05:07 PM IST] <valcos>	agree with polaris, the timeline looks good
+[9:05:38 PM IST] <dlumbrer>	I agree as well
+[9:05:45 PM IST] <valcos>	for the first week we can try to implement a first enricher
+[9:06:16 PM IST] <valcos>	which output should be processable by prosoul
+[9:06:47 PM IST] <vchrombie>	Okay, looks good to me.
+[9:07:02 PM IST] <valcos>	the implementation shouldn't be 100% complete
+[9:07:54 PM IST] <valcos>	we start small and try to identify possible blockers (for instance the type of queries we need to perform on the raw indexes to get the data as prosoul wants)
+[9:08:25 PM IST] <valcos>	then depending on the problems found, we iterate and target another enricher
+[9:08:45 PM IST] <valcos>	for instance, for this first iteration we can focus on git
+[9:09:02 PM IST] <valcos>	or maybe on github/gitlab (since you are already familiar with this data)
+[9:09:07 PM IST] <valcos>	wdyt?
+[9:09:12 PM IST] <vchrombie>	Can it be gitlab?
+[9:09:23 PM IST] <valcos>	yes, sure!
+[9:09:32 PM IST] <vchrombie>	I had this in mind to suggest this.
+[9:09:48 PM IST] <vchrombie>	awesome, I was working on it lately so I felt it would be good.
+[9:09:50 PM IST] <polaris000>	sounds good
+[9:09:54 PM IST] <valcos>	cool!
+[9:10:08 PM IST] <inishchith>	(y)
+[9:10:32 PM IST] <valcos>	we can spend the next minutes to discuss which metrics we would like to extract from the gitlab raw data
+[9:10:55 PM IST] <valcos>	(keeping in mind what prosoul accepts)
+[9:10:57 PM IST] <valcos>	for instance
+[9:11:23 PM IST] <valcos>	number of issues per day, number of comments per day
+[9:11:29 PM IST] <valcos>	number of merges per day
+[9:12:38 PM IST] <vchrombie>	Okay.
+[9:13:34 PM IST] <vchrombie>	I think we have some pre-defined quality models. Maybe we can have a look at those metrics too. WDYT?
+[9:13:48 PM IST] <valcos>	yes, that's a good idea
+[9:14:07 PM IST] <vchrombie>	I have a snapshot of the developer qm
+[9:14:09 PM IST] <vchrombie>	https://github.com/vchrombie/chaoss-microtasks/tree/master/microtask-9
+[9:14:46 PM IST] <vchrombie>	Okay, fine. We can plan it in the later week.
+[9:16:36 PM IST] <valcos>	cool!
+[9:16:41 PM IST] <vchrombie>	Ok, I think thats clear from my side.
+[9:17:04 PM IST] <valcos>	we can keep discussing the metrics on an issue in your repo
+[9:17:38 PM IST] <vchrombie>	Sure, I will open an issue for that.
+[9:18:19 PM IST] <inishchith>	Sounds good
+[9:18:26 PM IST] <polaris000>	I agree
+[9:19:25 PM IST] <vchrombie>	I don't have anything else on the list. The plan for the next week is prety clear too.
+[9:19:25 PM IST] <valcos>	perfect
+[9:19:31 PM IST] <valcos>	great!
+[9:19:32 PM IST] <vchrombie>	I need to gear up for the first coding phase. :D
+[9:19:40 PM IST] <polaris000>	excellent
+[9:19:57 PM IST] <vchrombie>	Do you have anything to discuss or suggest ?
+[9:20:11 PM IST] <valcos>	all clear from my side
+[9:20:19 PM IST] <polaris000>	Nothing else from my side!
+[9:21:21 PM IST] <inishchith>	Nothing from my side too.
+[9:22:05 PM IST] <vchrombie>	I think we can close the meeting then. WDYT?
+[9:22:20 PM IST] <valcos>	yes, thank you for your time!
+[9:22:29 PM IST] <vchrombie>	Thanks everyone for attending. :)
+[9:22:30 PM IST] <polaris000>	Thanks all! See you next week
+[9:22:36 PM IST] <inishchith>	Yes. Thanks!
+[9:22:48 PM IST] <inishchith>	Bye everyone ;)
+[9:22:48 PM IST] <vchrombie>	See you all next Thursday. :)
+[9:22:55 PM IST] <vchrombie>	Bye!
+[9:22:56 PM IST] Quit	inishchith (dfe59cee@223.229.156.238) has left this server (Remote host closed the connection).
+[9:22:56 PM IST] Part	polaris000 (~polaris00@124.123.75.129) has left this channel ("Konversation terminated!").
+[9:22:59 PM IST] <valcos>	bye!
+[9:23:24 PM IST] <vchrombie>	adios :)
+[9:24:04 PM IST] <dlumbrer>	bye!
+[9:24:26 PM IST] Quit	dlumbrer (02899b3c@60.red-2-137-155.dynamicip.rima-tde.net) has left this server (Remote host closed the connection).
