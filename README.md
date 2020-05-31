@@ -51,6 +51,7 @@ Issues
 
 Pull Requests
 
+- [#881](https://github.com/chaoss/grimoirelab-elk/pull/881): [enriched-gitlabcomments] New enricher to handle gitlab comments  **`/cb`**
 - [#815](https://github.com/chaoss/grimoirelab-elk/pull/815): [schema] Update mattermost.csv **`/ap`**
 - [#814](https://github.com/chaoss/grimoirelab-elk/pull/814): [schema] Update dockerhub.csv **`/ap`**
 - [#812](https://github.com/chaoss/grimoirelab-elk/pull/812): [schema] Update askbot.csv **`/ap`**
@@ -90,6 +91,7 @@ Issues
 - Week 1: [Report](work/community-bonding#week-1-summary) | Blog Post :point_right: [unión comunitaria 1](https://vchrombie.github.io/blog/community-bonding-1).
 - Week 2: [Report](work/community-bonding#week-2-summary) | Blog Post :point_right: [unión comunitaria 2](https://vchrombie.github.io/blog/community-bonding-2).
 - Week 3: [Report](work/community-bonding#week-3-summary) | Blog Post :point_right: [unión comunitaria 3](https://vchrombie.github.io/blog/community-bonding-3).
+- Week 4: [Report](work/community-bonding#week-4-summary) | Blog Post :point_right: [unión comunitaria 4](https://vchrombie.github.io/blog/community-bonding-4).
 
 ## Links
 

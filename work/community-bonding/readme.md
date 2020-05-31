@@ -46,3 +46,15 @@ work reports over there. :rocket:
 - I tested it across a few streams and reported the results, [chaoss/grimoirelab-perceval#667-comment](https://github.com/chaoss/grimoirelab-perceval/pull/667#issuecomment-633218035). I started working on the unit tests, planning to finish this by this week. :flying_saucer:
 - Apart from this, Valerio suggested working on the *gitlabcomments* enricher. The initial discussion about this feature happened here, [chaoss/grimoirelab#208](https://github.com/chaoss/grimoirelab/issues/208). The proposal was to create a new enricher, similar to *github2*, which would focus on enriching the gitlab comments data.
 - Also, I went through the Prosoul codebase to have some idea about the data format which can be easily consumable by prosoul. Hoping to get this done soon, preferably before the coding period. :cold_face:
+
+### Week-4 Summary
+
+> I planned to work on the gitlabcomments enricher and complete the pending tasks for the coding period.
+
+- In continuation of the previous week, I started working on the *gitlabcomments* enricher. As this is most similar to the *github2* enricher, I tested it across a few repositories and analyzed the enriched items and the dashboards. :chart_with_downwards_trend:
+- I did a comparison of the github and gitlab perceval output to know more about the two APIs like similar items, different items, items that vary according to the features of the software which are fetched in each of the backends.
+- I started implementing the functions for enriching the issue items and opened a draft PR too, [chaoss/grimoirelab-elk#881](https://github.com/chaoss/grimoirelab-elk/pull/881). I will work on completing this, in the coming weeks.
+- I had the task of creating a UML diagram for the existing implementation of Prosoul. I have a decent understanding of the codebase. So, I went ahead and created one. :point_down:
+  ![uml-prosoul](https://user-images.githubusercontent.com/25265451/83361141-14f84380-a3a4-11ea-840f-c55e9447f510.png)]
+- I still have to make a few activity diagrams for simple workflows of Prosoul like creating a quality model, making an assessment. I have it on my check-list. :ballot_box_with_check:
+- I have explored how to create an study index. I also made a few plans for the first coding period. :ok_man:
