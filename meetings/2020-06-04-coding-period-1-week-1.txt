@@ -1,0 +1,190 @@
+date: Thursday 4 June 2020
+participants: , vchrombie, valcos, p0tt3r, dlumbrer, polaris000, inishchith
+start time: 8:25:15 PM IST
+end time: 9:43:32 PM IST
+duration: 1:18:17 hours
+--------------------------------------------------------------------------------
+
+[8:25:15 PM IST] Join	You (~p0tt3r@2409:4070:18d:ec28:f5f6:b4fb:2e0:6578) have joined the channel #grimoirelab.
+[8:25:18 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:25:18 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:26:26 PM IST] Join	dlumbrer (4f971d0b@11.red-79-151-29.dynamicip.rima-tde.net) has joined this channel.
+[8:31:39 PM IST] <vchrombie>	Hi everyone :)
+[8:33:53 PM IST] Nick	Nickname already in use. Trying p0tt3r.
+[8:35:25 PM IST] Join	You (~p0tt3r@2409:4070:18d:ec28:38c2:a585:3fe1:6032) have joined the channel #grimoirelab.
+[8:35:26 PM IST] Notice	-ChanServ- [#amfoss] "Official IRC channel of Amritapuri FOSS"
+[8:35:26 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:35:26 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:35:51 PM IST] <polaris000>	I'm good valcos. Hope you're OK
+[8:35:57 PM IST] <p0tt3r>	Hi everyone
+[8:36:08 PM IST] <p0tt3r>	Sorry for coming late.
+[8:36:47 PM IST] <p0tt3r>	I had some small trouble.
+[8:37:44 PM IST] <valcos>	Hi p0tt3r
+[8:37:56 PM IST] <p0tt3r>	aah, my name got changed
+[8:38:02 PM IST] Quit	vchrombie (~p0tt3r@2409:4070:18d:ec28:f5f6:b4fb:2e0:6578) has left this server (Ping timeout: 260 seconds).
+[8:38:04 PM IST] <p0tt3r>	sorry, its me Venu
+[8:38:35 PM IST] <p0tt3r>	previous client got crashed so opened up a new one
+[8:38:37 PM IST] <p0tt3r>	:/
+[8:38:42 PM IST] <valcos>	perfect
+[8:38:44 PM IST] <polaris000>	No issues p0tt3r
+[8:38:46 PM IST] Join	inishchith (dfe59cee@223.229.156.238) has joined this channel.
+[8:38:49 PM IST] <dlumbrer>	no problem
+[8:38:50 PM IST] <valcos>	I thought you were inishchith
+[8:38:51 PM IST] <inishchith>	Sorry for the delay guys.
+[8:39:00 PM IST] <inishchith>	Hi everyone.
+[8:39:05 PM IST] <valcos>	HI inishchith
+[8:39:05 PM IST] <dlumbrer>	hi inishchith
+[8:39:06 PM IST] <polaris000>	hi inishchith
+[8:39:16 PM IST] <polaris000>	should we start then?
+[8:39:25 PM IST] <p0tt3r>	Yes, sure
+[8:39:27 PM IST] <inishchith>	Sure
+[8:40:58 PM IST] <p0tt3r>	I will start with the update with the previous week work
+[8:41:18 PM IST] <p0tt3r>	I was mostly concentrating to brin the gitlabcomments enricher in good shape.
+[8:41:35 PM IST] <p0tt3r>	https://github.com/vchrombie/gsoc/issues/4
+[8:42:06 PM IST] <p0tt3r>	The PR is nearly ready for review, small things are left which I can complete it by tonight.
+[8:42:55 PM IST] <p0tt3r>	Other than that, I was also looking around for the data format which can be feeded to prosoul.
+[8:43:27 PM IST] <p0tt3r>	previously we had a microtask to build a basic quality model and do an small assessment with it
+[8:44:06 PM IST] <p0tt3r>	valcos provided a dump (es index) we just imported and used it
+[8:44:44 PM IST] <p0tt3r>	so I looked upon that format and discussed with valcos the other day
+[8:45:02 PM IST] <p0tt3r>	https://github.com/vchrombie/gsoc/issues/7
+[8:45:28 PM IST] <p0tt3r>	the format will be similar - that was concluded in that chat
+[8:47:27 PM IST] <p0tt3r>	I need to work on the enricher now, which converts the raw data into this particular format
+[8:48:02 PM IST] <polaris000>	That is #6 right?
+[8:48:27 PM IST] <p0tt3r>	yes exactly
+[8:48:35 PM IST] <p0tt3r>	https://github.com/vchrombie/gsoc/issues/6
+[8:48:51 PM IST] <p0tt3r>	but this will be the initial version
+[8:49:20 PM IST] <p0tt3r>	it needs some iterations and reviews to become perfect
+[8:51:38 PM IST] <p0tt3r>	I will work on this in the coming days
+[8:52:05 PM IST] Part	ron (~ron@unaffiliated/ron) has left this channel ("Bye").
+[8:53:10 PM IST] <p0tt3r>	I will move on to the next one, please feel free interrupt me if you have anything to say :)
+[8:54:02 PM IST] <polaris000>	sure p0tt3r
+[8:54:04 PM IST] <p0tt3r>	last week, I also made a UML diagram of the implementation of Prosoul
+[8:55:28 PM IST] <p0tt3r>	this might help you get an understanding about Prosoul
+[8:55:36 PM IST] <p0tt3r>	https://github.com/vchrombie/gsoc/issues/3#issuecomment-636499410
+[8:56:11 PM IST] <p0tt3r>	also as I said about the microtask above, it gives an idea of how to create a qm and play with it
+[8:56:20 PM IST] <p0tt3r>	https://github.com/vchrombie/chaoss-microtasks/tree/master/microtask-9
+[8:57:10 PM IST] <p0tt3r>	I was providing these links for polaris000 and inishchith as they might not be familiar with it
+[8:57:38 PM IST] <inishchith>	Thanks p0tt3r
+[8:57:43 PM IST] <polaris000>	thanks
+[8:57:44 PM IST] <p0tt3r>	these might help to some extent
+[8:57:44 PM IST] <inishchith>	I'll have a look
+[8:59:46 PM IST] <p0tt3r>	Do you have any comments valcos & dlumbrer wrt to what I told till now?
+[9:00:23 PM IST] <valcos>	not really, I'm following
+[9:01:05 PM IST] <p0tt3r>	Ok, thanks
+[9:01:49 PM IST] <valcos>	you're welcome :)
+[9:01:56 PM IST] <p0tt3r>	the last thing on list is about the metrics
+[9:02:09 PM IST] <p0tt3r>	we discussed this in the last meeting
+[9:02:22 PM IST] <p0tt3r>	I opened an issue for it
+[9:02:23 PM IST] <p0tt3r>	https://github.com/vchrombie/gsoc/issues/8
+[9:02:48 PM IST] <p0tt3r>	we can discuss what all metrics we can extract from the gitlab data
+[9:04:24 PM IST] <inishchith>	Sure.
+[9:04:47 PM IST] <valcos>	ok cool
+[9:04:54 PM IST] <polaris000>	sure p0tt3r
+[9:05:32 PM IST] <inishchith>	p0tt3r apart from the 3 that valcos had suggested earlier. Do you have anything else in mind?
+[9:06:13 PM IST] <valcos>	did you have time to check some existing QM standards?
+[9:06:33 PM IST] <p0tt3r>	the first week target was to implement a basic enricher
+[9:06:54 PM IST] <p0tt3r>	which I will be completing in the next coming days before Moonday
+[9:07:48 PM IST] <p0tt3r>	apart from that 3, we can define them more clearly
+[9:07:59 PM IST] <p0tt3r>	like issues-opened per day
+[9:08:10 PM IST] <p0tt3r>	and issues-attended per day
+[9:08:30 PM IST] <p0tt3r>	issues-closed per day
+[9:09:23 PM IST] <valcos>	ok, cool
+[9:09:41 PM IST] <p0tt3r>	I didn't check the existing qms
+[9:09:54 PM IST] <valcos>	do you think that we could generalize the way of calculating these metrics?
+[9:10:21 PM IST] <valcos>	Imagine that we add a new metrics, number of comments per day
+[9:10:30 PM IST] <valcos>	*metric
+[9:11:31 PM IST] <valcos>	I understand that the approach to build the query should be always the same
+[9:12:05 PM IST] <p0tt3r>	sorry valcos
+[9:12:10 PM IST] <p0tt3r>	but I didnt get this question
+[9:12:17 PM IST] <p0tt3r>	>> do you think that we could generalize the way of calculating these metrics?
+[9:12:48 PM IST] <valcos>	sorry for not being clear
+[9:14:04 PM IST] <valcos>	the metrics we are interested in are number of X per day, where X can be anything we want to measure
+[9:14:43 PM IST] <valcos>	for instance, number of users per day, number of comments, number of reactions, etc.
+[9:15:04 PM IST] <p0tt3r>	yeah ok
+[9:15:07 PM IST] <valcos>	would be useful to check if we can have a generic approach
+[9:15:15 PM IST] <valcos>	to generate these metrics
+[9:15:33 PM IST] <valcos>	?
+[9:16:26 PM IST] <p0tt3r>	I think we can do it
+[9:17:19 PM IST] <valcos>	cool!
+[9:18:54 PM IST] <valcos>	so maybe we can try to define more metrics that use different parts of the data extracted from gitlab
+[9:19:12 PM IST] <p0tt3r>	ya sure
+[9:19:23 PM IST] <valcos>	for instance, versions, comments, users, labels
+[9:19:33 PM IST] <p0tt3r>	milestones
+[9:19:41 PM IST] <valcos>	good idea!
+[9:20:24 PM IST] <p0tt3r>	once we have a list, maybe we can sort them and build a qm with defined goals are attributes
+[9:20:37 PM IST] <valcos>	perfect
+[9:20:59 PM IST] <p0tt3r>	I will look at the existing qms to see if anything is related to this
+[9:21:06 PM IST] <valcos>	ok, thanks
+[9:21:13 PM IST] <p0tt3r>	I will add the references in the issue itself
+[9:21:22 PM IST] <valcos>	focusing on the generic approach
+[9:21:34 PM IST] <valcos>	I guess we have at least 2 cases
+[9:22:02 PM IST] <valcos>	the first one is an aggregation on the documents in the index
+[9:22:39 PM IST] <valcos>	like the number of issues per day or number of merge requests
+[9:22:53 PM IST] <p0tt3r>	ok
+[9:23:20 PM IST] <valcos>	the second case is an aggregation on nested attributes
+[9:23:33 PM IST] <valcos>	for instance, comments or versions
+[9:23:57 PM IST] <valcos>	we need to get the number of comments for all issues per day
+[9:24:06 PM IST] <p0tt3r>	ah yes, I can differentiate it now
+[9:24:49 PM IST] Quit	fioddor (~quassel@139.47.75.16) has left this server (Ping timeout: 252 seconds).
+[9:24:51 PM IST] <valcos>	then we may have another type that is
+[9:25:05 PM IST] <valcos>	the number of unique X per day
+[9:25:11 PM IST] Join	fioddor (~quassel@139.47.74.113) has joined this channel.
+[9:25:22 PM IST] <valcos>	for instance if we want to know the number of unique assignees per day
+[9:25:53 PM IST] <valcos>	or number of unique people active in a given day
+[9:26:52 PM IST] <valcos>	do you see other cases?
+[9:27:20 PM IST] <valcos>	polaris, inishchith, dlumbrer any thoughts?
+[9:28:04 PM IST] <p0tt3r>	nothing other than these three
+[9:28:20 PM IST] <p0tt3r>	tbh, I didnt really find any difference untill you explained :P
+[9:28:27 PM IST] <p0tt3r>	now I understood
+[9:28:58 PM IST] <dlumbrer>	Agree with valcos, nothing else to add from my side
+[9:29:12 PM IST] <inishchith>	Sounds good valcos
+[9:29:38 PM IST] <polaris000>	can't think of any other cases. I think these cover most things. valcos
+[9:29:55 PM IST] <valcos>	ok, cool!
+[9:30:13 PM IST] <valcos>	what do you plan for the next week venu?
+[9:30:32 PM IST] <p0tt3r>	do you suggest anything valcos ?
+[9:32:52 PM IST] Join	_valcos (~valcos@2a0c:5a80:1905:1700:4169:1c5e:d8b7:fc28) has joined this channel.
+[9:32:53 PM IST] Quit	valcos (~valcos@88.148.91.11) has left this server (Read error: Connection reset by peer).
+[9:32:54 PM IST] <	_valcos> sorry I lost the connection
+[9:33:26 PM IST] <	_valcos> I don't know which messages you got
+[9:34:16 PM IST] <p0tt3r>	the last thing was I asked will if you have anything in mind
+[9:34:22 PM IST] <p0tt3r>	for the next week
+[9:34:28 PM IST] Quit	fioddor (~quassel@139.47.74.113) has left this server (Ping timeout: 256 seconds).
+[9:34:51 PM IST] Join	fioddor (~quassel@139.47.66.165) has joined this channel.
+[9:35:48 PM IST] <	_valcos> It would be great to have an early prototype
+[9:35:58 PM IST] <	_valcos> to show how prosoul works
+[9:36:25 PM IST] <p0tt3r>	Ok
+[9:37:04 PM IST] <	_valcos> I guess this is aligned with your schedule
+[9:37:25 PM IST] <p0tt3r>	Yes
+[9:37:39 PM IST] <	_valcos> cool! :)
+[9:38:24 PM IST] <p0tt3r>	ok so, I will work on the enricher and try to show a small prototype asap
+[9:39:11 PM IST] <	_valcos> cool! thanks!
+[9:39:23 PM IST] <p0tt3r>	Ok, I think thats it for today
+[9:39:37 PM IST] <p0tt3r>	alreadt exceeded by 10 min
+[9:39:46 PM IST] <p0tt3r>	sorry for the inconvenience in the starting
+[9:40:09 PM IST] <polaris000>	No issues p0tt3r. This was the first codig period meet after all
+[9:40:20 PM IST] <polaris000>	a little extension is a non-issue
+[9:40:38 PM IST] <polaris000>	anything else left to discuss?
+[9:41:01 PM IST] <p0tt3r>	nothing from my side
+[9:41:24 PM IST] <p0tt3r>	We can discuss about the metrics on the issue, feel free to comment over there.
+[9:41:50 PM IST] Quit	fioddor (~quassel@139.47.66.165) has left this server (Ping timeout: 256 seconds).
+[9:41:58 PM IST] <	_valcos> perfect
+[9:42:01 PM IST] Join	fioddor (~quassel@139.47.66.165) has joined this channel.
+[9:42:15 PM IST] <p0tt3r>	I think we can end the meeting.
+[9:42:30 PM IST] <inishchith>	sure.
+[9:42:31 PM IST] <	_valcos> sorry for exceeding the meeting time (I should write less ^^)
+[9:42:32 PM IST] <p0tt3r>	Thanks everyone for attending. :)
+[9:42:37 PM IST] <	_valcos> thank you for your time
+[9:42:42 PM IST] <inishchith>	No worries _valcos
+[9:42:48 PM IST] <dlumbrer>	no problem!
+[9:42:49 PM IST] <polaris000>	haha _valcos!
+[9:42:58 PM IST] <inishchith>	Bye everyone.
+[9:43:04 PM IST] <polaris000>	bye all!
+[9:43:10 PM IST] <dlumbrer>	bye! see u next week!
+[9:43:12 PM IST] <	_valcos> eheh
+[9:43:13 PM IST] <p0tt3r>	np _valcos, it made many points clear for me :D
+[9:43:21 PM IST] <	_valcos> ok cool!
+[9:43:23 PM IST] Quit	inishchith (dfe59cee@223.229.156.238) has left this server (Remote host closed the connection).
+[9:43:26 PM IST] <	_valcos> bye :)
+[9:43:31 PM IST] Part	polaris000 (~polaris00@124.123.75.129) has left this channel ("Konversation terminated!").
+[9:43:32 PM IST] Quit	dlumbrer (4f971d0b@11.red-79-151-29.dynamicip.rima-tde.net) has left this server (Remote host closed the connection).
+[9:43:32 PM IST] <p0tt3r>	Bye, see you next Thursday again. :)
