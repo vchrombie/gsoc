@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="https://i.imgur.com/0fol3k5.png" width="720" alt="google-summer-of-code"></a>
+    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="https://user-images.githubusercontent.com/25265451/83919581-85ce9f80-a798-11ea-993f-db83b9cc330d.png" width="720" alt="google-summer-of-code"></a>
     <h2>
     Creating Quality models using GrimoireLab and <a href="https://github.com/chaoss">CHAOSS</a> metrics
     </h2>
