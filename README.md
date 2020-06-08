@@ -94,6 +94,10 @@ Issues
 - Week 4: [Report](work/community-bonding#week-4-summary) | Blog Post :point_right: [unión comunitaria 4](https://vchrombie.github.io/blog/community-bonding-4).
 - Community Bonding Period, [período de vinculación comunitaria](https://vchrombie.github.io/blog/community-bonding-period).
 
+### Coding Period 1 (June 1, 2020 - June 29, 2020)
+
+- Week 1: [Report](work/week-1/#week-1-summary) | Blog Post :point_right: [semana uno](https://vchrombie.github.io/blog/coding-period-1-week-1).
+
 ## Links
 
 - [GSoC 2020 Proposal CHAOSS - Venu](notes/gsoc-proposal-venu.pdf)
