@@ -1,0 +1,150 @@
+date: Thursday 11 June 2020
+participants: dlumbrer, polaris000, valcos, vchrombie, inishchith
+start time: 8:01:30 PM IST
+end time: 9:15:55 PM IST
+duration: 1:14:25 hours
+--------------------------------------------------------------------------------
+
+[8:01:30 PM IST] Join	You (~p0tt3r@2409:4070:420b:2231:f541:3f87:b251:7931) have joined the channel #grimoirelab.
+[8:01:31 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:01:32 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:12:26 PM IST] Join	dlumbrer (4f971d0b@11.red-79-151-29.dynamicip.rima-tde.net) has joined this channel.
+[8:30:08 PM IST] <valcos>	Hi all
+[8:30:19 PM IST] <vchrombie>	Hello everyone :)
+[8:30:28 PM IST] <vchrombie>	How are you all ?
+[8:30:39 PM IST] <valcos>	How are you doing?
+[8:30:56 PM IST] <valcos>	I'm fine, thanks for asking vchrombie
+[8:31:16 PM IST] <dlumbrer>	Hi all, hope everybody is fine
+[8:31:21 PM IST] <vchrombie>	I am doing good.
+[8:32:44 PM IST] <vchrombie>	I don't see polaris000 and inishchith here
+[8:32:53 PM IST] <vchrombie>	let me just ping them in hangouts
+[8:33:03 PM IST] <dlumbrer>	ok!
+[8:33:07 PM IST] <vchrombie>	maybe we can wait for 2 min or so
+[8:33:18 PM IST] <dlumbrer>	no problem!
+[8:33:33 PM IST] Join	polaris000_ (~polaris00@124.123.75.129) has joined this channel.
+[8:33:59 PM IST] <polaris000	_> Hi all
+[8:34:04 PM IST] <polaris000	_> Hope you're well
+[8:34:05 PM IST] <vchrombie>	ok, polaris000 joined :D
+[8:34:51 PM IST] <vchrombie>	polaris000, yes I hope you are good too
+[8:36:01 PM IST] <polaris000	_> sry for the delay. Its my parent's wedding anniversary today. So, I hope its ok if I leave in about 40 minutes into the meet
+[8:36:18 PM IST] <polaris000	_> We have a celebration of sorts...
+[8:36:25 PM IST] Join	inishchith (dfe59cee@223.229.156.238) has joined this channel.
+[8:36:32 PM IST] <polaris000	_> (virtual of course!)
+[8:36:40 PM IST] <inishchith>	Sorry for the delay guys :(
+[8:36:44 PM IST] <inishchith>	Hi everyone!
+[8:36:49 PM IST] <vchrombie>	my best wishes to them :)
+[8:36:54 PM IST] <polaris000	_> no issues inishchith. Thanks vchrombie. I'm good
+[8:37:01 PM IST] <polaris000	_> Thanks for the wishes!
+[8:37:01 PM IST] <vchrombie>	Hi inischith
+[8:37:15 PM IST] <vchrombie>	Ok, I think everyone is here.
+[8:37:24 PM IST] <vchrombie>	We can start the meeting.
+[8:37:27 PM IST] <inishchith>	Did I miss out on something?
+[8:37:38 PM IST] <inishchith>	Sure.
+[8:37:42 PM IST] <vchrombie>	not really inishchith, we are just starting
+[8:37:51 PM IST] <inishchith>	ohh. Cool
+[8:38:01 PM IST] <vchrombie>	I will start with the work I did.
+[8:38:16 PM IST] <vchrombie>	I was mostly working on the gitlabcomments enricher
+[8:38:34 PM IST] <vchrombie>	I completed most of the work
+[8:39:11 PM IST] <vchrombie>	a couple final reviews needed, will be completting this week
+[8:40:09 PM IST] <vchrombie>	link to pr, https://github.com/chaoss/grimoirelab-elk/pull/881
+[8:40:41 PM IST] <vchrombie>	I learned how to add tests for enricher, this might be useful for future work
+[8:41:06 PM IST] <vchrombie>	this enricher was not a part of the timeline but I was working to make myself more comfortable with elk
+[8:42:21 PM IST] <polaris000	_> excellent vchrombie. Thanks for contributing!
+[8:42:47 PM IST] <vchrombie>	Thanks
+[8:43:03 PM IST] <vchrombie>	next on list is the update about qm enrichers
+[8:43:07 PM IST] <inishchith>	Great vchrombie. Just going through the pr right now
+[8:43:15 PM IST] <vchrombie>	I didn't actually do much work on the qm enricher but I brainstormed about the approaches for implementing the metrics
+[8:44:06 PM IST] <vchrombie>	I know the last week task was to come up with a small demo of the working
+[8:44:13 PM IST] <vchrombie>	but I couldn't complete it
+[8:44:41 PM IST] <vchrombie>	I want to ask if I can extend to this week, probably by this weekend I can complete it
+[8:45:14 PM IST] <vchrombie>	as the gitlabcomments PR is done, I can shift completely to this github qm enricher
+[8:45:29 PM IST] <polaris000	_> No issues for me..how much of the demo have you completed, vchrombie?
+[8:46:43 PM IST] <vchrombie>	it is almost equal to negligible
+[8:46:48 PM IST] <vchrombie>	sorry for that
+[8:47:08 PM IST] <vchrombie>	just implemented a basic structure, but not much work
+[8:47:09 PM IST] <vchrombie>	https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm
+[8:47:13 PM IST] <vchrombie>	this is the working branch
+[8:47:22 PM IST] <vchrombie>	but you can expect some work by this weekend
+[8:47:42 PM IST] <polaris000	_> Its fine! :) carry on with your summary
+[8:48:32 PM IST] <vchrombie>	Other than these, I had a few doubts
+[8:50:15 PM IST] <vchrombie>	I found an existing data format from the microtask-9
+[8:50:16 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/issues/7#issuecomment-638874823
+[8:50:46 PM IST] <vchrombie>	I didnt understand a few terms over here like
+[8:50:47 PM IST] <vchrombie>	metric_es_compute
+[8:50:54 PM IST] <vchrombie>	metric_es_value
+[8:50:59 PM IST] <vchrombie>	metric_es_value_weighted
+[8:51:37 PM IST] <vchrombie>	do you have any pointers for getting an understanding of these terms?
+[8:52:11 PM IST] <valcos>	yes, one sec
+[8:52:25 PM IST] <vchrombie>	sure valcos
+[8:53:19 PM IST] <valcos>	http://crossminer.bitergia.net/goto/3c63708cafb2663272af521c4a8363f1
+[8:53:50 PM IST] <valcos>	metric_es_compute is something that comes from the SCAVA API (at the beginning prosoul has been implemented on top of this API)
+[8:54:04 PM IST] <valcos>	metric_es_compute is a string
+[8:54:26 PM IST] <valcos>	it isn't used by prosoul
+[8:54:31 PM IST] <valcos>	you can add anything there
+[8:54:47 PM IST] <valcos>	metric_es_value is the value of the metric
+[8:54:56 PM IST] <valcos>	for instance the number of issues, comments, etc.
+[8:55:08 PM IST] <valcos>	metric_es_value_weighted
+[8:55:31 PM IST] <valcos>	was used to add weight to certain metrics
+[8:55:34 PM IST] <valcos>	for instance
+[8:56:18 PM IST] <valcos>	imagine that your metric spans from 0 to 5
+[8:56:34 PM IST] <vchrombie>	ok
+[8:57:40 PM IST] <valcos>	I'm looking for a pointer in the code
+[8:58:24 PM IST] <valcos>	https://github.com/crossminer/scava/blob/8b8b093bf3d9130b5e90db449823eb540037f0e0/web-dashboards/scava-metrics/scava2es.py#L342
+[8:58:48 PM IST] <valcos>	in this case, I was adding a multiplier to the metric value
+[8:59:22 PM IST] <valcos>	I guess for the work on grimoirelab, we just need to focus on metric_es_value
+[8:59:37 PM IST] <vchrombie>	yes, got it
+[9:00:10 PM IST] <valcos>	ok, cool
+[9:00:33 PM IST] <vchrombie>	that cleared the doubts
+[9:01:33 PM IST] <vchrombie>	so, the last week work (small demo/prototype) will be completed mostly by this weekend
+[9:02:03 PM IST] <vchrombie>	do you have any other work which I can work on till next Thursday?
+[9:02:23 PM IST] <vchrombie>	any suggestions?
+[9:03:08 PM IST] <valcos>	I would focus on the prototype
+[9:03:31 PM IST] <valcos>	if the first version is completed by this weekend
+[9:04:09 PM IST] <valcos>	we can have a second iteration before the next meeting
+[9:04:16 PM IST] <vchrombie>	Okay
+[9:04:56 PM IST] <vchrombie>	I will definitely work on it and get the initial version ready soon.
+[9:04:56 PM IST] <valcos>	let's say that the prototype for next week could target 2-3 data sources
+[9:05:04 PM IST] <vchrombie>	ok, got it
+[9:05:06 PM IST] <valcos>	does it sound feasible?
+[9:05:51 PM IST] <vchrombie>	it sounds good enough valcos
+[9:06:07 PM IST] <valcos>	cool!
+[9:06:20 PM IST] <vchrombie>	other than these, I really don't have anything on list
+[9:06:30 PM IST] <vchrombie>	do you have any comments on my work?
+[9:07:07 PM IST] <valcos>	I'm happy with your work
+[9:07:39 PM IST] <dlumbrer>	Yeah, great work vchrombie
+[9:07:45 PM IST] <valcos>	you slowed down a bit to gain knowledge on ELK, but in the long term I think this will be good for the project
+[9:08:31 PM IST] <valcos>	writing the qm enrichers will be easier
+[9:09:09 PM IST] <vchrombie>	Ya
+[9:09:25 PM IST] <valcos>	wrt the data sources for the prototype
+[9:09:44 PM IST] <valcos>	which ones you would like to target?
+[9:10:05 PM IST] <vchrombie>	mailing lists or git?
+[9:10:51 PM IST] <vchrombie>	I was thinking to diversify, but github is also fine
+[9:10:52 PM IST] <polaris000	_> Start with git maybe?
+[9:11:49 PM IST] <vchrombie>	valcos, wdyt?
+[9:11:52 PM IST] <valcos>	git is fine
+[9:12:00 PM IST] <vchrombie>	ok awesome then
+[9:12:03 PM IST] <valcos>	for mailing list, pipermail is good
+[9:12:14 PM IST] <vchrombie>	Okay
+[9:12:46 PM IST] <valcos>	for github, you can use github2 (which includes comments and emojis)
+[9:12:58 PM IST] <valcos>	2 out of them is perfect
+[9:13:18 PM IST] <vchrombie>	ah ok, looks good
+[9:14:05 PM IST] <vchrombie>	thats it from my side, do you have anything more to discuss
+[9:14:19 PM IST] <valcos>	not for my side
+[9:14:24 PM IST] <vchrombie>	or we can close the meeting early today
+[9:14:29 PM IST] <polaris000	_> I'm good as well
+[9:14:44 PM IST] <dlumbrer>	nothing else here
+[9:14:46 PM IST] <inishchith>	Nothing from my side too.
+[9:15:14 PM IST] <vchrombie>	thanks for attending everyone, see you next Thursday then
+[9:15:21 PM IST] <valcos>	thank you for your time
+[9:15:24 PM IST] <valcos>	enjoy the rest of the day
+[9:15:26 PM IST] <polaris000	_> Thanks everyone!
+[9:15:26 PM IST] <valcos>	:)
+[9:15:36 PM IST] <dlumbrer>	thanks everyone :)
+[9:15:40 PM IST] <polaris000	_> Bye all! You to valcos
+[9:15:43 PM IST] <inishchith>	Thanks!
+[9:15:44 PM IST] <inishchith>	Bye everyone
+[9:15:45 PM IST] <vchrombie>	Bye! :)7
+[9:15:49 PM IST] <dlumbrer>	bye!
+[9:15:49 PM IST] Part	polaris000_ (~polaris00@124.123.75.129) has left this channel ("Konversation terminated!").
+[9:15:53 PM IST] Quit	inishchith (dfe59cee@223.229.156.238) has left this server (Remote host closed the connection).
+[9:15:55 PM IST] Quit	dlumbrer (4f971d0b@11.red-79-151-29.dynamicip.rima-tde.net) has left this server (Remote host closed the connection).
