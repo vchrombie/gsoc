@@ -28,6 +28,10 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 **Mentors**: [@Polaris000](https://github.com/Polaris000), [@inishchith](https://github.com/inishchith), [@dlumbrer](https://github.com/dlumbrer) and [@valeriocos](https://github.com/valeriocos).
 
 
+## Working Branches
+
+_gitlabqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm
+
 ## Pull Requests & Issues
 
 #### [Bitergia/prosoul](https://github.com/Bitergia/prosoul)
@@ -97,6 +101,7 @@ Issues
 ### Coding Period 1 (June 1, 2020 - June 29, 2020)
 
 - Week 1: [Report](work/week-1/#week-1-summary) | Blog Post :point_right: [semana uno](https://vchrombie.github.io/blog/coding-period-1-week-1).
+- Week 2: [Report](work/week-2/#week-2-summary) | Blog Post :point_right: [semana dos](https://vchrombie.github.io/blog/coding-period-1-week-2).
 
 ## Links
 
