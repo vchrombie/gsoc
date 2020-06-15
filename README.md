@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="https://user-images.githubusercontent.com/25265451/83919581-85ce9f80-a798-11ea-993f-db83b9cc330d.png" width="720" alt="google-summer-of-code"></a>
+    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="notes/gsoc-chaoss-banner.png" width="720" alt="google-summer-of-code"></a>
     <h2>
     Creating Quality models using GrimoireLab and <a href="https://github.com/chaoss">CHAOSS</a> metrics
     </h2>
@@ -26,7 +26,6 @@ Prosoul is a web application that empowers decision-makers with the means to cre
 The main aim of the project is to design an approach to shape the GrimoireLab data in a format that can easily be consumed by Prosoul and implement it on the data obtained from a few data sources like git, github and mailing list repositories to obtain simple quality models.
 
 **Mentors**: [@Polaris000](https://github.com/Polaris000), [@inishchith](https://github.com/inishchith), [@dlumbrer](https://github.com/dlumbrer) and [@valeriocos](https://github.com/valeriocos).
-
 
 ## Working Branches
 
@@ -86,7 +85,6 @@ Issues
 > - **c**ommunity **b**onding period : **`/cb`** 
 > - **c**oding **p**eriod **x** - **`/cpx`** <br>
 
-
 ## Weekly Updates
 
 ### Community Bonding (May 4, 2020 - June 1, 2020)
@@ -109,7 +107,6 @@ Issues
 - [Project Link](https://summerofcode.withgoogle.com/projects/#5489558193438720) on GSoC Website.
 - [Microtasks](https://github.com/vchrombie/chaoss-microtasks) repository.
 - [Contributions](notes/application-period-contributions.md) during application period.
-
 
 ## Footnotes
 

@@ -37,4 +37,4 @@ The fields like `metric_class`, `metric_type`, `metric_id`, `metric_desc`, `metr
 - Apart from this, I worked on the _gitlabcomments_ enricher. Valerio reviewed and suggested some more improvements to the PR. The enricher looks perfectly fine now. [vchrombie/gsoc#4](https://github.com/vchrombie/gsoc/issues/4)
 - Made a small script that generates a schema file, given the index name as an argument, [generate-es-index-schema](https://gist.github.com/vchrombie/bf6a682edcf47624126317897e58679c).
 - Learned how to add tests in elk and added the tests for _gitlabcomments_ enricher. There are a few improvements in the tests to increase the coverage of the enricher. I plan to work on it and complete the enricher work this week. :cartwheeling:
-- We also discussed about about the [Getting-Started](https://github.com/chaoss/grimoirelab-sirmordred/blob/master/Getting-Started.md) section of sirmordred repo as GrimoireLab got updated (ES/Kibiter 6.8.6).
+- We also discussed about updating the [Getting-Started](https://github.com/chaoss/grimoirelab-sirmordred/blob/master/Getting-Started.md) section of sirmordred repo as GrimoireLab got updated (ES/Kibiter 6.8.6).

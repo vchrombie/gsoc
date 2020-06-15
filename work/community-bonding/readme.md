@@ -55,6 +55,7 @@ work reports over there. :rocket:
 - I did a comparison of the github and gitlab perceval output to know more about the two APIs like similar items, different items, items that vary according to the features of the software which are fetched in each of the backends.
 - I started implementing the functions for enriching the issue items and opened a draft PR too, [chaoss/grimoirelab-elk#881](https://github.com/chaoss/grimoirelab-elk/pull/881). I will work on completing this, in the coming weeks.
 - I had the task of creating a UML diagram for the existing implementation of Prosoul. I have a decent understanding of the codebase. So, I went ahead and created one. :point_down:
-  ![uml-prosoul](https://user-images.githubusercontent.com/25265451/83361141-14f84380-a3a4-11ea-840f-c55e9447f510.png)]
+
+![uml-prosoul](prosoul-uml.png)
 - I still have to make a few activity diagrams for simple workflows of Prosoul like creating a quality model, making an assessment. I have it on my check-list. :ballot_box_with_check:
 - I have explored how to create an study index. I also made a few plans for the first coding period. :ok_man:
