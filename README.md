@@ -75,10 +75,21 @@ Pull Requests
 
 Issues
 
-- [#668](https://github.com/chaoss/grimoirelab-perceval/pull/668): [googlehits] Returns None object **`/cb`**
-- [#665](https://github.com/chaoss/grimoirelab-perceval/pull/665): Issue template **`/cb`**
-- [#664](https://github.com/chaoss/grimoirelab-perceval/pull/664): [Feature Request] Add support for Trello **`/cb`**
-- [#630](https://github.com/chaoss/grimoirelab-perceval/pull/630): [Feature Request] Add support for Zulip **`/ap`**
+- [#668](https://github.com/chaoss/grimoirelab-perceval/issues/668): [googlehits] Returns None object **`/cb`**
+- [#665](https://github.com/chaoss/grimoirelab-perceval/issues/665): Issue template **`/cb`**
+- [#664](https://github.com/chaoss/grimoirelab-perceval/issues/664): [Feature Request] Add support for Trello **`/cb`**
+- [#630](https://github.com/chaoss/grimoirelab-perceval/issues/630): [Feature Request] Add support for Zulip **`/ap`**
+
+#### [chaoss/grimoirelab-sirmordred](https://github.com/chaoss/grimoirelab-sirmordred)
+
+Pull Requests
+
+- [#450](https://github.com/chaoss/grimoirelab-sirmordred/pull/450): [docs] revamp of getting-started.md **`/ap`**
+- [#431](https://github.com/chaoss/grimoirelab-sirmordred/pull/431): Fix askbot configuration typos **`/ap`**
+
+Issues
+
+- [#433](https://github.com/chaoss/grimoirelab-sirmordred/issues/433):  Issue regarding the back-links #433 **`/ap`**
 
 > **Tags**:
 > - **a**pplication **p**eriod : **`/ap`**
