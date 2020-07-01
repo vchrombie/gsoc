@@ -117,6 +117,7 @@ Issues
 - Week 2: [Report](work/week-2/#week-2-summary) | Blog Post :point_right: [semana dos](https://vchrombie.github.io/blog/coding-period-1-week-2).
 - Week 3: [Report](work/week-3/#week-3-summary) | Blog Post :point_right: [semana tres](https://vchrombie.github.io/blog/coding-period-1-week-3).
 - Week 4: [Report](work/week-4/#week-4-summary) | Blog Post :point_right: [semana cuatro](https://vchrombie.github.io/blog/coding-period-1-week-4).
+- Coding Period 1, [período de codificación uno](https://vchrombie.github.io/blog/coding-period-1).
 
 ## Links
 
