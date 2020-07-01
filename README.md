@@ -29,7 +29,8 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 
 ## Working Branches
 
-_gitlabqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm
+- _gitlabqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm
+- _gitlabqm_+_gitqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm+gitqm
 
 ## Pull Requests & Issues
 
@@ -54,6 +55,7 @@ Issues
 
 Pull Requests
 
+- [#902](https://github.com/chaoss/grimoirelab-elk/pull/902): [qm-elk] Add support for QM data enrichment **`/cp1`**
 - [#892](https://github.com/chaoss/grimoirelab-elk/pull/892): [enriched-gitlabqm] New enricher for QM GitLab data **`/cp1`**
 - [#881](https://github.com/chaoss/grimoirelab-elk/pull/881): [enriched-gitlabcomments] New enricher to handle gitlab comments  **`/cb`**
 - [#815](https://github.com/chaoss/grimoirelab-elk/pull/815): [schema] Update mattermost.csv **`/ap`**
@@ -114,6 +116,7 @@ Issues
 - Week 1: [Report](work/week-1/#week-1-summary) | Blog Post :point_right: [semana uno](https://vchrombie.github.io/blog/coding-period-1-week-1).
 - Week 2: [Report](work/week-2/#week-2-summary) | Blog Post :point_right: [semana dos](https://vchrombie.github.io/blog/coding-period-1-week-2).
 - Week 3: [Report](work/week-3/#week-3-summary) | Blog Post :point_right: [semana tres](https://vchrombie.github.io/blog/coding-period-1-week-3).
+- Week 4: [Report](work/week-4/#week-4-summary) | Blog Post :point_right: [semana cuatro](https://vchrombie.github.io/blog/coding-period-1-week-4).
 
 ## Links
 
