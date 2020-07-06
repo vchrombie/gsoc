@@ -118,6 +118,7 @@ Issues
 - Week 3: [Report](work/week-3/#week-3-summary) | Blog Post :point_right: [semana tres](https://vchrombie.github.io/blog/coding-period-1-week-3).
 - Week 4: [Report](work/week-4/#week-4-summary) | Blog Post :point_right: [semana cuatro](https://vchrombie.github.io/blog/coding-period-1-week-4).
 - Coding Period 1, [período de codificación uno](https://vchrombie.github.io/blog/coding-period-1).
+- :bicyclist: First Evaluation Period (June 29 - July 3): PASSED :ballot_box_with_check:.
 
 ## Links
 
