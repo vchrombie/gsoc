@@ -1,0 +1,189 @@
+date: Thursday 9 July 2020
+participants: vchrombie, dlumbrer, polaris000, inishchith
+start time: 8:30:34 PM IST
+end time: 9:13:06 PM IST
+duration: 0:42:32 hours
+--------------------------------------------------------------------------------
+
+[8:30:34 PM IST] Join	You (~p0tt3r@2409:4070:2e96:2f34:6442:6784:e381:f665) have joined the channel #grimoirelab.
+[8:30:36 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:30:37 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:31:03 PM IST] <polaris000	_> Hi vchrombie!
+[8:31:07 PM IST] <vchrombie>	Hi everyone
+[8:31:12 PM IST] <polaris000	_> Hope you're doing well
+[8:31:23 PM IST] <vchrombie>	I'm doing good. :)
+[8:31:28 PM IST] <polaris000	_> Hi dlumbrer[m]!
+[8:31:31 PM IST] <dlumbrer	[m]> Hi vchrombie , polaris000_ !
+[8:31:36 PM IST] <vchrombie>	Hi dlumbrer
+[8:31:51 PM IST] <vchrombie>	valcos might not join as he is on vacation
+[8:31:59 PM IST] <polaris000	_> yes..
+[8:32:05 PM IST] <polaris000	_> what about inishchith?
+[8:32:33 PM IST] <vchrombie>	also inishchith will join late as he was caught up with some work, he informed me
+[8:32:51 PM IST] <polaris000	_> ok. I think we can start then..?
+[8:32:55 PM IST] <dlumbrer	[m]> ok, so we can start, right?
+[8:33:42 PM IST] <vchrombie>	ah yes
+[8:33:56 PM IST] <vchrombie>	I will start with the work I did last week.
+[8:34:09 PM IST] <vchrombie>	also, would you mind waiting for just 2 min
+[8:34:23 PM IST] <polaris000	_> no issues vchrombie
+[8:34:26 PM IST] <vchrombie>	my mom is calling, I will just attend her and come back
+[8:34:26 PM IST] <dlumbrer	[m]> no problem!
+[8:34:40 PM IST] <dlumbrer	[m]> sure
+[8:34:47 PM IST] <polaris000	_> ok vchrombie
+[8:37:31 PM IST] <vchrombie>	Hi
+[8:37:38 PM IST] <vchrombie>	I'm back. :
+[8:37:40 PM IST] <vchrombie>	:D
+[8:37:45 PM IST] <polaris000	_> lets continue :)
+[8:37:58 PM IST] <vchrombie>	Ok then, I will start with the work I did last week
+[8:37:58 PM IST] <dlumbrer	[m]> nice! :)
+[8:38:11 PM IST] <vchrombie>	so I had 4 targets last week
+[8:39:13 PM IST] <vchrombie>	1. uploading the previos pilot study data to the incubator
+[8:39:32 PM IST] <vchrombie>	and also the dashboards on the enriched items
+[8:40:02 PM IST] <vchrombie>	I uploaded it, valcos helped with it initially
+[8:40:15 PM IST] <vchrombie>	now whatever work I do, I upload it to there
+[8:40:30 PM IST] <vchrombie>	2. to make the quality models dashboard
+[8:40:51 PM IST] <vchrombie>	I took the crossminer ones as reference and completed making the dashboard
+[8:41:10 PM IST] <vchrombie>	which supports the our data sources
+[8:41:43 PM IST] <vchrombie>	which we are working on (grimoirelab ones: gitlabqm gitqm)
+[8:42:39 PM IST] <vchrombie>	you can find them here
+[8:42:40 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/tree/master/work/week-5
+[8:43:11 PM IST] <vchrombie>	3. to do a pilot study on a couple of projects of an org
+[8:43:32 PM IST] <vchrombie>	I planned to do it on my club as org and using its projects
+[8:43:43 PM IST] <vchrombie>	amfoss.in
+[8:43:44 PM IST] <vchrombie>	:)
+[8:43:53 PM IST] <polaris000	_> :)
+[8:43:57 PM IST] <vchrombie>	gitlab.com/amfoss/
+[8:44:08 PM IST] <vchrombie>	this is the gitlab account of our club
+[8:44:39 PM IST] <vchrombie>	so, I used the Developer QM for this study
+[8:45:00 PM IST] <vchrombie>	you can find the results here
+[8:45:00 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/issues/13#issuecomment-656187839
+[8:45:30 PM IST] <vchrombie>	I have dropped the screenshots of the dashboard
+[8:45:42 PM IST] <vchrombie>	as it will be easy to interpret the results
+[8:45:42 PM IST] <polaris000	_> (the heatmaps are pretty nice!)
+[8:45:45 PM IST] <dlumbrer	[m]> It looks really good vchrombie
+[8:45:49 PM IST] <vchrombie>	thanks :)
+[8:45:58 PM IST] <vchrombie>	the timefram was last 2 years
+[8:46:21 PM IST] <vchrombie>	as expected, the project cms-mobile is on top
+[8:46:48 PM IST] <vchrombie>	as it is started recently and has good contribution history lately
+[8:47:54 PM IST] <vchrombie>	4. finish the pipermailqm enricher
+[8:48:23 PM IST] <vchrombie>	I couldn't complete this
+[8:48:35 PM IST] <vchrombie>	I was working on it but couldn't make it perfect
+[8:48:40 PM IST] <vchrombie>	actually this has to be the priority but I was so involved with the dashboards
+[8:48:54 PM IST] <vchrombie>	playing with the dashboards was really fun
+[8:49:05 PM IST] <polaris000	_> haha!
+[8:49:19 PM IST] <vchrombie>	so I was mostly figuring out what improvements can be made to the dashboards
+[8:49:20 PM IST] <dlumbrer	[m]> hahaha, they are more "visual" :)
+[8:49:32 PM IST] <vchrombie>	and how to make them more appealing
+[8:49:49 PM IST] <vchrombie>	I learned a lot of things about visualizations
+[8:50:13 PM IST] <vchrombie>	ya exactly dlumbrer!
+[8:50:43 PM IST] Join	07IAAQPY7 (~mafesan@154.red-2-137-234.dynamicip.rima-tde.net) has joined this channel.
+[8:50:44 PM IST] Join	mafesan (~mafesan@154.red-2-137-234.dynamicip.rima-tde.net) has joined this channel.
+[8:50:56 PM IST] <vchrombie>	sorry but I will mostly complete this pending work (pipermailqm enricher) by this weekend
+[8:51:19 PM IST] <polaris000	_> no issues vchrombie, but focus on that this week
+[8:51:25 PM IST] Part	07IAAQPY7 (~mafesan@154.red-2-137-234.dynamicip.rima-tde.net) has left this channel.
+[8:51:40 PM IST] <vchrombie>	sure, I will complete it by this week
+[8:51:55 PM IST] <polaris000	_> perfect!
+[8:52:12 PM IST] <vchrombie>	these were the things planned last week
+[8:52:25 PM IST] <dlumbrer	[m]> We had those 4 "task" for the 2-3 next weeks (staring last meeting), so you are doing good!
+[8:52:33 PM IST] <polaris000	_> yes dlumbrer[m]
+[8:52:46 PM IST] <vchrombie>	:)
+[8:52:55 PM IST] Join	quan (~quan@142.72.94.90.dynamic.jazztel.es) has joined this channel.
+[8:52:57 PM IST] <vchrombie>	I was enjoying it
+[8:52:57 PM IST] <dlumbrer	[m]> tasks*
+[8:53:07 PM IST] <dlumbrer	[m]> good to hear that :)
+[8:53:14 PM IST] <polaris000	_> good:)
+[8:53:20 PM IST] <vchrombie>	anyway, we have a backlog
+[8:53:26 PM IST] <vchrombie>	I can complete that this week
+[8:53:40 PM IST] <vchrombie>	coming to what should be done next week
+[8:53:51 PM IST] <vchrombie>	in the last meeting, we kinda discussed about it
+[8:54:44 PM IST] <vchrombie>	we planned to work on the other enricher and tests
+[8:54:56 PM IST] <polaris000	_> yes vchrombie
+[8:54:59 PM IST] <dlumbrer	[m]> yes
+[8:55:24 PM IST] <vchrombie>	so, I was thinking I was start with meetup
+[8:55:31 PM IST] <vchrombie>	and parallely complete the tests
+[8:56:25 PM IST] <vchrombie>	I will try to complete the tests for all the existing enrichers
+[8:56:43 PM IST] <vchrombie>	and work on the tests untill we come on to the same thread
+[8:57:22 PM IST] <vchrombie>	I mean enrichers ,wise we have gitlab git pipermail(doing) meetup(planned)
+[8:57:41 PM IST] <vchrombie>	but coming to tests, I have not started anything
+[8:57:41 PM IST] <dlumbrer	[m]> ok! sounds good to me
+[8:57:57 PM IST] <vchrombie>	so I will try to focus on it and balance it
+[8:58:28 PM IST] <vchrombie>	once it is balanced, the new data sources can be added with enricher and tests together
+[8:58:43 PM IST] <polaris000	_> that would be better IMO
+[8:59:00 PM IST] <dlumbrer	[m]> yeah, I agree!
+[8:59:22 PM IST] <vchrombie>	awesome
+[8:59:42 PM IST] <vchrombie>	other than that, I didnt open an issue where we can discuss about quality models
+[8:59:44 PM IST] <polaris000	_> so pipermailqm, meetup, tests
+[8:59:52 PM IST] <polaris000	_> for next week
+[9:00:05 PM IST] <vchrombie>	yes polaris000_
+[9:00:21 PM IST] <polaris000	_> excellent
+[9:00:33 PM IST] <vchrombie>	other than that, I didnt open an issue where we can discuss about quality models
+[9:00:50 PM IST] <vchrombie>	where we can involve Jesus or any other experienced people
+[9:00:58 PM IST] <vchrombie>	in the discussion
+[9:01:28 PM IST] <vchrombie>	I will open it soon so we can discuss about qms over there
+[9:01:50 PM IST] Join	inishchith (dfe5ca68@223.229.202.104) has joined this channel.
+[9:01:57 PM IST] <polaris000	_> ok vchrombie sounds good
+[9:02:10 PM IST] <polaris000	_> we were discussing next week's tasks
+[9:02:15 PM IST] <polaris000	_> hi inishchith
+[9:02:16 PM IST] <inishchith>	Hi everyone, sorry for the delay
+[9:02:41 PM IST] <polaris000	_> no issues inishchith
+[9:02:43 PM IST] <vchrombie>	hi inishchith
+[9:02:43 PM IST] <dlumbrer	[m]> ok vchrombie , let us know when you create the issue
+[9:02:48 PM IST] <dlumbrer	[m]> hi inishchith !
+[9:02:50 PM IST] <vchrombie>	sure dlumbrer
+[9:03:33 PM IST] <vchrombie>	we were discussing about the next week's tasks
+[9:04:10 PM IST] <vchrombie>	planned for completing pipermailqm, meetupqm and work on tests for existing enricher
+[9:04:55 PM IST] <vchrombie>	there were no major hurdles even, everything was pretty smooth
+[9:05:13 PM IST] <polaris000	_> excellent
+[9:05:21 PM IST] <polaris000	_> just a suggestion vchrombie: can you post regular updates (individual task completion) on the GSOC hangouts group
+[9:05:23 PM IST] <dlumbrer	[m]> good!
+[9:05:38 PM IST] <polaris000	_> what do you think?
+[9:05:52 PM IST] <vchrombie>	is it daily updates or individual task
+[9:05:58 PM IST] <polaris000	_> task updates
+[9:06:10 PM IST] <vchrombie>	like "pipermailqm is completed"
+[9:06:19 PM IST] <polaris000	_> somehting like that
+[9:06:23 PM IST] <vchrombie>	and a brief description
+[9:06:28 PM IST] <inishchith>	That would be great
+[9:06:29 PM IST] <polaris000	_> yeah
+[9:06:35 PM IST] <polaris000	_> maybe link a few relevant issues
+[9:06:35 PM IST] <vchrombie>	ok fine, I can send
+[9:06:41 PM IST] <vchrombie>	yes sure, I can do that
+[9:06:53 PM IST] <polaris000	_> great, hope its not an issue
+[9:07:02 PM IST] <vchrombie>	no, thats completely fine
+[9:07:12 PM IST] <polaris000	_> excellent
+[9:07:24 PM IST] <polaris000	_> is there anything else to be discussed?
+[9:07:25 PM IST] <vchrombie>	everyday, I write a mail where I explain what work I did for the day
+[9:07:54 PM IST] <vchrombie>	it is like a norm for the memebers of the club
+[9:08:11 PM IST] <vchrombie>	I still follow it
+[9:08:17 PM IST] <polaris000	_> nice vchrombie
+[9:08:22 PM IST] <vchrombie>	so it is not at all an issue
+[9:08:47 PM IST] <polaris000	_> the issue with daily updates is that there's no flexibiity
+[9:08:55 PM IST] <polaris000	_> thats why I suggested task -wise updates
+[9:09:00 PM IST] <vchrombie>	ya i get it
+[9:09:03 PM IST] <polaris000	_> you can do as you prefer
+[9:09:11 PM IST] <polaris000	_> ok!
+[9:09:19 PM IST] <vchrombie>	whenever I complete a task, I will send a message about it
+[9:09:42 PM IST] <polaris000	_> great! Anything else left?
+[9:09:44 PM IST] <vchrombie>	with small description and links
+[9:09:50 PM IST] <vchrombie>	nothing from my side
+[9:09:52 PM IST] <dlumbrer	[m]> perfect
+[9:10:02 PM IST] <vchrombie>	I'm done with the list. :)
+[9:10:06 PM IST] <polaris000	_> very good vchrombie. nothing from my side as well!
+[9:10:13 PM IST] <polaris000	_> inishchith?
+[9:10:20 PM IST] <polaris000	_> dlumbrer[m]:?
+[9:10:24 PM IST] <dlumbrer	[m]> nothing else from my side, either
+[9:11:36 PM IST] <vchrombie>	inishchith, do you have anything to discuss ?
+[9:11:56 PM IST] <inishchith>	nothing from my side. vchrombie can you share the meeting log after this?
+[9:12:08 PM IST] <vchrombie>	sure inischith
+[9:12:19 PM IST] <inishchith>	Thanks!.
+[9:12:29 PM IST] <polaris000	_> Then lets end the meet?
+[9:12:32 PM IST] <vchrombie>	ok then I think we can close the meeting for today
+[9:12:41 PM IST] <vchrombie>	thanks for attending
+[9:12:43 PM IST] <vchrombie>	:)
+[9:12:47 PM IST] <inishchith>	Sure.
+[9:12:48 PM IST] <dlumbrer	[m]> ok! thanks for your time!
+[9:12:50 PM IST] <vchrombie>	see you next Thursday
+[9:12:53 PM IST] <inishchith>	Thanks and bye everyone!
+[9:12:55 PM IST] <polaris000	_> bye all!
+[9:12:59 PM IST] Quit	inishchith (dfe5ca68@223.229.202.104) has left this server (Remote host closed the connection).
+[9:13:00 PM IST] <dlumbrer	[m]> bye all!
+[9:13:03 PM IST] <vchrombie>	bye :)
+[9:13:06 PM IST] Part	polaris000_ (~polaris00@124.123.75.129) has left this channel ("Konversation terminated!").
