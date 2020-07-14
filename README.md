@@ -121,6 +121,9 @@ Issues
 - :bicyclist: First Evaluation Period (June 29 - July 3): PASSED :ballot_box_with_check:.
 - Week 5: [Report](work/week-5/#week-5-summary) | Blog Post :point_right: [semana cinco](https://vchrombie.github.io/blog/coding-period-1-week-5).
 
+### Coding Period 2 (July 4, 2020 - July 24, 2020)
+- Week 6: [Report](work/week-6/#week-6-summary) | Blog Post :point_right: [semana seis](https://vchrombie.github.io/blog/coding-period-2-week-6).
+
 ## Links
 
 - [GSoC 2020 Proposal CHAOSS - Venu](notes/gsoc-proposal-venu.pdf)
