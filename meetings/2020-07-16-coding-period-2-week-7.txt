@@ -1,0 +1,228 @@
+date: Thursday 16 July 2020
+participants: polaris000, inishchith, vchrombie, valcos
+start time: 7:16:16 PM IST
+end time: 9:33:23 PM IST
+duration: 2:17:07 hours
+--------------------------------------------------------------------------------
+
+[7:16:16 PM IST] Join	You (~p0tt3r@2409:4070:292:f2b7:6c72:bea1:3990:279e) have joined the channel #grimoirelab.
+[7:16:18 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[7:16:19 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:24:28 PM IST] Join	You (~p0tt3r@2409:4070:292:f2b7:6c72:bea1:3990:279e) have joined the channel #grimoirelab.
+[8:24:28 PM IST] Notice	-ChanServ- [#amfoss] "Official IRC channel of Amritapuri FOSS"
+[8:24:29 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:24:30 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:25:58 PM IST] Quit	valcos (~valcos@188.26.210.216) has left this server (*.net *.split).
+[8:27:28 PM IST] Join	valcos (~valcos@188.26.210.216) has joined this channel.
+[8:29:51 PM IST] Join	polaris000 (~polaris00@124.123.75.129) has joined this channel.
+[8:30:11 PM IST] <vchrombie>	Hi everyone :)
+[8:30:18 PM IST] <polaris000>	Hi vchrombie!
+[8:30:23 PM IST] <polaris000>	Hope you're well
+[8:30:28 PM IST] <valcos>	Hi vchrombie, polaris000
+[8:30:36 PM IST] <polaris000>	Hi valcos
+[8:31:17 PM IST] <vchrombie>	Last week, dlumbrer said he might not join this week as he is on vacation.
+[8:31:31 PM IST] Join	inishchith (ab32d729@171.50.215.41) has joined this channel.
+[8:31:33 PM IST] <valcos>	ok, perfect!
+[8:31:41 PM IST] <inishchith>	Hi everyone!
+[8:31:43 PM IST] <vchrombie>	So, we can continue the meeting without him. I'll send the logs to him so that he can check.
+[8:31:43 PM IST] <polaris000>	hi inishchith
+[8:31:52 PM IST] <valcos>	Hi inishchith
+[8:31:56 PM IST] <polaris000>	ok vchrombie
+[8:31:57 PM IST] <valcos>	ok vchrombie
+[8:32:00 PM IST] <inishchith>	Sorry for the delay guys
+[8:32:03 PM IST] <polaris000>	lets start then...
+[8:32:06 PM IST] <polaris000>	no issues inishchith
+[8:32:33 PM IST] <vchrombie>	ok fine then, I will start with the work I did
+[8:32:47 PM IST] <vchrombie>	I was mostly focusing on the pipermailqm enricher
+[8:33:29 PM IST] <vchrombie>	this enricher took a lot of time compared to the previous ones like gitlabqm or gitqm
+[8:34:03 PM IST] <vchrombie>	I still didn't complete two metrics in the list
+[8:34:31 PM IST] <valcos>	why did it take more time than the other enrichers?
+[8:35:07 PM IST] <vchrombie>	first thing where I got stuck was related to the timezone
+[8:35:44 PM IST] <vchrombie>	so in the earlier data sources, the data source time fields were in one timezone
+[8:36:05 PM IST] <vchrombie>	now in the pipermail data, I found vaious timezones
+[8:36:23 PM IST] <vchrombie>	I'm trying to normalize the date
+[8:36:37 PM IST] <valcos>	you can use grimoirelab-toolkit
+[8:36:41 PM IST] <vchrombie>	one min, I will get the link to code
+[8:37:46 PM IST] <vchrombie>	https://github.com/vchrombie/grimoirelab-elk/blob/gitlabqm%2Bgitqm/grimoire_elk/enriched/gitqm.py#L66
+[8:38:08 PM IST] <vchrombie>	I'm using this function to normalize the date
+[8:38:38 PM IST] <vchrombie>	basically briging all items of a particular date under one date
+[8:39:04 PM IST] <vchrombie>	usually some commits are in the morning, some are evening
+[8:39:20 PM IST] <vchrombie>	the datetime is different this will bring under one date
+[8:39:41 PM IST] <vchrombie>	the function which is there in the link replaces hours minutes and seconds
+[8:39:55 PM IST] <vchrombie>	so the timezone seems unaffected and it is causing duplicates
+[8:40:38 PM IST] <valcos>	does this happen only for pipermail?
+[8:40:40 PM IST] <vchrombie>	I spent sometime resolving it, but ended up using another library (not preffered but no choice)
+[8:40:59 PM IST] <vchrombie>	yes, it happened for the first time
+[8:41:28 PM IST] <vchrombie>	gitlab git data didnt seem affected because of this
+[8:41:43 PM IST] <valcos>	ok
+[8:42:02 PM IST] <vchrombie>	I will push the enricher code by tomorrow (only two metrics completed as of now)
+[8:42:13 PM IST] <vchrombie>	so that you can look at it when you are free
+[8:42:34 PM IST] <vchrombie>	I'll inform in the hangouts when I complete
+[8:42:44 PM IST] <valcos>	ok, perfect, thanks
+[8:43:15 PM IST] <polaris000>	verygood vchrombie
+[8:44:09 PM IST] <inishchith>	Sure vchrombie
+[8:44:29 PM IST] <vchrombie>	also a few metrics cant be directly implemented, so I'm thinking how we can implement it
+[8:44:59 PM IST] <valcos>	can you give some examples?
+[8:45:38 PM IST] <vchrombie>	like number of users, there might be few people who send multiple mails on a single date
+[8:46:45 PM IST] <vchrombie>	I have an idea of how it should work but ya I'm still putting them on code
+[8:46:56 PM IST] <vchrombie>	I couldn't complete it
+[8:47:27 PM IST] <vchrombie>	also number of replies, this seems difficult
+[8:47:38 PM IST] <vchrombie>	I still didn't figure out how to do it
+[8:47:49 PM IST] <valcos>	ok, no worries.
+[8:48:18 PM IST] <valcos>	We can replace these metrics with some other ones?
+[8:49:31 PM IST] <vchrombie>	that sounds ok but do you have any metrics in mind
+[8:50:10 PM IST] <vchrombie>	would it be good to replace them, I mean the current metrics look good and I felt these can be utilized in the QMs
+[8:51:01 PM IST] <valcos>	apart the number of emails
+[8:51:21 PM IST] <valcos>	the other one could be the number of senders
+[8:51:49 PM IST] <valcos>	but again the same person could send multiple emails
+[8:52:00 PM IST] <vchrombie>	we have number of users already
+[8:52:10 PM IST] <valcos>	yes
+[8:52:31 PM IST] <vchrombie>	are they both different?
+[8:52:49 PM IST] <valcos>	we could have emails by timezone, but I don't think it's useful in the context of a quality model
+[8:53:08 PM IST] <vchrombie>	ya true
+[8:53:11 PM IST] <valcos>	> are they both different?
+[8:53:18 PM IST] <valcos>	I guess they are the same
+[8:53:25 PM IST] <vchrombie>	ya even I felt so
+[8:53:31 PM IST] <vchrombie>	anyways, I will try to implement these
+[8:53:37 PM IST] <valcos>	if all of you agree, we can discard the number of replies
+[8:53:38 PM IST] <vchrombie>	I will give an update by Saturday
+[8:54:07 PM IST] <vchrombie>	maybe after that, we can do this (if all of you agree, we can discard the number of replies)
+[8:54:07 PM IST] <valcos>	and focus on senders/users, I can help you to implement that metric
+[8:54:21 PM IST] <valcos>	ok
+[8:54:26 PM IST] <polaris000>	ok vchrombie
+[8:54:27 PM IST] <vchrombie>	I would like to give it once more chance
+[8:54:51 PM IST] <vchrombie>	ok thanks
+[8:55:43 PM IST] <vchrombie>	also I had one more doubt
+[8:56:34 PM IST] <vchrombie>	do you think, we should follow the same thing as followed in the scms project
+[8:56:37 PM IST] <vchrombie>	https://github.com/chaoss/grimoirelab-elk/pull/887#discussion_r454505099
+[8:56:57 PM IST] <valcos>	yes, sure!
+[8:57:03 PM IST] <vchrombie>	if yes, I can reflect it in the next PR
+[8:57:10 PM IST] <vchrombie>	Ok
+[8:57:50 PM IST] <valcos>	I can review the PR https://github.com/chaoss/grimoirelab-elk/pull/902 tomorrow
+[8:58:29 PM IST] <vchrombie>	that's great valcos
+[8:59:06 PM IST] <vchrombie>	I will try to address the suggestions and send the changes in a new PR by Saturday (along with the pipermailqm in it)
+[8:59:17 PM IST] <valcos>	ok, perfect
+[9:00:05 PM IST] <vchrombie>	coming to the next week work, I was thinking to focus on meetup and tests of existing enrichers
+[9:00:25 PM IST] <vchrombie>	I thought of working on meetupqm but I couldn't
+[9:00:44 PM IST] <vchrombie>	so I plan to work on it in this week
+[9:01:00 PM IST] <valcos>	that's a good idea!
+[9:01:42 PM IST] <polaris000>	sure vchrombie
+[9:01:57 PM IST] <vchrombie>	also, I finished the pilot study on the amfoss org (our club)
+[9:02:18 PM IST] <valcos>	did you have the time to validate the results with your colleagues?
+[9:02:21 PM IST] <vchrombie>	I'll be showing the results to our club members this Sunday
+[9:02:29 PM IST] <valcos>	ok, perfect
+[9:02:47 PM IST] <vchrombie>	we have weekly meetings on Sunday
+[9:02:54 PM IST] <vchrombie>	so, I will be showing then
+[9:03:23 PM IST] <vchrombie>	I already tweeted about it tho, so they had a glance
+[9:03:36 PM IST] <valcos>	nice!
+[9:03:43 PM IST] <inishchith>	Nice
+[9:03:53 PM IST] <valcos>	do you plan to prepare some questions for them?
+[9:04:14 PM IST] <valcos>	or you will just showcase the results and wait for their feedback?
+[9:04:25 PM IST] <vchrombie>	no, I didn't get think of anything related to that
+[9:04:44 PM IST] <vchrombie>	I thought of just showing what I did and the results
+[9:05:00 PM IST] <vchrombie>	now I'm curious
+[9:05:08 PM IST] <vchrombie>	what questions can be asked
+[9:06:25 PM IST] <valcos>	we can work on some questions
+[9:06:26 PM IST] <vchrombie>	valcos, do you have any example
+[9:06:34 PM IST] <valcos>	for instance you can ask
+[9:06:51 PM IST] <valcos>	to the audience what project they think is the best
+[9:07:03 PM IST] <valcos>	just to know their impression
+[9:07:08 PM IST] <vchrombie>	this seems to be interesting
+[9:07:17 PM IST] <valcos>	then you can compare what they answer with real data
+[9:07:19 PM IST] <vchrombie>	ya I get it
+[9:07:23 PM IST] <valcos>	and try to define "best"
+[9:08:05 PM IST] <valcos>	if you want to validate the tag cloud
+[9:08:18 PM IST] <valcos>	you could ask them which keywords would identify the projects
+[9:08:29 PM IST] <valcos>	and then again validate it with real data
+[9:08:40 PM IST] <valcos>	some thing with the evolutionary data
+[9:09:09 PM IST] <valcos>	to know if they think a given project is improving or decreasing
+[9:09:24 PM IST] <vchrombie>	Niceee
+[9:09:37 PM IST] <vchrombie>	this is interesting
+[9:09:56 PM IST] <valcos>	cool!
+[9:10:04 PM IST] <polaris000>	good idea valcos
+[9:10:15 PM IST] <vchrombie>	I'll definitely this before Sunday
+[9:10:38 PM IST] <valcos>	nice, thanks for the positive feedback
+[9:10:57 PM IST] <valcos>	if you want, you can share the questions on a google doc
+[9:11:02 PM IST] <valcos>	so we can give feedback
+[9:11:03 PM IST] <vchrombie>	sure valcos
+[9:11:22 PM IST] <vchrombie>	thanks for the suggestion :)
+[9:11:28 PM IST] <valcos>	you're welcome
+[9:12:06 PM IST] <vchrombie>	also coming to the next pilot study, I was thinking of going with gitlab.org
+[9:12:36 PM IST] <vchrombie>	we can perform this once we get meetupqm in shape
+[9:12:55 PM IST] <vchrombie>	so there will be four data sources by then
+[9:13:05 PM IST] <vchrombie>	git gitlab pipermail meetup
+[9:13:41 PM IST] <vchrombie>	I remember gitlab.org dashboard has meetup viz too
+[9:13:42 PM IST] <valcos>	I'm not aware of pipermail data for gitlab
+[9:13:57 PM IST] <valcos>	yes, they use git, gitlab (issues and mrs) and meetup
+[9:14:02 PM IST] <valcos>	https://gitlab.com/Bitergia/c/gitlab/sources/blob/master/projects.json
+[9:14:05 PM IST] <vchrombie>	I thought they had mailing lists, didnt check tho
+[9:14:37 PM IST] <vchrombie>	ah thanks, I was about to send dashboard link
+[9:14:41 PM IST] <vchrombie>	this is better :D
+[9:14:46 PM IST] <valcos>	ehehe
+[9:15:13 PM IST] <vchrombie>	aah ya right, they dont have mailing list
+[9:15:49 PM IST] <vchrombie>	ok then, maybe be go with 3 git gitlab meetup
+[9:15:56 PM IST] <valcos>	that's perfect
+[9:16:07 PM IST] <valcos>	we could have another test on the chaoss project
+[9:16:21 PM IST] <valcos>	in that case we need the github enrichers
+[9:16:40 PM IST] <vchrombie>	yes, we need github to be ready for that
+[9:17:47 PM IST] <vchrombie>	I'll aim for github once meetup is done
+[9:17:47 PM IST] <valcos>	we have some weeks left before the end
+[9:18:10 PM IST] <valcos>	if you find it reasonable, we could try to target chaoss too
+[9:18:16 PM IST] <valcos>	ok, perfect
+[9:18:54 PM IST] <vchrombie>	the community members would be really interested if have a chaoss study too
+[9:19:28 PM IST] <vchrombie>	I'll try to complete github too
+[9:19:59 PM IST] <vchrombie>	we still have two weeks left for second evaluation
+[9:20:19 PM IST] <vchrombie>	I think I can get it done before that
+[9:20:50 PM IST] <valcos>	ok, as you prefer
+[9:21:01 PM IST] <valcos>	we have the pipermailqm and meetupqm
+[9:21:07 PM IST] <valcos>	plus the study on gitlab
+[9:21:11 PM IST] <valcos>	plus the github enrichers
+[9:21:16 PM IST] <valcos>	plus the study on chaoss
+[9:21:29 PM IST] <vchrombie>	:D
+[9:21:47 PM IST] <vchrombie>	I'll try my best to complete them
+[9:21:50 PM IST] <valcos>	and we have 5 weeks left (if I'm not wrong)
+[9:22:07 PM IST] <valcos>	we can move one of the study with the corresponding implementation of the enrichers
+[9:22:13 PM IST] <valcos>	for the next coding period
+[9:22:56 PM IST] <vchrombie>	so chaoss study in the third coding period ?
+[9:23:22 PM IST] <valcos>	i would suggest so, it sounds reasonable
+[9:23:30 PM IST] <vchrombie>	Ok
+[9:23:52 PM IST] <valcos>	but we can rediscuss it next time
+[9:24:01 PM IST] <vchrombie>	sure valcos
+[9:24:30 PM IST] <vchrombie>	we can discuss and adjust it if things move quickly
+[9:24:37 PM IST] <valcos>	good idea!
+[9:24:51 PM IST] <vchrombie>	one last thing from my side
+[9:25:33 PM IST] <vchrombie>	I was thinking it would be great if I can get the raw data for gitlab.org to the incubator
+[9:25:55 PM IST] <valcos>	sure! I'll upload it
+[9:25:57 PM IST] <vchrombie>	so that it would be easy for me
+[9:26:12 PM IST] <vchrombie>	thanks valcos, that saves a lot of time for me :P
+[9:26:25 PM IST] <valcos>	you're welcome!
+[9:26:53 PM IST] <valcos>	when you would like to have this data?
+[9:27:23 PM IST] <vchrombie>	by next Wednesday if possible
+[9:27:31 PM IST] <valcos>	perfect!
+[9:27:45 PM IST] <vchrombie>	thanks a lot valcos :)
+[9:27:54 PM IST] <vchrombie>	I'm done with my updates and questions
+[9:27:57 PM IST] <valcos>	you're welcome!
+[9:28:02 PM IST] <vchrombie>	do you have anything left to discuss ?
+[9:28:09 PM IST] <valcos>	I have an update
+[9:28:30 PM IST] <valcos>	I'm leaving bitergia at the end of next week
+[9:28:46 PM IST] <valcos>	I guess I'll be following this idea until the end
+[9:29:05 PM IST] <valcos>	but probably I'll be less active
+[9:29:32 PM IST] <valcos>	I'm not sure I'll be able to merge pull requests, but for sure I can review the code
+[9:30:22 PM IST] <valcos>	I'll sync with David, and maybe ask Santiago to participate a bit
+[9:30:34 PM IST] <valcos>	that's all from my side :)
+[9:30:40 PM IST] <vchrombie>	Ok
+[9:31:19 PM IST] <polaris000>	No issues valcos`
+[9:31:23 PM IST] <polaris000>	good luck!
+[9:31:27 PM IST] <vchrombie>	polaris000 & inishchith, do you have anything to discuss
+[9:31:42 PM IST] <polaris000>	Nothing from my side, vchrombie!
+[9:32:30 PM IST] <inishchith>	Nothing from my side too.
+[9:32:32 PM IST] <inishchith>	All the best valcos
+[9:32:36 PM IST] <vchrombie>	ok then, if everyone is done
+[9:32:40 PM IST] <vchrombie>	we can close the meeting
+[9:32:47 PM IST] <vchrombie>	thanks everyone for attending :)
+[9:33:01 PM IST] <polaris000>	Bye all! See you next week
+[9:33:03 PM IST] <valcos>	thanks for your time
+[9:33:09 PM IST] <vchrombie>	bye!
+[9:33:10 PM IST] <inishchith>	Thanks everyone. Bye
+[9:33:10 PM IST] <valcos>	bye!
+[9:33:23 PM IST] Quit	valcos (~valcos@188.26.210.216) has left this server (Quit: Leaving).
