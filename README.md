@@ -123,6 +123,7 @@ Issues
 
 ### Coding Period 2 (July 4, 2020 - July 24, 2020)
 - Week 6: [Report](work/week-6/#week-6-summary) | Blog Post :point_right: [semana seis](https://vchrombie.github.io/blog/coding-period-2-week-6).
+- Week 7: [Report](work/week-7/#week-7-summary) | Blog Post :point_right: [semana siete](https://vchrombie.github.io/blog/coding-period-2-week-7).
 
 ## Links
 
