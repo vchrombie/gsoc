@@ -1,0 +1,267 @@
+date: Thursday 23 July 2020
+participants: dlumbrer, valcos, polaris000, inishchith, vchrombie
+start time: 8:23:13 PM IST
+end time: 9:40:27 PM IST
+duration: 1:17:14 hours
+--------------------------------------------------------------------------------
+
+[8:23:13 PM IST] Join	You (~p0tt3r@2409:4070:429b:e7e:ad81:c218:f19:eff6) have joined the channel #grimoirelab.
+[8:23:17 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:23:18 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:25:07 PM IST] Join	polaris000 (~polaris00@124.123.172.130) has joined this channel.
+[8:30:15 PM IST] <vchrombie>	Hi everyone
+[8:30:22 PM IST] Join	inishchith (b6460dcc@182.70.13.204) has joined this channel.
+[8:31:01 PM IST] <valcos>	Hi Venu
+[8:31:04 PM IST] <valcos>	Hi everyone
+[8:31:06 PM IST] <inishchith>	Hi everyone!
+[8:31:14 PM IST] <dlumbrer	[m]> Hi everyone!
+[8:32:16 PM IST] <vchrombie>	I hope everyone is good. :)
+[8:32:24 PM IST] <polaris000>	Hi all!
+[8:33:03 PM IST] <vchrombie>	Hi polaris000
+[8:33:15 PM IST] <vchrombie>	I think everyone has arrived, we can start the meeting
+[8:34:03 PM IST] <valcos>	sure!
+[8:34:08 PM IST] <polaris000>	yes
+[8:34:12 PM IST] <inishchith>	yep
+[8:34:18 PM IST] <dlumbrer	[m]> go!
+[8:34:22 PM IST] <vchrombie>	Ok
+[8:34:32 PM IST] <vchrombie>	I will start with the work I have done last week
+[8:34:51 PM IST] <vchrombie>	I completed pipermail, meetup implementations
+[8:35:02 PM IST] <vchrombie>	also I had two metric pending in gitlab
+[8:35:06 PM IST] <vchrombie>	completed them too
+[8:35:31 PM IST] <vchrombie>	I started workig on adding tests to the enrichers
+[8:36:21 PM IST] <vchrombie>	I didn't complete them, but you can expect them to be completed by this weekend
+[8:36:28 PM IST] <vchrombie>	or max by Monday
+[8:36:47 PM IST] Join	mafesan (~mafesan@241.red-83-54-244.dynamicip.rima-tde.net) has joined this channel.
+[8:37:13 PM IST] <vchrombie>	I haven't added any new work to the old PR
+[8:37:35 PM IST] <valcos>	did you have time to check the comments on the PR?
+[8:37:36 PM IST] <vchrombie>	I thought of opening a new one in extension to this
+[8:37:59 PM IST] <vchrombie>	ah my bad
+[8:38:08 PM IST] <vchrombie>	I totally missed it
+[8:38:32 PM IST] <vchrombie>	I just checked that you have reviewed it 3 days back
+[8:38:40 PM IST] <vchrombie>	I am really sorry
+[8:39:03 PM IST] <valcos>	no worries! :) you can address the comments in the new PR
+[8:39:10 PM IST] <vchrombie>	ya sure
+[8:39:28 PM IST] <vchrombie>	I will address them and then open a new PR with the current work too
+[8:40:07 PM IST] <vchrombie>	thanks for reminding valcos :)
+[8:40:20 PM IST] <vchrombie>	you can expect a new PR by tomorrow
+[8:40:35 PM IST] <valcos>	ok, perfect! :)
+[8:40:54 PM IST] <vchrombie>	other than that, I also worked on making a proposal for pycon es and a few other conference
+[8:41:10 PM IST] <vchrombie>	valcos is helping me in making a good proposal :D
+[8:41:35 PM IST] <vchrombie>	I am making a small ppt too so that I can add it as reference in the proposal
+[8:41:45 PM IST] <vchrombie>	I will share with you all once it is done :)
+[8:42:13 PM IST] <dlumbrer	[m]> nice!
+[8:42:15 PM IST] <polaris000>	excellent, vchrombie and valcos!
+[8:42:26 PM IST] <inishchith>	nice!
+[8:42:37 PM IST] <vchrombie>	:D
+[8:42:46 PM IST] <valcos>	^^
+[8:43:00 PM IST] <vchrombie>	in addition to that
+[8:43:21 PM IST] <vchrombie>	valcos also helped me by uploading the raw data to the incubator
+[8:43:33 PM IST] <vchrombie>	so that I can use for the gitlab.org pilot study
+[8:44:02 PM IST] <vchrombie>	otherwise it would take almost a week for me to complete the study
+[8:44:18 PM IST] <vchrombie>	now it will be done in two days
+[8:44:27 PM IST] <vchrombie>	:P
+[8:44:54 PM IST] <vchrombie>	I will try to generate a dashboard similar to the previous study
+[8:45:02 PM IST] <vchrombie>	and share the results too
+[8:45:23 PM IST] <vchrombie>	I will work on this tomorrow and the day after
+[8:45:27 PM IST] <polaris000>	excellent, and thanks valcos! vchrombie let us know in the hangouts when you're done!
+[8:45:37 PM IST] <polaris000>	^group
+[8:46:09 PM IST] <vchrombie>	so that I can include a few (sneak peek) results in the ppt for pycon es proposal
+[8:46:15 PM IST] <vchrombie>	sure polaris000
+[8:47:49 PM IST] <vchrombie>	does that sound ok?
+[8:48:04 PM IST] <vchrombie>	I felt it would make the proposal look a bit more attractive
+[8:48:20 PM IST] <valcos>	good idea!
+[8:48:21 PM IST] <polaris000>	yes, sounds good to me...
+[8:48:32 PM IST] <inishchith>	sure. sounds good.
+[8:48:37 PM IST] <dlumbrer	[m]> yeah!
+[8:49:02 PM IST] <vchrombie>	next comes about the quality modesl
+[8:49:06 PM IST] <vchrombie>	models*
+[8:49:08 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/issues/16
+[8:49:28 PM IST] <vchrombie>	I have opened this issue for discussions about creating new qms with extracted metrics
+[8:49:40 PM IST] <vchrombie>	I will write a mail by this weekend to Jesus
+[8:49:55 PM IST] <vchrombie>	asking for help and suggesting some ideas regarding it
+[8:50:04 PM IST] <vchrombie>	asking to suggest*
+[8:50:23 PM IST] <dlumbrer	[m]> good, I talk to him about this :)
+[8:50:30 PM IST] <dlumbrer	[m]> talked*
+[8:50:38 PM IST] <vchrombie>	oh thats nice to hear
+[8:51:17 PM IST] <vchrombie>	now it is more easy to explain the context in the mail
+[8:51:23 PM IST] <vchrombie>	thanks dlumbrer :)
+[8:51:55 PM IST] <vchrombie>	you all keep an eye on the discussion and feel free to comment if you have any thoughts on it
+[8:52:06 PM IST] <polaris000>	sure vchrombie
+[8:52:32 PM IST] <vchrombie>	also if you anyone who would interested to help, it would be great if you can bring them on this issue if they agree to help
+[8:53:22 PM IST] <vchrombie>	I think thats it from my side
+[8:53:35 PM IST] <vchrombie>	I will list out the work for the next week
+[8:54:03 PM IST] <vchrombie>	1. address the old PR and open a new one with the updated work (will be completed by tomorrow)
+[8:54:35 PM IST] <vchrombie>	2. start performing the pilot study (will try to complete this by weekend)
+[8:55:04 PM IST] <vchrombie>	3. work on tests and complete it
+[8:56:02 PM IST] <vchrombie>	4. complete the proposal, ppt, video whatver required for submission (shd be done be weekend)
+[8:56:33 PM IST] <vchrombie>	also apply for a few others using the almost same content
+[8:57:00 PM IST] <vchrombie>	valcos suggested one more, pydata global
+[8:57:07 PM IST] <vchrombie>	and then there is pycon india
+[8:57:20 PM IST] <vchrombie>	I will be submitting the proposals for these conferences
+[8:58:32 PM IST] <dlumbrer	[m]> sounds good!
+[8:58:36 PM IST] <vchrombie>	if I complete the tests soon, I will start focusing on a new data source
+[8:58:38 PM IST] <polaris000>	ah yes, I was wondering how you didn't mention pycon india!
+[8:58:48 PM IST] <vchrombie>	:D
+[8:58:49 PM IST] <polaris000>	*yet
+[8:58:55 PM IST] <polaris000>	:)
+[8:59:09 PM IST] <vchrombie>	if I complete the tests soon, I will start focusing on a new data source
+[8:59:18 PM IST] <vchrombie>	as planned, I will start with github
+[8:59:29 PM IST] <vchrombie>	the metrics should be almost same as gitlab ones
+[8:59:43 PM IST] <vchrombie>	:thinking:
+[9:00:37 PM IST] <vchrombie>	anyway I will open a new issue for discussion regarding it
+[9:00:45 PM IST] <vchrombie>	we can discuss over there at that time
+[9:01:28 PM IST] <valcos>	perfect!
+[9:01:33 PM IST] <polaris000>	sounds good!
+[9:01:37 PM IST] <inishchith>	Great.
+[9:01:55 PM IST] <inishchith>	Sorry guys, I'll have to leave now for another meeting will catch up next week.
+[9:02:06 PM IST] <inishchith>	and on the meeting logs.
+[9:02:12 PM IST] <valcos>	ok! bye inishchith
+[9:02:14 PM IST] <vchrombie>	Sure inishchith, thanks for attending.
+[9:02:23 PM IST] <dlumbrer	[m]> by inishchith
+[9:02:23 PM IST] <inishchith>	Thansk! Bye everyone!
+[9:02:26 PM IST] Quit	inishchith (b6460dcc@182.70.13.204) has left this server (Remote host closed the connection).
+[9:02:49 PM IST] <vchrombie>	I think thats it from now side, do you have any comments or anything to be discussed
+[9:02:49 PM IST] <valcos>	since next week we will enter in the last coding period (https://developers.google.com/open-source/gsoc/timeline), it may be convenient to define a roadmap for these last weeks
+[9:03:05 PM IST] <valcos>	wdyt?
+[9:03:19 PM IST] <vchrombie>	that sounds great
+[9:03:31 PM IST] <vchrombie>	we have planned a few items
+[9:03:41 PM IST] <dlumbrer	[m]> I agree valcos
+[9:03:58 PM IST] <vchrombie>	i.e, completed work on github enricher and pilot study on CHAOSS org
+[9:04:07 PM IST] <polaris000>	yes!
+[9:04:27 PM IST] <vchrombie>	I we can plan a roadmap including these things too
+[9:04:33 PM IST] <valcos>	sure, good idea
+[9:05:09 PM IST] <valcos>	let's list the things left to do
+[9:05:25 PM IST] <valcos>	github enrichers
+[9:05:27 PM IST] <valcos>	gitlab study
+[9:05:35 PM IST] <valcos>	meetup enricher
+[9:05:55 PM IST] <valcos>	pipermail enricher
+[9:05:57 PM IST] <valcos>	tests
+[9:05:59 PM IST] <valcos>	documentation
+[9:06:10 PM IST] <valcos>	chaoss study?
+[9:06:28 PM IST] <vchrombie>	yes, chaoss study is fine
+[9:06:46 PM IST] <valcos>	talks/presentations
+[9:07:03 PM IST] <vchrombie>	I have completed the work on pipermail and meetup enrichers, just that I didnt add to PR but we can map anyway
+[9:07:13 PM IST] <valcos>	ok, perfect
+[9:07:23 PM IST] <polaris000>	sure vchrombie
+[9:07:26 PM IST] <polaris000>	sounds good
+[9:07:52 PM IST] <valcos>	quality models templates (the issue you commented earlier)
+[9:07:59 PM IST] <vchrombie>	yes
+[9:08:12 PM IST] <valcos>	something else to add?
+[9:08:35 PM IST] <vchrombie>	I have one thing
+[9:08:57 PM IST] <vchrombie>	as we thought about it earlier
+[9:09:14 PM IST] <vchrombie>	if we complete github enricher, we can go for adding another one
+[9:09:24 PM IST] <vchrombie>	slack could be a good choice
+[9:09:27 PM IST] <vchrombie>	wdyt?
+[9:10:08 PM IST] <valcos>	yes, that's a good idea
+[9:10:19 PM IST] <dlumbrer	[m]> Agree!
+[9:10:19 PM IST] <valcos>	the point is that we need data to test it
+[9:10:27 PM IST] <valcos>	it would be good to find some open slack instance
+[9:10:50 PM IST] <valcos>	otherwise we can create one for free
+[9:10:52 PM IST] <valcos>	and test it
+[9:11:10 PM IST] <vchrombie>	:D
+[9:11:19 PM IST] <vchrombie>	ya that's feasible
+[9:11:50 PM IST] <valcos>	ok, perfect!
+[9:11:54 PM IST] <vchrombie>	we will plan it during that time
+[9:12:15 PM IST] <valcos>	something else to add to the todo list?
+[9:12:47 PM IST] <vchrombie>	umm, I had this idea
+[9:13:18 PM IST] <vchrombie>	of making small demo to show how to use prosoul
+[9:13:38 PM IST] <vchrombie>	I would be making one video demo anyway in the end
+[9:13:46 PM IST] <vchrombie>	but do we need any extra videos?
+[9:14:17 PM IST] <valcos>	that's a good idea
+[9:14:28 PM IST] <valcos>	the video could be part of the summary of your work
+[9:14:40 PM IST] <valcos>	the last post in your blog
+[9:14:47 PM IST] <vchrombie>	yes, something which shows the end prodcut
+[9:15:03 PM IST] <valcos>	perfect
+[9:15:19 PM IST] <vchrombie>	I saw in the last year gsoc posts of polaris000 and inischith
+[9:15:39 PM IST] <polaris000>	haha, yes we had done that
+[9:16:07 PM IST] <valcos>	ehehe
+[9:16:20 PM IST] Quit	martinus__ (~martin@132.31.201.77.rev.sfr.net) has left this server (Ping timeout: 260 seconds).
+[9:16:40 PM IST] <valcos>	did you find it useful polaris000/inischith
+[9:16:44 PM IST] <valcos>	?
+[9:16:57 PM IST] <polaris000>	yes
+[9:17:00 PM IST] <polaris000>	its much easy to show others
+[9:17:02 PM IST] <valcos>	if so, you could help vchrombie on the video making, with tips and your experience
+[9:17:08 PM IST] <polaris000>	than for them to read the whole post
+[9:17:09 PM IST] <valcos>	aa perfect, then!
+[9:17:20 PM IST] <polaris000>	sure, will do valcos!
+[9:18:19 PM IST] <dlumbrer	[m]> I would like to see a video of "how to use Prosoul" (and add it to the doc... :D)
+[9:18:22 PM IST] <valcos>	thanks polaris000
+[9:18:31 PM IST] <valcos>	good idea dlumbrer
+[9:18:38 PM IST] Quit	fioddor (~quassel@139.47.72.35) has left this server (Ping timeout: 246 seconds).
+[9:19:45 PM IST] <vchrombie>	I think we have a good list now
+[9:19:51 PM IST] <vchrombie>	shall we plan the roadmap
+[9:19:59 PM IST] <valcos>	yes, sure
+[9:20:02 PM IST] <polaris000>	yes
+[9:20:27 PM IST] <valcos>	vchrombie feel free to propose the roadmap
+[9:20:45 PM IST] <valcos>	we can provide feedback
+[9:20:47 PM IST] <vchrombie>	sure
+[9:20:59 PM IST] <valcos>	thanks
+[9:21:24 PM IST] <vchrombie>	meetup, pipermail (done, need to add to PR) - will be done by tomorrow
+[9:21:49 PM IST] <vchrombie>	gitlab.org study, talk/presentation proposals - will be done by Saturday
+[9:21:50 PM IST] Join	fioddor (~quassel@139.47.72.35) has joined this channel.
+[9:22:19 PM IST] <vchrombie>	tests - next week (first priority)
+[9:23:04 PM IST] <vchrombie>	next week means 27 july to 2 aug
+[9:24:18 PM IST] <vchrombie>	3 to 8 aug - github, slack enricher & tests
+[9:25:00 PM IST] <vchrombie>	about the quality models, I think this should develop from the discussion
+[9:25:28 PM IST] <vchrombie>	we can participate in the discussion and develop them in parallel
+[9:26:22 PM IST] <vchrombie>	10 to 15 aug - chaoss study and documentation
+[9:28:07 PM IST] <vchrombie>	17 to 22 aug - maybe work on the end result videos and demos
+[9:28:44 PM IST] <vchrombie>	from 24 aug I can work on the end report
+[9:29:19 PM IST] <vchrombie>	as I am writing each week blog posts, I think & hope I can finish the end report easily
+[9:29:33 PM IST] <valcos>	ok, perfect
+[9:29:43 PM IST] <polaris000>	sounds OK
+[9:29:48 PM IST] <dlumbrer	[m]> I agree with the roadmap
+[9:30:03 PM IST] <vchrombie>	I think I have covered almost everything
+[9:30:15 PM IST] <valcos>	I have a minor comment about the gitlab.org study
+[9:30:31 PM IST] <vchrombie>	sure valcos, what is that
+[9:31:11 PM IST] <valcos>	i would add it also to the next week (there are plenty of repos, and the analysis and checks can take some extra days)
+[9:31:29 PM IST] <vchrombie>	umm, that makes sense to me
+[9:31:47 PM IST] <valcos>	ok, thanks
+[9:32:05 PM IST] <valcos>	could you open an issue with this roadmap in your repo?
+[9:32:17 PM IST] <valcos>	so every week it can be reviewed and make sure we are on track
+[9:32:22 PM IST] <valcos>	wdyt?
+[9:32:50 PM IST] <polaris000>	good idea
+[9:32:58 PM IST] <vchrombie>	I was thinking of adding the results to the pycon es proposal, so thought I will try to complete by Sat
+[9:33:00 PM IST] <dlumbrer	[m]> good idea valcos
+[9:33:08 PM IST] <vchrombie>	but it is good if we can put it in next week
+[9:33:27 PM IST] <vchrombie>	anyway, I have results of few assessments made on gitlab
+[9:33:42 PM IST] <vchrombie>	I was testing in the earlier weeks
+[9:34:01 PM IST] <vchrombie>	I can put those in the proposal
+[9:34:01 PM IST] <valcos>	> I was thinking of adding the results to the pycon es proposal, so thought I will try to complete by Sat
+[9:34:06 PM IST] <valcos>	that's a good idea
+[9:34:32 PM IST] <valcos>	but I'm not sure that we will have the complete results by Sat
+[9:34:40 PM IST] <vchrombie>	thats fine valcos
+[9:34:49 PM IST] <vchrombie>	the test assessments which I made earlier were also on gitlab.org projects
+[9:34:55 PM IST] <vchrombie>	but only 10 I thin
+[9:35:03 PM IST] <valcos>	ok, perfect then
+[9:35:10 PM IST] <vchrombie>	that would be sufficient to show it in the proposal
+[9:35:20 PM IST] <vchrombie>	I think that works
+[9:35:34 PM IST] <vchrombie>	> could you open an issue with this roadmap in your repo?
+[9:35:43 PM IST] <vchrombie>	sure valcos
+[9:36:04 PM IST] <valcos>	ok, thanks!
+[9:36:26 PM IST] <vchrombie>	is there anything to be discussed more?
+[9:36:33 PM IST] <valcos>	the next 3 weeks it is possible that I'll have limited connectivity
+[9:37:09 PM IST] <vchrombie>	ok, that's fine as now we have the roadmap ready
+[9:37:16 PM IST] <valcos>	I'll try to follow the advances on the PRs and so on
+[9:37:22 PM IST] <valcos>	ok, perfect :)
+[9:37:27 PM IST] <vchrombie>	I think the plan is good to go
+[9:38:42 PM IST] <valcos>	ok!
+[9:38:47 PM IST] <vchrombie>	if there is nothing to discuss we can close the meeting
+[9:38:47 PM IST] <valcos>	if there is nothing else to discuss
+[9:38:48 PM IST] <vchrombie>	wdyt?
+[9:38:51 PM IST] <valcos>	we can close the meeting
+[9:39:01 PM IST] <vchrombie>	haha, same pinch :P
+[9:39:03 PM IST] <valcos>	yes! :)
+[9:39:04 PM IST] <polaris000>	yes, nothing else from my side
+[9:39:05 PM IST] <valcos>	hehee
+[9:39:18 PM IST] <polaris000>	haha
+[9:39:37 PM IST] <valcos>	nothing from my side
+[9:39:42 PM IST] <valcos>	thank you all for your time
+[9:39:51 PM IST] <dlumbrer	[m]> Thank you all!
+[9:39:53 PM IST] <vchrombie>	thanks for attending :)
+[9:39:58 PM IST] <vchrombie>	Bye!
+[9:40:02 PM IST] <valcos>	bye!
+[9:40:04 PM IST] <dlumbrer	[m]> Bye!
+[9:40:09 PM IST] Quit	valcos (~valcos@188.26.210.216) has left this server (Quit: Leaving).
+[9:40:18 PM IST] <polaris000>	bye!
+[9:40:27 PM IST] Part	polaris000 (~polaris00@124.123.172.130) has left this channel ("Konversation terminated!").
