@@ -1,0 +1,109 @@
+date: Thursday 30 July 2020
+participants: polaris000, vchrombie, dlumbrer
+start time: 8:28:10 PM IST
+end time: 8:57:25 PM IST
+duration: 0:29:15 hours
+--------------------------------------------------------------------------------
+
+[8:28:10 PM IST] Join	You (~p0tt3r@2409:4070:187:c35a:50e1:29d7:8cbe:3d7d) have joined the channel #grimoirelab.
+[8:28:12 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:28:13 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:32:04 PM IST] <polaris000>	Hi vchrombie and dlumbrer[m]!
+[8:32:20 PM IST] <dlumbrer	[m]> Hi "polaris000" (https://matrix.to/#/@freenode_polaris000:matrix.org) "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org) !
+[8:32:28 PM IST] <vchrombie>	Hi everyone
+[8:32:40 PM IST] <vchrombie>	I hope you both are doing good
+[8:32:56 PM IST] <polaris000>	Im good. How are you?
+[8:33:05 PM IST] <vchrombie>	I am good too.
+[8:33:07 PM IST] <vchrombie>	:)
+[8:33:14 PM IST] <vchrombie>	today, inishchith might not join as he has some work
+[8:33:18 PM IST] <dlumbrer	[m]> I'm good!
+[8:33:30 PM IST] <vchrombie>	also valcos is on vacation too
+[8:33:35 PM IST] <dlumbrer	[m]> yea
+[8:33:40 PM IST] <vchrombie>	so I am not sure he would join too
+[8:33:42 PM IST] <dlumbrer	[m]> We can start
+[8:33:43 PM IST] <polaris000>	yes
+[8:33:51 PM IST] <vchrombie>	so I will send the logs to both of them
+[8:33:51 PM IST] <polaris000>	lets begin then
+[8:33:56 PM IST] <vchrombie>	Sure
+[8:34:08 PM IST] <vchrombie>	I will start with the work I did over the last week
+[8:35:16 PM IST] <vchrombie>	We planned a schedule in the last week
+[8:35:42 PM IST] <vchrombie>	so in according to it, I worked on the tests
+[8:35:57 PM IST] <vchrombie>	also I have addressed the comments on the PR too
+[8:36:05 PM IST] <vchrombie>	and I worked and fixed them
+[8:36:32 PM IST] <vchrombie>	I will close the old PR and open a new one with the changes and the work of the new enrichers in it
+[8:36:56 PM IST] <vchrombie>	also I have to complete the gitlab.org pilot study too
+[8:37:04 PM IST] <vchrombie>	I didnt start it yet
+[8:37:22 PM IST] <vchrombie>	I was mostly concentrating on completing the enrichers and test
+[8:37:26 PM IST] <vchrombie>	tests*
+[8:37:46 PM IST] <vchrombie>	as the study needs the enrichers to be perfect
+[8:37:59 PM IST] <vchrombie>	so I was working on the changes
+[8:38:10 PM IST] <vchrombie>	and testing it rigourously
+[8:38:27 PM IST] <vchrombie>	I'm trying my best not to leave any corner cases
+[8:38:44 PM IST] <dlumbrer	[m]> Ok "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org)
+[8:38:47 PM IST] <vchrombie>	so that, valid and good results are obtained
+[8:39:02 PM IST] <vchrombie>	I am almost done with the work
+[8:39:04 PM IST] <polaris000>	excellent
+[8:39:17 PM IST] <vchrombie>	I will be opening the new PR by tonight
+[8:39:37 PM IST] <vchrombie>	So, I have three days with me in according to the schedule
+[8:39:46 PM IST] <vchrombie>	30, 1 and I would count 2 too
+[8:40:00 PM IST] <vchrombie>	I can work on Sundays too, its kinda flexible
+[8:40:20 PM IST] <vchrombie>	I plan to complete this study within these three days
+[8:40:34 PM IST] <vchrombie>	and move on to the github and slack enrichers
+[8:41:27 PM IST] <vchrombie>	I had the issues with the timezone in the enricher but later on, I figured out a way how to normalize it
+[8:41:51 PM IST] <vchrombie>	so, I dont have any problem right now
+[8:42:11 PM IST] <vchrombie>	just that I took some more time to test these enrichers on various repos
+[8:42:19 PM IST] <vchrombie>	and see if I can find any corner cases
+[8:42:55 PM IST] <vchrombie>	I thought the initial work was clear without bugs
+[8:43:29 PM IST] <vchrombie>	https://github.com/chaoss/grimoirelab-elk/pull/902#discussion_r457518545
+[8:43:49 PM IST] <vchrombie>	but when valcos reviewed it, I realized I didnt complete it
+[8:44:00 PM IST] <vchrombie>	so putting a little extra time for testing it
+[8:44:45 PM IST] <vchrombie>	I am almost done with it, will send a PR by tonight
+[8:45:44 PM IST] <vchrombie>	Other than these, I really don't have anything to discuss :P
+[8:46:01 PM IST] <polaris000>	Good vchrombie
+[8:46:05 PM IST] <polaris000>	*work
+[8:46:08 PM IST] <dlumbrer	[m]> Good "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org) , let us know if you need something or you want to suggest something
+[8:46:17 PM IST] <vchrombie>	as we put some effort last week and planned it well
+[8:46:28 PM IST] <vchrombie>	we might not have much things to discuss :P
+[8:46:44 PM IST] <dlumbrer	[m]> :D
+[8:46:57 PM IST] <polaris000>	haha, ok vchrombie
+[8:47:20 PM IST] <polaris000>	Then, maybe you can propose work for next week?
+[8:47:32 PM IST] <vchrombie>	one more thing, I will update the schedule we made last week in the issues of the project tracker
+[8:47:32 PM IST] <polaris000>	(summarize it )
+[8:47:40 PM IST] <vchrombie>	ya sure
+[8:48:01 PM IST] <vchrombie>	Once I complete the study (expecting by Sunday)
+[8:48:16 PM IST] <vchrombie>	I will start working on the github and slack enrichers
+[8:48:38 PM IST] <vchrombie>	github metrics would be almost similiar to gitlab (we can discuss about it)
+[8:48:49 PM IST] <vchrombie>	I will open a similar PR for slack too
+[8:48:55 PM IST] <vchrombie>	we can discuss the initial metrics
+[8:49:22 PM IST] <vchrombie>	I will work on the enrichers and tests altogether and complete it by next meeting/weekend
+[8:51:08 PM IST] <vchrombie>	:)
+[8:51:56 PM IST] <polaris000>	looks OK. dlumbrer[m], any suggestions?
+[8:52:43 PM IST] <dlumbrer	[m]> LGTM! :)
+[8:52:49 PM IST] <vchrombie>	thanks :)
+[8:53:17 PM IST] <polaris000>	excellent. Anything else left to discuss vchrombie, dlumbrer[m]?
+[8:53:20 PM IST] <polaris000>	Nothing else from myside
+[8:54:02 PM IST] <dlumbrer	[m]> Nothing from my side
+[8:54:08 PM IST] <vchrombie>	I dont have much too
+[8:54:13 PM IST] <polaris000>	Great. Then vchrombie you can create the post and share the logs as usual, and we can meet next week!
+[8:54:22 PM IST] <vchrombie>	I will update you all the with the short summaries
+[8:54:30 PM IST] <polaris000>	perfect
+[8:54:30 PM IST] <vchrombie>	if I complete any specific task
+[8:54:35 PM IST] <polaris000>	thanks vchrombie
+[8:54:42 PM IST] <vchrombie>	Sure, I think we can close the meeting for now
+[8:54:46 PM IST] <dlumbrer	[m]> Are you going to update us in the hangouts group, right? "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org)
+[8:55:03 PM IST] <vchrombie>	yes yes, in the hangouts group itself
+[8:55:12 PM IST] <dlumbrer	[m]> Perfect :D
+[8:55:14 PM IST] <vchrombie>	sorry, I didnt mention :P
+[8:55:55 PM IST] <polaris000>	No issues! :) ok. then lets end the meet here?
+[8:56:40 PM IST] <vchrombie>	Yes I guess
+[8:56:46 PM IST] <vchrombie>	dlumbrer, what do you say?
+[8:56:47 PM IST] <dlumbrer	[m]> Sure!
+[8:56:51 PM IST] <vchrombie>	Ok then
+[8:56:59 PM IST] <vchrombie>	thanks for your time both
+[8:57:02 PM IST] <polaris000>	Bye all! See you next week
+[8:57:05 PM IST] <vchrombie>	See you next week
+[8:57:07 PM IST] <polaris000>	Thanks vchrombie and dlumbrer[m]
+[8:57:09 PM IST] <dlumbrer	[m]> Thanks for your time "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org) "polaris000" (https://matrix.to/#/@freenode_polaris000:matrix.org) !
+[8:57:10 PM IST] <vchrombie>	adios! :)
+[8:57:16 PM IST] Part	polaris000 (~polaris00@124.123.172.130) has left this channel ("Konversation terminated!").
+[8:57:25 PM IST] <dlumbrer	[m]> Adios! :D
