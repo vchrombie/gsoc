@@ -31,6 +31,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 
 - _gitlabqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm
 - _gitlabqm_+_gitqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm+gitqm
+- qm-v3 (_gitlabqm, gitqm, pipermailqm, meetupqm_) :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/qm-v3
 
 ## Pull Requests & Issues
 
@@ -55,6 +56,7 @@ Issues
 
 Pull Requests
 
+- [#926](https://github.com/chaoss/grimoirelab-elk/pull/926): [qm-elk] Add support for QM data enrichment **`/cp2`**
 - [#902](https://github.com/chaoss/grimoirelab-elk/pull/902): [qm-elk] Add support for QM data enrichment **`/cp1`**
 - [#892](https://github.com/chaoss/grimoirelab-elk/pull/892): [enriched-gitlabqm] New enricher for QM GitLab data **`/cp1`**
 - [#881](https://github.com/chaoss/grimoirelab-elk/pull/881): [enriched-gitlabcomments] New enricher to handle gitlab comments  **`/cb`**
@@ -127,6 +129,7 @@ Issues
 - Week 8: [Report](work/week-8/#week-8-summary) | Blog Post :point_right: [semana ocho](https://vchrombie.github.io/blog/coding-period-2-week-8).
 - Coding Period 2, [período de codificación dos](https://vchrombie.github.io/blog/coding-period-2).
 - :surfer: Second Evaluation Period (June 27 - July 31): PASSED :ballot_box_with_check:.
+- Week 9: [Report](work/week-9/#week-9-summary) | Blog Post :point_right: [semana nueve](https://vchrombie.github.io/blog/coding-period-2-week-9).
 
 ## Links
 
