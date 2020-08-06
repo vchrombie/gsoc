@@ -1,0 +1,109 @@
+date: Thursday 6 August 2020
+participants: vchrombie, dlumbrer
+start time: 8:31:26 PM IST
+end time: 9:07:34 PM IST
+duration: 0:36:08 hours
+--------------------------------------------------------------------------------
+
+[8:31:26 PM IST] Join	You (~p0tt3r@49.206.36.162) have joined the channel #grimoirelab.
+[8:31:28 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[8:31:28 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[8:32:38 PM IST] <vchrombie>	Hello! :)
+[8:33:22 PM IST] <dlumbrer	[m]> Hi "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org) ! How are you doing?
+[8:33:38 PM IST] <vchrombie>	Hi dlumbrer :)
+[8:33:49 PM IST] <vchrombie>	I am doing good. :)
+[8:33:52 PM IST] <vchrombie>	How are you btw?
+[8:34:14 PM IST] <dlumbrer	[m]> I'm doing great !
+[8:34:22 PM IST] <vchrombie>	awesome!
+[8:34:43 PM IST] <vchrombie>	today, Valerio Aniruddha and Nishchith might not join
+[8:35:08 PM IST] <dlumbrer	[m]> Yeah, so we can start if you want!
+[8:35:18 PM IST] <vchrombie>	also Nishchith was proposing if we can change the meeting timings from the next meeting
+[8:36:12 PM IST] <dlumbrer	[m]> Oh, I didn't know that, what time?
+[8:36:23 PM IST] <vchrombie>	I was about to send a message in the group
+[8:36:46 PM IST] <vchrombie>	+-1 hour
+[8:36:57 PM IST] <vchrombie>	The current timings are
+[8:36:57 PM IST] <vchrombie>	17h to 18h (CEST) or 20h30 to 21h30 (IST)
+[8:37:05 PM IST] <dlumbrer	[m]> Ok, perfect. Let's discuss it there then
+[8:37:08 PM IST] <vchrombie>	+1 hour means
+[8:37:08 PM IST] <vchrombie>	18h to 19h (CEST) or 21h30 to 22h30 (IST)
+[8:37:08 PM IST] <vchrombie>	-1 hour means
+[8:37:08 PM IST] <vchrombie>	16h to 17h (CEST) or 19h30 to 20h30 (IST)
+[8:37:13 PM IST] <vchrombie>	ok, sure
+[8:37:21 PM IST] <vchrombie>	that would be better :)
+[8:37:34 PM IST] <vchrombie>	we will discuss about the timings in the group itself
+[8:37:44 PM IST] <vchrombie>	We can now start the meeting then.
+[8:37:47 PM IST] <dlumbrer	[m]> Perfect
+[8:37:51 PM IST] <dlumbrer	[m]> Yes
+[8:38:04 PM IST] <vchrombie>	I will start with the work I did last week
+[8:38:25 PM IST] <vchrombie>	I worked mostly on the gitlab org study
+[8:38:50 PM IST] <vchrombie>	I faced a few errors which are minor implementation flaws
+[8:39:04 PM IST] <vchrombie>	I fixed them and I will update the PR too
+[8:39:28 PM IST] <dlumbrer	[m]> Perfect!
+[8:39:32 PM IST] <vchrombie>	in between there was some peculiar error too
+[8:40:08 PM IST] <vchrombie>	which was related to a few items which were generated before search_fields feature was added
+[8:40:26 PM IST] <vchrombie>	I had to apply a few hacks and I completed it
+[8:40:55 PM IST] <vchrombie>	but I want to bring up the discussion and thought of discussing a few things
+[8:41:13 PM IST] <vchrombie>	so opened the issue https://github.com/vchrombie/gsoc/issues/18
+[8:41:26 PM IST] <vchrombie>	feel to check it and discuss when you are free
+[8:41:30 PM IST] <dlumbrer	[m]> Do you plan to do it in the github issue?
+[8:41:41 PM IST] <dlumbrer	[m]> Oh, perfect!
+[8:42:34 PM IST] <vchrombie>	So, I finished the study
+[8:42:44 PM IST] <vchrombie>	results are here, https://github.com/vchrombie/gsoc/issues/13#issuecomment-669236168
+[8:43:14 PM IST] <vchrombie>	I wrote a few conclusions/results which can be extracted from the dashboards
+[8:43:38 PM IST] <vchrombie>	I will update them in the same issue, so that you can look at them and validate them
+[8:43:59 PM IST] <vchrombie>	I will upload the dashboard and results to the incubator so that you can have more close look
+[8:44:13 PM IST] <vchrombie>	I forgot about it earlier, will do it by tonight
+[8:44:17 PM IST] <dlumbrer	[m]> Sounds good!
+[8:44:28 PM IST] <dlumbrer	[m]> Ok, no worries
+[8:44:53 PM IST] <vchrombie>	Once after we finish validating, I plan to tweet about them :)
+[8:45:27 PM IST] <dlumbrer	[m]> Hahaha, I will retweet it :)
+[8:46:12 PM IST] <vchrombie>	thanks :D
+[8:46:25 PM IST] <vchrombie>	also I got some time to look into the github enricher
+[8:46:34 PM IST] <vchrombie>	I started working on it
+[8:47:08 PM IST] <vchrombie>	metrics discussion https://github.com/vchrombie/gsoc/issues/19
+[8:47:46 PM IST] <dlumbrer	[m]> Nice 👍
+[8:48:05 PM IST] <vchrombie>	this is the plan for the coding period 3
+[8:48:06 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/issues/17
+[8:48:29 PM IST] <vchrombie>	so this week, I'm expected to complete the work on enrichers
+[8:48:57 PM IST] <vchrombie>	I shifted the slack enricher to wishlist, as I'm not sure if I would get time
+[8:49:17 PM IST] <vchrombie>	I don't want to pull some time from the coming weeks
+[8:49:49 PM IST] <vchrombie>	but I will surely work on it if I get time or probably after gsoc
+[8:50:08 PM IST] <vchrombie>	Is that ok?
+[8:50:51 PM IST] <dlumbrer	[m]> I agree with your plan
+[8:51:20 PM IST] <dlumbrer	[m]> Let's see if the other mentors have something to say about it
+[8:51:36 PM IST] <dlumbrer	[m]> (I guess that they will notice us when they read this log)
+[8:52:01 PM IST] <vchrombie>	I felt documentation and videos part are equally important, so I will decide the full time to them in the coming weeks
+[8:52:29 PM IST] <vchrombie>	Ya, also I will message about it in the group too
+[8:53:06 PM IST] <dlumbrer	[m]> Yeah, as you know, the prosoul tutorial video is important to me :D
+[8:53:48 PM IST] <vchrombie>	Yup, I would surely work on it. :)
+[8:54:17 PM IST] <vchrombie>	I had this in mind during the application period itself
+[8:54:41 PM IST] <vchrombie>	to make a tutorial video similar to that of the installation one
+[8:55:22 PM IST] <dlumbrer	[m]> Nice nice
+[8:56:14 PM IST] <vchrombie>	Ya, so this is the work done till now
+[8:56:25 PM IST] <vchrombie>	coming to what is planned for the next week
+[8:56:46 PM IST] <vchrombie>	I can complete the work on github enricher by this weekend
+[8:57:07 PM IST] <vchrombie>	So, as per the plan, I will start working on the documentation for the project
+[8:57:49 PM IST] <vchrombie>	for the next week
+[8:58:35 PM IST] <vchrombie>	A few areas where I felt the documentation should be improved was
+[8:59:23 PM IST] <vchrombie>	grimoirelab-elk, this would be updated within the PR
+[8:59:56 PM IST] <dlumbrer	[m]> Ok, sounds good to me
+[9:00:39 PM IST] <vchrombie>	also, grimoirelab-sirmordred
+[9:00:51 PM IST] <vchrombie>	enricher configurations would go here
+[9:00:55 PM IST] <vchrombie>	also, https://github.com/Bitergia/prosoul/tree/master/doc
+[9:01:16 PM IST] <vchrombie>	now that we have a workflow for everything
+[9:01:33 PM IST] <vchrombie>	Prosoul with GrimoireLab can be improved
+[9:01:50 PM IST] <vchrombie>	maybe with the steps how the whole process would work
+[9:02:39 PM IST] <vchrombie>	I will be opening an issue in the project-traker soon, so that we can discuss more on this
+[9:03:18 PM IST] <dlumbrer	[m]> Agree
+[9:04:19 PM IST] <vchrombie>	Well, that's it from my side. :)
+[9:04:29 PM IST] <vchrombie>	Do you have any comments or suggestions
+[9:04:47 PM IST] <vchrombie>	on the work or some specific issue
+[9:05:18 PM IST] <dlumbrer	[m]> Nice "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org) , I don't have something to add, everything is clear :)
+[9:05:53 PM IST] <vchrombie>	Okay, that's sounds good. :)
+[9:06:09 PM IST] <dlumbrer	[m]> We can close the meeting, right?
+[9:06:46 PM IST] <vchrombie>	Yes, we can close it early today
+[9:07:11 PM IST] <dlumbrer	[m]> Ok, perfect! Good work "vchrombie" (https://matrix.to/#/@freenode_vchrombie:matrix.org) !
+[9:07:12 PM IST] <vchrombie>	see you next week, will update about the timings in the group
+[9:07:18 PM IST] <dlumbrer	[m]> See u next week! :)
+[9:07:24 PM IST] <vchrombie>	thanks dlumbrer
+[9:07:34 PM IST] <vchrombie>	adios :)
