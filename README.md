@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="notes/gsoc-chaoss-banner.png" width="720" alt="google-summer-of-code"></a>
+    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="notes/gsoc.png" width="720" alt="google-summer-of-code"></a>
     <h2>
     Creating Quality models using GrimoireLab and <a href="https://github.com/chaoss">CHAOSS</a> metrics
     </h2>
@@ -7,7 +7,7 @@
 
 <p align="center">
 	<a href="#project-abstract">Project Abstract</a> | 
-	<a href="#pull-requests--issues">Pull Requests & Issues</a> | 
+	<a href="#working-branches">Working Branches & Pull Requests</a> | 
 	<a href="#weekly-updates">Weekly Updates</a> | 
 	<a href="#links">Links</a>
 </p>
@@ -33,11 +33,9 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 - _gitlabqm_+_gitqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm+gitqm
 - qm-v3 (_gitlabqm, gitqm, pipermailqm, meetupqm_) :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/qm-v3
 
-## Pull Requests & Issues
+## Pull Requests
 
 #### [Bitergia/prosoul](https://github.com/Bitergia/prosoul)
-
-Pull Requests
 
 - [#207](https://github.com/Bitergia/prosoul/pull/207): [panels] update attribute-template.json **`/ap`**
 - [#206](https://github.com/Bitergia/prosoul/pull/206): [views] update the viz result kibana_url **`/ap`**
@@ -47,14 +45,7 @@ Pull Requests
 - [#199](https://github.com/Bitergia/prosoul/pull/199): add license headers and copyright information **`/ap`**
 - [#196](https://github.com/Bitergia/prosoul/pull/196): [docs] fixed minor typos in README.md **`/ap`**
 
-Issues
-
-- [#205](https://github.com/Bitergia/prosoul/issues/205): Kibana dashboard URL doesn't have the port number **`/ap`**
-- [#204](https://github.com/Bitergia/prosoul/issues/204): index_pattern is not up to date in the templates **`/ap`**
-
 #### [chaoss/grimoirelab-elk](https://github.com/chaoss/grimoirelab-elk)
-
-Pull Requests
 
 - [#926](https://github.com/chaoss/grimoirelab-elk/pull/926): [qm-elk] Add support for QM data enrichment **`/cp2`**
 - [#902](https://github.com/chaoss/grimoirelab-elk/pull/902): [qm-elk] Add support for QM data enrichment **`/cp1`**
@@ -66,36 +57,17 @@ Pull Requests
 - [#788](https://github.com/chaoss/grimoirelab-elk/pull/788): Update README.md **`/ap`**
 - [#787](https://github.com/chaoss/grimoirelab-elk/pull/787): [doc] fix mistake in README.md **`/ap`**
 
-Issues
-
-- [#876](https://github.com/chaoss/grimoirelab-elk/issues/876): [Rocket.Chat] Add rocketchat backend support to ELK **`/cb`**
-
 #### [chaoss/grimoirelab-perceval](https://github.com/chaoss/grimoirelab-perceval)
-
-Pull Requests
 
 - [#667](https://github.com/chaoss/grimoirelab-perceval/pull/667): [backend] Add Zulip Backend **`/cb`**
 - [#624](https://github.com/chaoss/grimoirelab-perceval/pull/624), [#623](https://github.com/chaoss/grimoirelab-perceval/pull/623): [perceval] Update license and copyright information **`/ap`**
 - [#615](https://github.com/chaoss/grimoirelab-perceval/pull/615): [github] Update the docstrings **`/ap`**
 
-Issues
-
-- [#668](https://github.com/chaoss/grimoirelab-perceval/issues/668): [googlehits] Returns None object **`/cb`**
-- [#665](https://github.com/chaoss/grimoirelab-perceval/issues/665): Issue template **`/cb`**
-- [#664](https://github.com/chaoss/grimoirelab-perceval/issues/664): [Feature Request] Add support for Trello **`/cb`**
-- [#630](https://github.com/chaoss/grimoirelab-perceval/issues/630): [Feature Request] Add support for Zulip **`/ap`**
-
 #### [chaoss/grimoirelab-sirmordred](https://github.com/chaoss/grimoirelab-sirmordred)
-
-Pull Requests
 
 - [#476](https://github.com/chaoss/grimoirelab-sirmordred/pull/476): [docs] Update Getting-Started.md result image **`/cp1`**
 - [#450](https://github.com/chaoss/grimoirelab-sirmordred/pull/450): [docs] revamp of getting-started.md **`/ap`**
 - [#431](https://github.com/chaoss/grimoirelab-sirmordred/pull/431): Fix askbot configuration typos **`/ap`**
-
-Issues
-
-- [#433](https://github.com/chaoss/grimoirelab-sirmordred/issues/433):  Issue regarding the back-links #433 **`/ap`**
 
 > **Tags**:
 > - **a**pplication **p**eriod : **`/ap`**
