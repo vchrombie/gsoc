@@ -37,6 +37,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 
 #### [Bitergia/prosoul](https://github.com/Bitergia/prosoul)
 
+- [#213](https://github.com/Bitergia/prosoul/pull/213): [doc] Update the repo with the latest images **`/cp3`**
 - [#207](https://github.com/Bitergia/prosoul/pull/207): [panels] update attribute-template.json **`/ap`**
 - [#206](https://github.com/Bitergia/prosoul/pull/206): [views] update the viz result kibana_url **`/ap`**
 - [#203](https://github.com/Bitergia/prosoul/pull/203): [assessment] Fix the TemplateSyntaxError **`/ap`**
@@ -68,6 +69,11 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 - [#476](https://github.com/chaoss/grimoirelab-sirmordred/pull/476): [docs] Update Getting-Started.md result image **`/cp1`**
 - [#450](https://github.com/chaoss/grimoirelab-sirmordred/pull/450): [docs] revamp of getting-started.md **`/ap`**
 - [#431](https://github.com/chaoss/grimoirelab-sirmordred/pull/431): Fix askbot configuration typos **`/ap`**
+
+#### [chaoss/grimoirelab-sigils](https://github.com/chaoss/grimoirelab-sigils)
+
+- [#470](https://github.com/chaoss/grimoirelab-sigils/pull/470):  [qm] Add qm dashboard **`/cp3`**
+- [#469](https://github.com/chaoss/grimoirelab-sigils/pull/469):  Update documentation about Kidash **`/cp3`**
 
 > **Tags**:
 > - **a**pplication **p**eriod : **`/ap`**
@@ -107,6 +113,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 ### Coding Period 3 (August 1, 2020 - August 24, 2020)
 
 - Week 10: [Report](work/week-10/#week-10-summary) | Blog Post :point_right: [semana diez](https://vchrombie.github.io/blog/coding-period-3-week-10).
+- Week 11: [Report](work/week-11/#week-11-summary) | Blog Post :point_right: [semana once](https://vchrombie.github.io/blog/coding-period-3-week-11).
 
 ## Links
 
