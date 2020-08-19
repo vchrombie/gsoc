@@ -38,6 +38,9 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 #### [Bitergia/prosoul](https://github.com/Bitergia/prosoul)
 
 - [#213](https://github.com/Bitergia/prosoul/pull/213): [doc] Update the repo with the latest images **`/cp3`**
+- [#212](https://github.com/Bitergia/prosoul/pull/212): Update README.md **`/ap`**
+- [#210](https://github.com/Bitergia/prosoul/pull/210): [docs] Revamp README.md **`/ap`**
+- [#209](https://github.com/Bitergia/prosoul/pull/209): [travis] Upgrade setuptools and pip **`/ap`**
 - [#207](https://github.com/Bitergia/prosoul/pull/207): [panels] update attribute-template.json **`/ap`**
 - [#206](https://github.com/Bitergia/prosoul/pull/206): [views] update the viz result kibana_url **`/ap`**
 - [#203](https://github.com/Bitergia/prosoul/pull/203): [assessment] Fix the TemplateSyntaxError **`/ap`**
