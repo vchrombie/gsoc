@@ -127,5 +127,5 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 
 ## Footnotes
 
-- We will be discussing about the progress of this project every week at the `#grimoirelab` channel on freenode IRC (scheduled for every Thursday 17h to 18h (CEST) or 20h30 to 21h30 (IST)). The transcripts of the meetings (chats) are available in [meetings](meetings/) directory.
+- We will be discussing about the progress of this project every week at the `#grimoirelab` channel on freenode IRC (scheduled for every Thursday ~~17h to 18h~~ 18h to 19h (CEST) or ~~20h30 to 21h30~~ 21h30 to 22h30 (IST)). The transcripts of the meetings (chats) are available in [meetings](meetings/) directory.
 - I will be writing a blog post every week (mostly on Monday) explaning the work I did over the week. You can find the links to the work summary and blog posts in the [work](work/) directory.
