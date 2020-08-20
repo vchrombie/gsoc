@@ -1,0 +1,280 @@
+date: Thursday 20 August 2020
+participants: inishchith, valcos, vchrombie, polaris000
+start time: 9:25:28 PM IST
+end time: 10:49:23 PM IST
+duration: 1:23:55 hours
+--------------------------------------------------------------------------------
+
+[9:25:28 PM IST] Join	You (~p0tt3r@2409:4070:4082:323:d07:b538:f841:6bd) have joined the channel #grimoirelab.
+[9:25:36 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[9:25:36 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[9:28:19 PM IST] Join	polaris000 (~polaris00@49.206.41.118) has joined this channel.
+[9:30:23 PM IST] <polaris000>	hi all!
+[9:30:32 PM IST] <vchrombie>	Hello everyone
+[9:31:05 PM IST] Join	inishchith (6ac957b8@106.201.87.184) has joined this channel.
+[9:31:32 PM IST] <vchrombie>	Hi inishchith
+[9:31:37 PM IST] <polaris000>	hi inishchith
+[9:31:50 PM IST] <vchrombie>	how are you both polaris000, inishchith
+[9:31:59 PM IST] <inishchith>	Hi vchrombie, polaris000 :)
+[9:32:01 PM IST] <valcos>	Hi all
+[9:32:03 PM IST] <inishchith>	Hi valcos
+[9:32:13 PM IST] <inishchith>	Doing good!, how's it going everyone!
+[9:32:16 PM IST] <inishchith>	?*
+[9:32:19 PM IST] <vchrombie>	Hi valcos
+[9:32:28 PM IST] <polaris000>	hope everyones well
+[9:33:12 PM IST] <vchrombie>	I am doing good. :)
+[9:33:46 PM IST] <vchrombie>	Saw the message of David
+[9:33:51 PM IST] <vchrombie>	he might not join
+[9:33:55 PM IST] <polaris000>	yeah
+[9:33:58 PM IST] <inishchith>	yep
+[9:34:32 PM IST] <vchrombie>	so, i think we can start the meeting
+[9:34:43 PM IST] <polaris000>	lets start then
+[9:34:44 PM IST] <valcos>	sure
+[9:34:48 PM IST] <vchrombie>	thanks
+[9:35:09 PM IST] <vchrombie>	I'll start with the work I did over the week
+[9:35:44 PM IST] <inishchith>	(y) .
+[9:35:51 PM IST] <vchrombie>	So, I completed the study of CHAOSS project
+[9:36:05 PM IST] <vchrombie>	as I updated before, I had to perform the study in two parts
+[9:36:20 PM IST] <vchrombie>	one for all the metric working groups and one for software projects
+[9:36:41 PM IST] <vchrombie>	another point I would like to add to this
+[9:37:08 PM IST] <vchrombie>	the metrics which I chose might not suit for metrics wg case
+[9:37:23 PM IST] <vchrombie>	as most of the discussions happen in video calls and through mails
+[9:37:42 PM IST] <vchrombie>	I would like to look back at this study (maybe after gsoc)
+[9:38:01 PM IST] <vchrombie>	discuss with the community members and all the metric working groups
+[9:38:36 PM IST] <vchrombie>	and see what metrics do they think that would make more sense
+[9:39:25 PM IST] <valcos>	in the context of GSoC, does it make sense to discard the analysis of the WGs?
+[9:39:47 PM IST] <vchrombie>	ya no problem
+[9:40:09 PM IST] <vchrombie>	I already mentioned it in the blog post
+[9:40:49 PM IST] <vchrombie>	but I can remove it from the final report if that's not needed
+[9:41:21 PM IST] <valcos>	yes, better to remove it from the final report, thanks. wrt the software projects, did you find some interesting findings?
+[9:41:47 PM IST] <vchrombie>	https://github.com/vchrombie/gsoc/issues/13#issuecomment-674579264
+[9:41:53 PM IST] <valcos>	and did the QM data work better than the single dashboards?
+[9:42:45 PM IST] <vchrombie>	> wrt the software projects, did you find some interesting findings?
+[9:43:36 PM IST] <vchrombie>	yes, I found one thing
+[9:43:58 PM IST] <vchrombie>	kibiter was top wrt to the number of commits metric
+[9:44:17 PM IST] <vchrombie>	I changed many thresholds but it severely affected the other projects
+[9:44:45 PM IST] <valcos>	this is because Kibiter is a fork of Kibana and we get all upstream activity
+[9:44:50 PM IST] <vchrombie>	Kibiter is a soft fork of Kibana
+[9:45:02 PM IST] <vchrombie>	yeah, I understood it
+[9:46:29 PM IST] <valcos>	> Kibiter is a soft fork of Kibana
+[9:47:16 PM IST] <valcos>	right, but in github there is no difference between soft and hard forks
+[9:47:50 PM IST] <valcos>	this could be a limitation to comment on the final report. For forked projects, the results may not be accurated wrt the work done on the fork
+[9:48:11 PM IST] <valcos>	does it make sense?
+[9:48:25 PM IST] <vchrombie>	okay
+[9:48:45 PM IST] <vchrombie>	> so it carried all the commits of the upstream rp
+[9:49:18 PM IST] <vchrombie>	yes, this is a limitation
+[9:49:27 PM IST] <vchrombie>	thanks for the suggestion valcos
+[9:49:48 PM IST] <valcos>	you're welcome vchrombie
+[9:50:25 PM IST] <vchrombie>	also one more point
+[9:51:14 PM IST] <valcos>	sure
+[9:52:40 PM IST] <vchrombie>	ELK topped the list (though augur has ~ equal activity)
+[9:53:05 PM IST] <vchrombie>	number of pull requests received was the deciding factor
+[9:53:35 PM IST] <vchrombie>	to be a good project wrt this, project has to show good results in all the metrics
+[9:54:23 PM IST] <vchrombie>	the qm study gives an overall picture
+[9:54:31 PM IST] <valcos>	interesting!
+[9:55:13 PM IST] <valcos>	thank you vchrombie
+[9:55:34 PM IST] <vchrombie>	:)
+[9:55:50 PM IST] <vchrombie>	I will try to note a few more points and maybe tweet about it
+[9:55:51 PM IST] <polaris000>	I agree! Good, vchrombie
+[9:56:11 PM IST] <vchrombie>	I will verify, maybe I will put them in the issues
+[9:56:16 PM IST] <vchrombie>	so you can check too
+[9:56:39 PM IST] <valcos>	cool!
+[9:56:49 PM IST] <valcos>	a question on the analysis
+[9:57:07 PM IST] <valcos>	augur is a single-repo project
+[9:57:13 PM IST] <vchrombie>	yes
+[9:57:15 PM IST] <valcos>	grimoirelab has many repos
+[9:57:21 PM IST] <vchrombie>	true
+[9:58:03 PM IST] <valcos>	could it make sense to comment on a possible extension of this work in the final report
+[9:58:43 PM IST] <valcos>	to let aggregate the scores of different repos that belong to the same project
+[9:58:44 PM IST] <vchrombie>	a similar thing I had in mind
+[9:58:50 PM IST] <vchrombie>	yes exactly
+[9:59:16 PM IST] <valcos>	I don't know if it could be useful to try to aggregate the scores manually
+[9:59:24 PM IST] <valcos>	and compare them against augur
+[9:59:40 PM IST] <valcos>	an end-user of prosoul
+[10:00:07 PM IST] <valcos>	could be interested to know whether it is better to join
+[10:00:17 PM IST] <valcos>	augur or grimoirelab
+[10:00:24 PM IST] <valcos>	based on the QM defined
+[10:00:42 PM IST] <valcos>	does this question make sense for you?
+[10:01:03 PM IST] <vchrombie>	yeah, even I had that thought
+[10:01:35 PM IST] <vchrombie>	this can be approached from enricher side without much change to prosoul
+[10:02:08 PM IST] <vchrombie>	the main primary key on the data, the whole assessment would run on the 'key'
+[10:02:09 PM IST] <valcos>	right!
+[10:02:19 PM IST] <vchrombie>	key 'project'
+[10:02:47 PM IST] <vchrombie>	right now, we have 'project' mapped to the project name
+[10:03:00 PM IST] <vchrombie>	grimoirelab-elk, augur, grimoirelab-perceval
+[10:03:25 PM IST] <valcos>	ok
+[10:03:38 PM IST] <valcos>	do you plan to add this part as future work
+[10:03:52 PM IST] <valcos>	or code it before the end of GSoC?
+[10:04:21 PM IST] <vchrombie>	if we can map this 'project' key to grimoirelab/augur, then that is possible withouth much work from prosoul side
+[10:04:46 PM IST] <vchrombie>	> do you plan to add this part as future work
+[10:05:03 PM IST] <vchrombie>	I would choose this as I have the planned work still pending
+[10:05:17 PM IST] <vchrombie>	I'm yet to complete the videos
+[10:05:21 PM IST] <valcos>	ok, sounds good
+[10:05:33 PM IST] <vchrombie>	I have started it today, but it takes time for editing and stuff
+[10:05:54 PM IST] <valcos>	i can imagine ^^
+[10:06:22 PM IST] <vchrombie>	but I have a doubt on the implementation
+[10:06:45 PM IST] <vchrombie>	when we define projects.json
+[10:06:51 PM IST] <vchrombie>	we have it like
+[10:06:54 PM IST] <vchrombie>	grimoirelab
+[10:07:12 PM IST] <vchrombie>	grimoirelab-elk
+[10:07:16 PM IST] <vchrombie>	grimoirelab-perceval
+[10:07:21 PM IST] <vchrombie>	...
+[10:07:26 PM IST] <vchrombie>	augur
+[10:07:30 PM IST] <vchrombie>	augur
+[10:07:36 PM IST] <vchrombie>	augur-auggie
+[10:07:58 PM IST] <vchrombie>	sorry it might be confusing
+[10:08:02 PM IST] <vchrombie>	I will get an example
+[10:08:19 PM IST] <vchrombie>	grimoirelab-elk
+[10:08:31 PM IST] <vchrombie>	https://gitlab.com/Bitergia/c/CHAOSS/sources/-/raw/master/projects.json
+[10:09:06 PM IST] <vchrombie>	so the level 1 keys are GrimoireLab, Augur, Cregit
+[10:09:16 PM IST] <valcos>	thank you for the link
+[10:09:17 PM IST] <vchrombie>	level 2 are data sources (github, git)
+[10:09:28 PM IST] <vchrombie>	level 3 are projects
+[10:09:59 PM IST] <vchrombie>	I was thinking if we can use the level 1 key values while enriching
+[10:10:38 PM IST] <valcos>	yes, it is possible
+[10:10:43 PM IST] <vchrombie>	I think it should involve sorting hat then, correct me if I am wrong
+[10:10:59 PM IST] <vchrombie>	or is it not needed?
+[10:11:07 PM IST] <valcos>	it isn't needed
+[10:11:16 PM IST] <valcos>	I'm looking for a pointer to the code
+[10:11:23 PM IST] <vchrombie>	ohk ok
+[10:11:35 PM IST] <vchrombie>	> yes, it is possible
+[10:11:45 PM IST] <vchrombie>	then that is defintely great
+[10:13:04 PM IST] <valcos>	https://github.com/chaoss/grimoirelab-elk/blob/master/grimoire_elk/enriched/github.py#L514
+[10:13:04 PM IST] <vchrombie>	if we map the 'project' key to this level 1 values, then there is not much work needed in prosoul
+[10:13:31 PM IST] <valcos>	the method get_item_project
+[10:13:32 PM IST] <vchrombie>	but we have a disadvantage, we might lose the deeper insights like comparing projetcs
+[10:13:33 PM IST] <valcos>	https://github.com/chaoss/grimoirelab-elk/blob/3a71ea0444a05897c7b5138ef91e6dda2045e24c/grimoire_elk/enriched/enrich.py#L597
+[10:14:02 PM IST] <valcos>	adds the project name (level 1 key)
+[10:14:11 PM IST] <vchrombie>	thats great!
+[10:14:12 PM IST] <valcos>	> but we have a disadvantage, we might lose the deeper insights like comparing projetcs
+[10:14:36 PM IST] <valcos>	yep
+[10:14:54 PM IST] <vchrombie>	to mitigate that problem, we have introduce a new key to the data and improve prosoul
+[10:15:18 PM IST] <valcos>	in the final report we can comment on it
+[10:15:54 PM IST] <vchrombie>	that would be a very good addition
+[10:15:59 PM IST] <valcos>	cool!
+[10:16:01 PM IST] <vchrombie>	> in the final report we can comment on it
+[10:16:06 PM IST] <vchrombie>	sure valcos, will do it
+[10:16:17 PM IST] <valcos>	thanks
+[10:17:01 PM IST] <vchrombie>	ok so, I will move on to the next item
+[10:17:17 PM IST] <vchrombie>	I have also worked on updating the documentation
+[10:17:34 PM IST] <vchrombie>	in the prosoul repo, some minor changes are left
+[10:17:42 PM IST] <vchrombie>	will complete them by tonight
+[10:18:22 PM IST] <valcos>	cool!
+[10:18:23 PM IST] <vchrombie>	also what you info would like to see in the qm enrichers folder in elk
+[10:18:49 PM IST] <vchrombie>	I can make a README.md, add it would be helpful too
+[10:19:12 PM IST] <valcos>	a readme in that folder would be perfect
+[10:19:47 PM IST] <valcos>	wrt the info in that file
+[10:20:02 PM IST] <valcos>	it would be useful to describe the schema produced by these enrichers and the metrics
+[10:20:35 PM IST] <vchrombie>	ok perfect
+[10:20:43 PM IST] <vchrombie>	also I had another doubt
+[10:20:52 PM IST] <vchrombie>	regarding the schema
+[10:21:09 PM IST] <vchrombie>	I made a script long back to generate the schema from a given index
+[10:21:21 PM IST] <vchrombie>	I realized that all the schema would looks same
+[10:21:51 PM IST] <valcos>	yes
+[10:22:00 PM IST] <valcos>	a generic schema is OK
+[10:22:11 PM IST] <vchrombie>	but the description would vary
+[10:22:23 PM IST] <vchrombie>	so should I add only one common schema
+[10:22:46 PM IST] <vchrombie>	wait sorry, I think I have mistaken
+[10:22:52 PM IST] <valcos>	a common schema and the different metrics that are produced
+[10:22:56 PM IST] <vchrombie>	sorry sorry
+[10:22:58 PM IST] <vchrombie>	ya right
+[10:22:59 PM IST] <valcos>	no worries
+[10:23:15 PM IST] <vchrombie>	> a common schema and the different metrics that are produced
+[10:23:19 PM IST] <vchrombie>	ah ok, I will do that
+[10:23:54 PM IST] <valcos>	cool!
+[10:23:58 PM IST] <vchrombie>	I have worked on the tests but they are not fully covered
+[10:24:18 PM IST] <vchrombie>	does it make sense to merge the PR only after everything is done
+[10:24:27 PM IST] <vchrombie>	it might take some time
+[10:24:47 PM IST] <vchrombie>	I can work on it even after the gsoc period if that's ok
+[10:24:58 PM IST] <valcos>	ok!
+[10:25:12 PM IST] <valcos>	we can merge the PR in the last week of GSoC
+[10:25:29 PM IST] <vchrombie>	Ok
+[10:25:30 PM IST] <valcos>	and then you can submit more PRs to increase the test coverage
+[10:25:34 PM IST] <valcos>	as you prefer
+[10:25:47 PM IST] <vchrombie>	ok perfect, that works
+[10:26:28 PM IST] <valcos>	cool!
+[10:26:40 PM IST] <vchrombie>	two last doubts
+[10:26:49 PM IST] <vchrombie>	1. regarding this issue https://github.com/vchrombie/gsoc/issues/18
+[10:27:34 PM IST] <vchrombie>	I feel it is good to use only one item, either origin or search_fields
+[10:28:06 PM IST] <vchrombie>	so should use only one item or should i decide depending on the data source
+[10:29:16 PM IST] <valcos>	I agree with you that it would be better to use only one item
+[10:29:46 PM IST] <valcos>	origin doesn't work for some data sources (e.g., meetup, stackoverflow)
+[10:30:22 PM IST] <vchrombie>	yeah
+[10:30:33 PM IST] <valcos>	search_terms had other limitations, right?
+[10:30:49 PM IST] <vchrombie>	yes, but it can be covered
+[10:31:14 PM IST] <vchrombie>	it has limitations just because it was introduced recently
+[10:31:33 PM IST] <vchrombie>	but the data might be generated before that
+[10:31:41 PM IST] <valcos>	ok
+[10:31:48 PM IST] <valcos>	that's right
+[10:32:02 PM IST] <valcos>	we can go for the search_fields then
+[10:32:06 PM IST] <valcos>	wdyt?
+[10:32:16 PM IST] <vchrombie>	yes, that would be better
+[10:32:46 PM IST] <valcos>	ok cool
+[10:32:48 PM IST] <vchrombie>	if search_fields doesn't fit, then I have to choose origin
+[10:32:52 PM IST] <vchrombie>	eg. pipermail
+[10:33:41 PM IST] <valcos>	ok
+[10:33:44 PM IST] <vchrombie>	ok then, the last doubt is about the final report
+[10:34:14 PM IST] <vchrombie>	would blog post be enough for it?
+[10:34:35 PM IST] <vchrombie>	I have looked at inishchith and polaris000 previous reports
+[10:35:02 PM IST] <vchrombie>	I got a basic idea, you can expect to receive one draft by Monday
+[10:35:20 PM IST] <vchrombie>	for reviewing, once it is completed
+[10:35:27 PM IST] <vchrombie>	I can post and submit the report
+[10:35:38 PM IST] <vchrombie>	does that sound good
+[10:36:11 PM IST] <valcos>	+1. wdyt inishchith and polaris000?
+[10:36:27 PM IST] <inishchith>	Sounds good vchrombie
+[10:36:29 PM IST] <polaris000>	sounds good to me..
+[10:36:50 PM IST] <polaris000>	gifs and videos wouldn't hurt too :)
+[10:36:56 PM IST] <polaris000>	(in the post)
+[10:37:13 PM IST] <vchrombie>	sure sure, all that would be there :)
+[10:37:22 PM IST] <polaris000>	excellent
+[10:37:36 PM IST] <valcos>	cool!
+[10:37:47 PM IST] <vchrombie>	the work left over right now
+[10:38:07 PM IST] <vchrombie>	finalazing a few PRs and the videos
+[10:38:11 PM IST] <vchrombie>	and the final report
+[10:39:10 PM IST] <valcos>	do you see any blocker to complete the last tasks?
+[10:39:41 PM IST] <vchrombie>	last tasks, I didnt get that
+[10:39:48 PM IST] <vchrombie>	you mean the previous week tasks
+[10:40:06 PM IST] <vchrombie>	or the last ones in the to-do tasks
+[10:40:31 PM IST] <valcos>	sorry for the misunderstanding
+[10:41:10 PM IST] <valcos>	I meant the last tasks in general. If you need some input/review to close the ones from previous weeks
+[10:41:29 PM IST] <valcos>	and finalize the ones you commented above
+[10:42:43 PM IST] <vchrombie>	I opened a PR to add the dashboard
+[10:42:55 PM IST] <vchrombie>	but I later realized that it needed documentation too
+[10:43:09 PM IST] <vchrombie>	it was kinda surprise :D
+[10:43:34 PM IST] <vchrombie>	I can look at the examples and can complete it, no problem
+[10:44:17 PM IST] <valcos>	^^
+[10:44:18 PM IST] <vchrombie>	can you review the PRs in prosoul
+[10:44:19 PM IST] <valcos>	ok
+[10:44:23 PM IST] <valcos>	sure!
+[10:44:24 PM IST] <vchrombie>	maybe tomorrow
+[10:44:39 PM IST] <vchrombie>	I will complete the work on it by tonight
+[10:44:50 PM IST] <valcos>	ok, I'll check it with David
+[10:45:28 PM IST] <vchrombie>	you can take your time with that, there is no hurry :)
+[10:45:30 PM IST] <valcos>	since I'm not part of Bitergia anymore, I cannot merge PRs
+[10:45:41 PM IST] <vchrombie>	yeah, I got it
+[10:46:03 PM IST] <vchrombie>	omg, I was not checking the time
+[10:46:21 PM IST] <vchrombie>	sorry, we crossed 15 min already :-|
+[10:46:27 PM IST] <valcos>	that's true
+[10:46:30 PM IST] <valcos>	sorry I didn't notice either
+[10:46:42 PM IST] <valcos>	if there is nothing else to discuss we can close the meeting
+[10:46:44 PM IST] <valcos>	sorry again
+[10:46:54 PM IST] <vchrombie>	I dont have anything from my side
+[10:47:04 PM IST] <polaris000>	nothing from my side either...
+[10:47:10 PM IST] <vchrombie>	if there is anything left, I will message in the group
+[10:47:15 PM IST] <polaris000>	inishchith?
+[10:47:46 PM IST] <inishchith>	Nah.
+[10:47:48 PM IST] <vchrombie>	also, one last thing
+[10:47:57 PM IST] <vchrombie>	can we meet next Thursday?
+[10:48:05 PM IST] <vchrombie>	maybe the last meeting
+[10:48:17 PM IST] <valcos>	ok from my side
+[10:48:21 PM IST] <polaris000>	of course
+[10:48:23 PM IST] <polaris000>	i'll be there
+[10:48:53 PM IST] <inishchith>	I shall be there too, I'll let you know otherwise.
+[10:48:56 PM IST] <vchrombie>	ok thanks everyone, will meet you next week then :)
+[10:49:03 PM IST] <vchrombie>	bye all :)
+[10:49:08 PM IST] <inishchith>	Bye everyone!
+[10:49:11 PM IST] <polaris000>	bye all!
+[10:49:11 PM IST] <valcos>	bye everyone
+[10:49:11 PM IST] Quit	inishchith (6ac957b8@106.201.87.184) has left this server (Remote host closed the connection).
+[10:49:20 PM IST] Quit	valcos (~valcos@188.26.215.99) has left this server (Quit: Quitte).
+[10:49:23 PM IST] Part	polaris000 (~polaris00@49.206.41.118) has left this channel ("Konversation terminated!").
