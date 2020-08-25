@@ -36,7 +36,9 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 ## Pull Requests
 
 #### [Bitergia/prosoul](https://github.com/Bitergia/prosoul)
-
+ 
+- [#216](https://github.com/Bitergia/prosoul/pull/216): [doc] Update prosoul-grimoirelab.md **`/cp3`**
+- [#215](https://github.com/Bitergia/prosoul/pull/215): [docker] Update docker-compose.yml **`/cp3`**
 - [#213](https://github.com/Bitergia/prosoul/pull/213): [doc] Update the repo with the latest images **`/cp3`**
 - [#212](https://github.com/Bitergia/prosoul/pull/212): Update README.md **`/ap`**
 - [#210](https://github.com/Bitergia/prosoul/pull/210): [docs] Revamp README.md **`/ap`**
@@ -69,6 +71,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 
 #### [chaoss/grimoirelab-sirmordred](https://github.com/chaoss/grimoirelab-sirmordred)
 
+- [#486](https://github.com/chaoss/grimoirelab-sirmordred/pull/486): [doc] Add instructions for QM Enrichers **`/cp3`**
 - [#476](https://github.com/chaoss/grimoirelab-sirmordred/pull/476): [docs] Update Getting-Started.md result image **`/cp1`**
 - [#450](https://github.com/chaoss/grimoirelab-sirmordred/pull/450): [docs] revamp of getting-started.md **`/ap`**
 - [#431](https://github.com/chaoss/grimoirelab-sirmordred/pull/431): Fix askbot configuration typos **`/ap`**
@@ -117,6 +120,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 
 - Week 10: [Report](work/week-10/#week-10-summary) | Blog Post :point_right: [semana diez](https://vchrombie.github.io/blog/coding-period-3-week-10).
 - Week 11: [Report](work/week-11/#week-11-summary) | Blog Post :point_right: [semana once](https://vchrombie.github.io/blog/coding-period-3-week-11).
+- Week 12: [Report](work/week-12/#week-12-summary) | Blog Post :point_right: [semana doce](https://vchrombie.github.io/blog/coding-period-3-week-12).
 
 ## Links
 
