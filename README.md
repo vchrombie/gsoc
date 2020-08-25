@@ -121,6 +121,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 - Week 10: [Report](work/week-10/#week-10-summary) | Blog Post :point_right: [semana diez](https://vchrombie.github.io/blog/coding-period-3-week-10).
 - Week 11: [Report](work/week-11/#week-11-summary) | Blog Post :point_right: [semana once](https://vchrombie.github.io/blog/coding-period-3-week-11).
 - Week 12: [Report](work/week-12/#week-12-summary) | Blog Post :point_right: [semana doce](https://vchrombie.github.io/blog/coding-period-3-week-12).
+- :parachute: Final Evaluation Period (August 24 - September 7): PENDING :hourglass_flowing_sand:.
 
 ## Links
 
