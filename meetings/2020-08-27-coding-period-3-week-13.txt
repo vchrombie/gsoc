@@ -1,0 +1,262 @@
+date: Thursday 27 August 2020
+participants: polaris000, vchrombie, valcos, dlumbrer
+start time: 9:26:04 PM IST
+end time: 10:42:41 PM IST
+duration: 1:16:37 hours
+--------------------------------------------------------------------------------
+
+[9:26:04 PM IST] Join	You (~p0tt3r@2409:4070:2296:36c9:9868:3535:26e3:2d01) have joined the channel #grimoirelab.
+[9:26:07 PM IST] Mode	Channel modes: no colors allowed, no messages from outside, topic protection
+[9:26:07 PM IST] Created	This channel was created on 28/08/17 10:32 PM.
+[9:26:10 PM IST] <dlumbrer	[m]> hahaha that's nice, but I'm a Warzone player ;)
+[9:26:18 PM IST] Nick	Nickname already in use, try a different one.
+[9:26:19 PM IST] Nick	Nickname already in use, try a different one.
+[9:26:57 PM IST] <valcos>	aaaa nice nice
+[9:27:08 PM IST] Join	polaris000 (~polaris00@49.206.37.173) has joined this channel.
+[9:27:18 PM IST] Nick	Nickname already in use, try a different one.
+[9:27:26 PM IST] Quit	vchrombie (~p0tt3r@2409:4070:4e1b:a57c:9868:3535:26e3:2d01) has left this server (Ping timeout: 240 seconds).
+[9:27:33 PM IST] Nick	You are now known as vchrombie.
+[9:27:34 PM IST] <valcos>	I installed it once
+[9:27:40 PM IST] <valcos>	but never player
+[9:27:44 PM IST] <valcos>	played
+[9:27:57 PM IST] <vchrombie>	Hello dlumbrer valcos
+[9:28:04 PM IST] <vchrombie>	How are you both?
+[9:28:05 PM IST] <valcos>	Hi polaris000 and vchrombie
+[9:28:12 PM IST] <valcos>	I'm fine thanks, and you?
+[9:28:13 PM IST] <vchrombie>	Hi polaris000
+[9:28:17 PM IST] <vchrombie>	I am good too
+[9:28:26 PM IST] <polaris000>	hi all
+[9:28:26 PM IST] <dlumbrer	[m]> I'm good!
+[9:28:29 PM IST] <vchrombie>	were you talking about games? :P
+[9:28:29 PM IST] <polaris000>	im good
+[9:28:31 PM IST] <dlumbrer	[m]> Hi polaris000
+[9:28:37 PM IST] <polaris000>	hi dlumbrer[m]
+[9:29:02 PM IST] <valcos>	yes ^^
+[9:29:14 PM IST] <valcos>	the next season of fornite is out
+[9:29:28 PM IST] <valcos>	dlumber likes CoD warzone
+[9:29:32 PM IST] <polaris000>	haha.. i play fortnite quite a bit
+[9:29:39 PM IST] <valcos>	nice!
+[9:29:55 PM IST] <valcos>	have you checked the last update?
+[9:29:59 PM IST] <polaris000>	yes
+[9:30:03 PM IST] <vchrombie>	marvel?
+[9:30:07 PM IST] <valcos>	yes
+[9:30:07 PM IST] <polaris000>	yeah
+[9:30:11 PM IST] <dlumbrer	[m]> Hahaha, CoD vs Fortnite, the eternal fight
+[9:30:19 PM IST] <valcos>	eheheh that's true
+[9:30:23 PM IST] <polaris000>	true
+[9:30:24 PM IST] <vchrombie>	oh yeah, I came across it today :D
+[9:31:01 PM IST] <valcos>	it looks promising ^^
+[9:32:19 PM IST] <valcos>	vchrombie do you know if inishchith is joining?
+[9:32:20 PM IST] <polaris000>	they brought back quite a few old weapons
+[9:32:28 PM IST] <valcos>	yes!
+[9:32:38 PM IST] <polaris000>	that was pretty exciting
+[9:33:04 PM IST] <valcos>	^^
+[9:33:38 PM IST] <vchrombie>	umm, he didn't ping me saying anything about it
+[9:33:46 PM IST] <vchrombie>	so I think he might join soon
+[9:34:06 PM IST] <vchrombie>	we can start in 2 min maybe, wdyt?
+[9:34:16 PM IST] <valcos>	sure!
+[9:34:19 PM IST] <polaris000>	ok
+[9:34:19 PM IST] <valcos>	thanks
+[9:34:21 PM IST] <dlumbrer	[m]> ok!
+[9:34:33 PM IST] <valcos>	have you ever played apex?
+[9:34:50 PM IST] <polaris000>	nope
+[9:35:01 PM IST] <dlumbrer	[m]> I have it installed in my pc, but never tried
+[9:36:26 PM IST] <valcos>	it isn't bad, but a bit more complex that fortnite (players have abilities and you need some time to master them)
+[9:36:34 PM IST] <valcos>	https://www.youtube.com/watch?v=NNp8hA4QpRU
+[9:37:45 PM IST] <dlumbrer	[m]> I'll give it a shot
+[9:37:50 PM IST] <polaris000>	is it only first person?
+[9:38:14 PM IST] <valcos>	afaik yes
+[9:38:24 PM IST] <polaris000>	ok
+[9:39:19 PM IST] <vchrombie>	I recently started playing csgo :P
+[9:39:37 PM IST] <vchrombie>	well, I will try what all you have some time :D
+[9:39:44 PM IST] <vchrombie>	I am a noob tho xD
+[9:39:53 PM IST] <valcos>	^^
+[9:39:57 PM IST] <polaris000>	haha
+[9:40:10 PM IST] <polaris000>	any update on inishdchit?
+[9:40:21 PM IST] <vchrombie>	no
+[9:40:27 PM IST] <vchrombie>	maybe we will start the meeting
+[9:40:32 PM IST] <vchrombie>	I will send him the logs
+[9:41:03 PM IST] <vchrombie>	what do you all think?
+[9:41:03 PM IST] <valcos>	ok, perfect
+[9:41:09 PM IST] <vchrombie>	ok then
+[9:41:12 PM IST] <polaris000>	sure
+[9:41:28 PM IST] <vchrombie>	I will start with the work I did over the last week
+[9:41:43 PM IST] <vchrombie>	I was mainly focused on preparing the final report draft
+[9:42:02 PM IST] <vchrombie>	it is near to completion, will send it tonight for review
+[9:42:13 PM IST] <vchrombie>	(google doc)
+[9:42:19 PM IST] <vchrombie>	you can drop your comments in the comments
+[9:42:51 PM IST] <vchrombie>	sorry
+[9:42:56 PM IST] <vchrombie>	xD
+[9:43:00 PM IST] <valcos>	^^
+[9:43:05 PM IST] <vchrombie>	your comments in the doc
+[9:43:08 PM IST] <polaris000>	ha
+[9:43:10 PM IST] <vchrombie>	my bad
+[9:43:18 PM IST] <dlumbrer	[m]> hahaha
+[9:43:54 PM IST] <vchrombie>	I will complete the submission on 30 (31is the last date)
+[9:44:18 PM IST] <valcos>	cool!
+[9:44:21 PM IST] <vchrombie>	I was also working on making the tutorials
+[9:44:38 PM IST] <vchrombie>	I planned to make two
+[9:45:11 PM IST] <vchrombie>	first is the the whole workflow of the project
+[9:45:16 PM IST] <vchrombie>	https://github.com/vchrombie/prosoul/blob/documentation/doc/prosoul-grimoirelab.md
+[9:45:23 PM IST] <vchrombie>	same thing in the video form basically
+[9:46:13 PM IST] <vchrombie>	this would serve good in the final report too
+[9:46:56 PM IST] <vchrombie>	I was editing the videos (removing the lag, adding subtitles)
+[9:47:07 PM IST] <vchrombie>	almost near to its completion
+[9:47:20 PM IST] <vchrombie>	even that should be completed by tonight
+[9:48:12 PM IST] <vchrombie>	seond video is showing how to work with prosoul (showing different features of prosoul)
+[9:48:46 PM IST] <vchrombie>	view, edit, visualize, assess
+[9:49:12 PM IST] <vchrombie>	what is qm, metrics, admin dashboard
+[9:49:52 PM IST] <vchrombie>	here I took the reference of prosoul-with-grimoirelab
+[9:50:13 PM IST] <vchrombie>	but today morning while I was recording, I faced a problem
+[9:50:45 PM IST] <vchrombie>	visualize feature (with the grimoirelab data) doesn't work
+[9:51:01 PM IST] <vchrombie>	I totally forgot about this during the project
+[9:51:40 PM IST] <valcos>	ok, it isn't a problem
+[9:51:41 PM IST] <vchrombie>	everytime, I performed assessment but I never tried to create visualization using prosoul
+[9:51:59 PM IST] <valcos>	this limitation could be commented in the report
+[9:52:10 PM IST] <vchrombie>	ok, that sounds good
+[9:53:03 PM IST] <vchrombie>	but I was worried that I might miss the feature in the video (prosoul tutorial)
+[9:53:31 PM IST] <vchrombie>	but I have an idea
+[9:53:32 PM IST] <vchrombie>	I can do it with the crossminer data
+[9:53:48 PM IST] <valcos>	that's a good idea
+[9:53:56 PM IST] <vchrombie>	I remember the last time I was playing with crossminer data, it worked well
+[9:54:04 PM IST] <vchrombie>	there was no problem
+[9:54:13 PM IST] <valcos>	ok, nice
+[9:54:27 PM IST] <vchrombie>	so I was thinking I can perform the whole tutorial with crossminer data
+[9:55:08 PM IST] <valcos>	it would be good to show something with the grimoirelab data since it was the goal of the project
+[9:55:28 PM IST] <valcos>	does it sound feasible?
+[9:56:05 PM IST] <vchrombie>	yes, thats fine for me
+[9:56:34 PM IST] <valcos>	ok, cool!
+[9:58:07 PM IST] <vchrombie>	out of the main 4 features of prosoul, view and edit is common for grimoirelab and crossminer
+[9:58:15 PM IST] <vchrombie>	so that wont be a problem
+[9:58:32 PM IST] <valcos>	ok
+[9:58:54 PM IST] <vchrombie>	I will try assess and visualize with crossminer data
+[9:59:06 PM IST] <vchrombie>	and assess with grimoirelab (for now)
+[9:59:34 PM IST] <vchrombie>	well, I want to troubleshoot what might be wrong
+[9:59:55 PM IST] <vchrombie>	as I am free after gsoc, I continue working on it
+[10:00:48 PM IST] <valcos>	perfect, thanks
+[10:01:48 PM IST] <valcos>	something else to comment, vchrombie?
+[10:02:33 PM IST] <vchrombie>	I want to clarify, so I will complete the second video (prosoul tutorial) after the gsoc period
+[10:02:48 PM IST] <vchrombie>	as I might need to reshoot a few things
+[10:03:05 PM IST] <vchrombie>	which might take time
+[10:03:46 PM IST] <valcos>	ok for me
+[10:03:55 PM IST] <polaris000>	same
+[10:04:31 PM IST] <vchrombie>	I know I promised it in time, sorry but I will do it
+[10:04:51 PM IST] <dlumbrer	[m]> ok here
+[10:05:34 PM IST] <valcos>	no worries vchrombie
+[10:05:44 PM IST] <vchrombie>	I dont have any immediate plans after gsoc
+[10:05:56 PM IST] <vchrombie>	so I will continue contributing to it
+[10:06:15 PM IST] <valcos>	nice!
+[10:06:23 PM IST] <valcos>	talking about the contributions
+[10:07:01 PM IST] <valcos>	I cannot merge the PRs under the bitergia organizations (since I left the company I lost the write access on the repos)
+[10:07:14 PM IST] <valcos>	wrt the PR on grimoirelab, I can still merge them
+[10:07:25 PM IST] <valcos>	but ATM I don't have a laptop
+[10:07:46 PM IST] <valcos>	I should receive it at the beginning of September
+[10:08:01 PM IST] <vchrombie>	ah ok, thats fine
+[10:08:16 PM IST] <vchrombie>	I still have some minor work left in enrichers
+[10:08:22 PM IST] <valcos>	I can review the code, but I cannot test it
+[10:08:37 PM IST] <valcos>	ok, perfect then
+[10:09:04 PM IST] <vchrombie>	I want to ask, is it ok if we can merge it after gsoc
+[10:09:39 PM IST] <valcos>	I guess so
+[10:09:54 PM IST] <valcos>	because your work (the PRs and final report)
+[10:10:31 PM IST] <valcos>	must be submitted Aug 31st (I guess the only strict restriction is the final report)
+[10:10:48 PM IST] <vchrombie>	yeah, I went through the rules
+[10:11:27 PM IST] <valcos>	ok, cool
+[10:11:40 PM IST] <valcos>	to recap:
+[10:11:51 PM IST] <valcos>	the draft of the report is almost ready
+[10:12:25 PM IST] <vchrombie>	and the video too
+[10:12:29 PM IST] <valcos>	the second video is going to be ready after gsoc
+[10:12:49 PM IST] <vchrombie>	yes
+[10:12:56 PM IST] <valcos>	the PRs in bitergia org should be merged by Dlumbrer (I can help in the review)
+[10:13:02 PM IST] <vchrombie>	Okay
+[10:13:19 PM IST] <valcos>	the PRs on grimoirelab will be merged as soon as I have a laptop to test the code ^^
+[10:13:29 PM IST] <dlumbrer	[m]> <valcos "the PRs in bitergia org should b"> yeah, sure! thanks valcos
+[10:13:38 PM IST] <valcos>	thanks dlumbrer!
+[10:14:10 PM IST] <valcos>	something else to add?
+[10:14:14 PM IST] <vchrombie>	I need your comments on this PR specifically
+[10:14:17 PM IST] <vchrombie>	https://github.com/Bitergia/prosoul/pull/216
+[10:14:25 PM IST] <vchrombie>	you can check it when you have time
+[10:14:58 PM IST] <vchrombie>	> something else to add?
+[10:15:07 PM IST] <vchrombie>	I don't have anything from my side
+[10:15:23 PM IST] <valcos>	> you can check it when you have time
+[10:15:24 PM IST] <valcos>	sure
+[10:15:31 PM IST] <vchrombie>	I have one question, will ask towards the end of the meeting
+[10:15:43 PM IST] <dlumbrer	[m]> <vchrombie "you can check it when you have t"> sure
+[10:16:26 PM IST] <valcos>	dlumbrer polaris000 do you want to comment on something?
+[10:16:37 PM IST] <polaris000>	nothing from my side, thanks valcos
+[10:16:46 PM IST] <dlumbrer	[m]> I think everything is clear
+[10:16:50 PM IST] <dlumbrer	[m]> thanks
+[10:17:04 PM IST] <valcos>	nice! you're welcome
+[10:17:37 PM IST] <valcos>	well, this is the last meeting
+[10:17:53 PM IST] <valcos>	it has been a pleasure to work with all of you
+[10:18:05 PM IST] <polaris000>	same hear!
+[10:18:10 PM IST] <valcos>	and good job vchrombie for the work done on the project
+[10:18:11 PM IST] <polaris000>	here*
+[10:18:17 PM IST] <vchrombie>	I had a great experience working with the project
+[10:18:36 PM IST] <dlumbrer	[m]> It has been a pleasure!
+[10:18:43 PM IST] <vchrombie>	it was a great learning throught and confidence booster
+[10:19:11 PM IST] <vchrombie>	thank you all for your support! :D
+[10:19:34 PM IST] <vchrombie>	I want to ask do you have any suggestions/improvements for me
+[10:20:03 PM IST] <vchrombie>	so that I can look upon them and work on to rectify/improve them
+[10:20:55 PM IST] <valcos>	polaris000 do you want to start?
+[10:21:00 PM IST] <polaris000>	yeh suyre
+[10:21:06 PM IST] <valcos>	thanks
+[10:22:00 PM IST] <polaris000>	not much to say vchrombie, but like we mentioned in the last evaluation, you can work a little on finishing things properly before taking on new things. Of course, you have improved a lot in that regard since then.
+[10:22:34 PM IST] <polaris000>	that's all
+[10:23:03 PM IST] <valcos>	I fully agree with polaris000
+[10:23:19 PM IST] <dlumbrer	[m]> Yeah, I agree too!
+[10:23:32 PM IST] <vchrombie>	well true, I understand it. Thats something I should keep in mind.
+[10:24:18 PM IST] <valcos>	now vchrombie, your turn ^^ Do you have any suggestions/improvements for us?
+[10:24:44 PM IST] <polaris000>	anything in our process we could have improved/
+[10:24:48 PM IST] <polaris000>	?*
+[10:25:28 PM IST] <vchrombie>	tbh I really don't have anything
+[10:25:49 PM IST] <vchrombie>	I received good help whenever there is a trouble or problem
+[10:26:00 PM IST] <vchrombie>	weekly meeting were great
+[10:26:40 PM IST] <valcos>	cool, thanks!
+[10:26:51 PM IST] <dlumbrer	[m]> good to hear that
+[10:26:58 PM IST] <polaris000>	thanks vchrombie
+[10:27:44 PM IST] <valcos>	vchrombie, a question for you wrt the periodically updates of the project
+[10:29:14 PM IST] <valcos>	how would you evaluate the rate of the updates? weekly updates were ok?
+[10:30:39 PM IST] <vchrombie>	I looked back at this thing while I was writing my last report
+[10:31:26 PM IST] <vchrombie>	they were really good as it would clearly show what work I did and what is to be done
+[10:31:44 PM IST] <vchrombie>	I mean
+[10:31:58 PM IST] <vchrombie>	student spends ~ 40 hours a week
+[10:32:13 PM IST] <vchrombie>	so it gives a little satisfaction to see the work coming out
+[10:32:36 PM IST] <vchrombie>	but the only problem is it was not an easy task
+[10:33:21 PM IST] <vchrombie>	I had to keep a few hours specifically on every Monday to write everything
+[10:33:44 PM IST] <vchrombie>	and sometimes I postpone to Tuesday and further
+[10:34:21 PM IST] <vchrombie>	here I am talking about everything
+[10:34:48 PM IST] <vchrombie>	which includes reports (short summary), blog post and mail updates
+[10:35:04 PM IST] <vchrombie>	in my opinion, weekly blog updates and period wise updates to mailing list is balanced
+[10:35:39 PM IST] <vchrombie>	period wise -> (coding period one two three)
+[10:35:52 PM IST] <vchrombie>	end of each period
+[10:35:56 PM IST] <valcos>	ok, it makes sense
+[10:36:03 PM IST] <valcos>	thank you for your feedback
+[10:36:07 PM IST] <polaris000>	good point vchrombie
+[10:36:09 PM IST] <polaris000>	thanks
+[10:36:52 PM IST] <vchrombie>	writing weekly blogs was great, it brought some good traffic to my almost ded blog :P
+[10:37:01 PM IST] <valcos>	ehehe
+[10:37:02 PM IST] <dlumbrer	[m]> thank you vchrombie
+[10:37:03 PM IST] <polaris000>	hahha
+[10:37:31 PM IST] <vchrombie>	:D
+[10:37:49 PM IST] <vchrombie>	ok, we crossed the time today too
+[10:38:28 PM IST] <vchrombie>	I would thank you all once last time for your support :)
+[10:38:49 PM IST] <polaris000>	you're welcome vchrombie, and thanks to you as well
+[10:39:03 PM IST] <vchrombie>	it was really good confidence booster
+[10:39:23 PM IST] <vchrombie>	I ended up applying for a role at Bitergia too :D
+[10:39:49 PM IST] <vchrombie>	I might have one more round in the near future
+[10:39:56 PM IST] <polaris000>	nice! good luck!
+[10:40:00 PM IST] <valcos>	good luck with your application!
+[10:40:20 PM IST] <dlumbrer	[m]> cool! good luck vchrombie
+[10:40:26 PM IST] <vchrombie>	this was a good start
+[10:40:47 PM IST] <vchrombie>	if things go well, I will continue full time contributing to grimoirelab :)
+[10:40:59 PM IST] <polaris000>	nice to hear vchrombie!
+[10:41:06 PM IST] <valcos>	cool!
+[10:41:29 PM IST] <valcos>	thank you all for the time spent on this project
+[10:41:50 PM IST] <valcos>	bye!
+[10:41:54 PM IST] <polaris000>	bye all!
+[10:42:01 PM IST] <polaris000>	thanks for your time
+[10:42:03 PM IST] <dlumbrer	[m]> thank you all, bye!
+[10:42:10 PM IST] <vchrombie>	bye everyone!
+[10:42:15 PM IST] <vchrombie>	adios :)
+[10:42:41 PM IST] Quit	valcos (~valcos@188.26.215.99) has left this server (Quit: Quitte).
+[10:42:41 PM IST] Part	polaris000 (~polaris00@49.206.37.173) has left this channel ("Konversation terminated!").
