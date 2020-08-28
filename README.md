@@ -7,7 +7,7 @@
 
 <p align="center">
 	<a href="#project-abstract">Project Abstract</a> | 
-	<a href="#working-branches">Working Branches & Pull Requests</a> | 
+	<a href="#pull-requests">Pull Requests</a> | 
 	<a href="#weekly-updates">Weekly Updates</a> | 
 	<a href="#links">Links</a>
 </p>
@@ -26,12 +26,6 @@ Prosoul is a web application that empowers decision-makers with the means to cre
 The main aim of the project is to design an approach to shape the GrimoireLab data in a format that can easily be consumed by Prosoul and implement it on the data obtained from a few data sources like git, github and mailing list repositories to obtain simple quality models.
 
 **Mentors**: [@Polaris000](https://github.com/Polaris000), [@inishchith](https://github.com/inishchith), [@dlumbrer](https://github.com/dlumbrer) and [@valeriocos](https://github.com/valeriocos).
-
-## Working Branches
-
-- _gitlabqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm
-- _gitlabqm_+_gitqm_ enricher :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/gitlabqm+gitqm
-- qm-v3 (_gitlabqm, gitqm, pipermailqm, meetupqm_) :fast_forward: https://github.com/vchrombie/grimoirelab-elk/tree/qm-v3
 
 ## Pull Requests
 
@@ -105,19 +99,19 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 - Week 4: [Report](work/week-4/#week-4-summary) | Blog Post :point_right: [semana cuatro](https://vchrombie.github.io/blog/coding-period-1-week-4).
 - Coding Period 1, [período de codificación uno](https://vchrombie.github.io/blog/coding-period-1).
 - :bicyclist: First Evaluation Period (June 29 - July 3): PASSED :ballot_box_with_check:.
-- Week 5: [Report](work/week-5/#week-5-summary) | Blog Post :point_right: [semana cinco](https://vchrombie.github.io/blog/coding-period-1-week-5).
 
 ### Coding Period 2 (July 4, 2020 - July 27, 2020)
 
+- Week 5: [Report](work/week-5/#week-5-summary) | Blog Post :point_right: [semana cinco](https://vchrombie.github.io/blog/coding-period-1-week-5).
 - Week 6: [Report](work/week-6/#week-6-summary) | Blog Post :point_right: [semana seis](https://vchrombie.github.io/blog/coding-period-2-week-6).
 - Week 7: [Report](work/week-7/#week-7-summary) | Blog Post :point_right: [semana siete](https://vchrombie.github.io/blog/coding-period-2-week-7).
 - Week 8: [Report](work/week-8/#week-8-summary) | Blog Post :point_right: [semana ocho](https://vchrombie.github.io/blog/coding-period-2-week-8).
 - Coding Period 2, [período de codificación dos](https://vchrombie.github.io/blog/coding-period-2).
 - :surfer: Second Evaluation Period (June 27 - July 31): PASSED :ballot_box_with_check:.
-- Week 9: [Report](work/week-9/#week-9-summary) | Blog Post :point_right: [semana nueve](https://vchrombie.github.io/blog/coding-period-2-week-9).
 
 ### Coding Period 3 (August 1, 2020 - August 24, 2020)
 
+- Week 9: [Report](work/week-9/#week-9-summary) | Blog Post :point_right: [semana nueve](https://vchrombie.github.io/blog/coding-period-2-week-9).
 - Week 10: [Report](work/week-10/#week-10-summary) | Blog Post :point_right: [semana diez](https://vchrombie.github.io/blog/coding-period-3-week-10).
 - Week 11: [Report](work/week-11/#week-11-summary) | Blog Post :point_right: [semana once](https://vchrombie.github.io/blog/coding-period-3-week-11).
 - Week 12: [Report](work/week-12/#week-12-summary) | Blog Post :point_right: [semana doce](https://vchrombie.github.io/blog/coding-period-3-week-12).
@@ -133,4 +127,4 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 ## Footnotes
 
 - We will be discussing about the progress of this project every week at the `#grimoirelab` channel on freenode IRC (scheduled for every Thursday ~~17h to 18h~~ 18h to 19h (CEST) or ~~20h30 to 21h30~~ 21h30 to 22h30 (IST)). The transcripts of the meetings (chats) are available in [meetings](meetings/) directory.
-- I will be writing a blog post every week (mostly on Monday) explaning the work I did over the week. You can find the links to the work summary and blog posts in the [work](work/) directory.
+- I will be writing a blog post every week (mostly on Monday) explaning the work I did over the week. You can find the links to the work summary in the [work](work/) directory.
