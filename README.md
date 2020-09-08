@@ -128,7 +128,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 
 ### Final Verdict
 
-- :parachute: Final Evaluation Period (August 24 - September 7): PENDING :hourglass_flowing_sand:.
+- :parachute: Final Evaluation Period (August 24 - September 7): PASSED :ballot_box_with_check: :tada:.
 
 ## Links
 
