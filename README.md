@@ -94,36 +94,36 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 ### Community Bonding (May 4, 2020 - June 1, 2020)
 
 - GSoC Acceptance, [aceptación gsoc](https://vchrombie.github.io/blog/gsoc-acceptance).
-- Week 1: [Report](work/community-bonding#week-1-summary) | Blog Post :point_right: [unión comunitaria 1](https://vchrombie.github.io/blog/cb-week-1).
-- Week 2: [Report](work/community-bonding#week-2-summary) | Blog Post :point_right: [unión comunitaria 2](https://vchrombie.github.io/blog/cb-week-2).
-- Week 3: [Report](work/community-bonding#week-3-summary) | Blog Post :point_right: [unión comunitaria 3](https://vchrombie.github.io/blog/cb-week-3).
-- Week 4: [Report](work/community-bonding#week-4-summary) | Blog Post :point_right: [unión comunitaria 4](https://vchrombie.github.io/blog/cb-week-4).
+- Week 1: unión comunitaria 1 :point_right: [Report](work/community-bonding#unión-comunitaria-1).
+- Week 2: unión comunitaria 2 :point_right: [Report](work/community-bonding#unión-comunitaria-2).
+- Week 3: unión comunitaria 3 :point_right: [Report](work/community-bonding#unión-comunitaria-3).
+- Week 4: unión comunitaria 4 :point_right: [Report](work/community-bonding#unión-comunitaria-4).
 - Community Bonding Period, [período de vinculación comunitaria](https://vchrombie.github.io/blog/community-bonding-period).
 
 ### Coding Period 1 (June 1, 2020 - June 29, 2020)
 
-- Week 1: [Report](work/week-1/#week-1-summary) | Blog Post :point_right: [semana uno](https://vchrombie.github.io/blog/cp-1-week-1).
-- Week 2: [Report](work/week-2/#week-2-summary) | Blog Post :point_right: [semana dos](https://vchrombie.github.io/blog/cp-1-week-2).
-- Week 3: [Report](work/week-3/#week-3-summary) | Blog Post :point_right: [semana tres](https://vchrombie.github.io/blog/cp-1-week-3).
-- Week 4: [Report](work/week-4/#week-4-summary) | Blog Post :point_right: [semana cuatro](https://vchrombie.github.io/blog/cp-1-week-4).
+- Week 1: semana uno :point_right: [Report](work/week-01/#semana-uno).
+- Week 2: semana dos :point_right: [Report](work/week-02/#semana-dos).
+- Week 3: semana tres :point_right: [Report](work/week-03/#semana-tres).
+- Week 4: semana cuatro :point_right: [Report](work/week-04/#semana-cuatro).
 - Coding Period 1, [período de codificación uno](https://vchrombie.github.io/blog/coding-period-1).
 - :bicyclist: First Evaluation Period (June 29 - July 3): PASSED :ballot_box_with_check:.
 
 ### Coding Period 2 (July 4, 2020 - July 27, 2020)
 
-- Week 5: [Report](work/week-5/#week-5-summary) | Blog Post :point_right: [semana cinco](https://vchrombie.github.io/blog/cp-2-week-5).
-- Week 6: [Report](work/week-6/#week-6-summary) | Blog Post :point_right: [semana seis](https://vchrombie.github.io/blog/cp-2-week-6).
-- Week 7: [Report](work/week-7/#week-7-summary) | Blog Post :point_right: [semana siete](https://vchrombie.github.io/blog/cp-2-week-7).
-- Week 8: [Report](work/week-8/#week-8-summary) | Blog Post :point_right: [semana ocho](https://vchrombie.github.io/blog/cp-2-week-8).
+- Week 5: semana cinco :point_right: [Report](work/week-05/#semana-cinco).
+- Week 6: semana seis :point_right: [Report](work/week-06/#semana-seis).
+- Week 7: semana siete :point_right: [Report](work/week-07/#semana-siete).
+- Week 8: semana ocho :point_right: [Report](work/week-08/#semana-ocho).
 - Coding Period 2, [período de codificación dos](https://vchrombie.github.io/blog/coding-period-2).
 - :surfer: Second Evaluation Period (June 27 - July 31): PASSED :ballot_box_with_check:.
 
 ### Coding Period 3 (August 1, 2020 - August 24, 2020)
 
-- Week 9: [Report](work/week-9/#week-9-summary) | Blog Post :point_right: [semana nueve](https://vchrombie.github.io/blog/cp-3-week-9).
-- Week 10: [Report](work/week-10/#week-10-summary) | Blog Post :point_right: [semana diez](https://vchrombie.github.io/blog/cp-3-week-10).
-- Week 11: [Report](work/week-11/#week-11-summary) | Blog Post :point_right: [semana once](https://vchrombie.github.io/blog/cp-3-week-11).
-- Week 12: [Report](work/week-12/#week-12-summary) | Blog Post :point_right: [semana doce](https://vchrombie.github.io/blog/cp-3-week-12).
+- Week 9: semana nueve :point_right: [Report](work/week-09/#semana-nueve).
+- Week 10: semana diez :point_right: [Report](work/week-10/#semana-diez).
+- Week 11: semana once :point_right: [Report](work/week-11/#semana-once).
+- Week 12: semana doce :point_right: [Report](work/week-12/#semana-doce).
 - **Final Report**, [reporte final](https://vchrombie.github.io/blog/gsoc-final-report).
 
 ### Final Verdict

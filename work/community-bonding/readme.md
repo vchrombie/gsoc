@@ -1,6 +1,6 @@
 ## Community Bonding Period Work
 
-### Week-1 Summary
+### unión comunitaria 1
 
 > I was supposed to setup the project-tracker, fix a schedule for blogging & writing reports and setup the communication 
 medium with the community and mentors.
@@ -20,7 +20,7 @@ meeting logs, blog posts and almost everything related to the GSoC project. :tad
 work reports over there. :rocket:
 - I will be sending the work summary with the blog links the CHAOSS and GrimoireLab mailing list.
 
-### Week-2 Summary
+### unión comunitaria 2
 
 > I was supposed to learn how enrichers work and create a PR adding or improving any enricher.
 
@@ -34,7 +34,7 @@ work reports over there. :rocket:
   - I proposed a new feature for adding perceval support to Trello. We need to discuss the feasibility of storing all the backends in the same repository or different repositories. So, this feature [chaoss/grimoirelab-perceval#664](https://github.com/chaoss/grimoirelab-perceval/issues/664) might need to wait.
   - I proposed having an issue template, but it was already suggested and we need to discuss it, [chaoss/grimoirelab-perceval#665](https://github.com/chaoss/grimoirelab-perceval/issues/665).
 
-### Week-3 Summary
+### unión comunitaria 3
 
 > I planned to work on adding perceval support for zulip chat and start working on a new enricher.
 
@@ -47,7 +47,7 @@ work reports over there. :rocket:
 - Apart from this, Valerio suggested working on the *gitlabcomments* enricher. The initial discussion about this feature happened here, [chaoss/grimoirelab#208](https://github.com/chaoss/grimoirelab/issues/208). The proposal was to create a new enricher, similar to *github2*, which would focus on enriching the gitlab comments data.
 - Also, I went through the Prosoul codebase to have some idea about the data format which can be easily consumable by prosoul. Hoping to get this done soon, preferably before the coding period. :cold_face:
 
-### Week-4 Summary
+### unión comunitaria 4
 
 > I planned to work on the gitlabcomments enricher and complete the pending tasks for the coding period.
 

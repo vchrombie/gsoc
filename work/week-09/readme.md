@@ -1,6 +1,6 @@
 ## Coding Period 2 Work (Second Evaluation Period)
 
-### Week-9 Summary
+### semana nueve
 
 - I was planning to work on the pilot study :helicopter: on the GitLab.org projects this week. [vchrombie/gsoc#13](https://github.com/vchrombie/gsoc/issues/13)
 - We decided to target gitlab and meetup data sources. Valerio helped a lot with collecting the raw data in the incubator. The [projects.json](https://gitlab.com/Bitergia/c/gitlab/sources/-/blob/master/projects.json) file is already available. We had to skip a few big repositories as we need more time and resources.

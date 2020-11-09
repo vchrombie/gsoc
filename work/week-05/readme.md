@@ -1,6 +1,6 @@
 ## Coding Period 1 Work (First Evaluation Period)
 
-### Week-5 Summary
+### semana cinco
 
 - I planned to work on the dashboard :bar_chart: of the assessment results that we achieved last week.
 - I uploaded all the enriched data using micro-mordred to the new grimoirelab-incubator so that it will be easy to get feedback while working on the dashboards. Thanks to Valerio, who helped a lot to get started with the incubator, and I learned how to manage the indices, adding aliases that made the work easier & efficient.

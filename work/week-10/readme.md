@@ -1,6 +1,6 @@
 ## Coding Period 3 Work
 
-### Week-10 Summary
+### semana diez
 
 - I was focusing on writing down :memo: results obtained from the gitlab pilot study :helicopter: performed last week. [vchrombie/gsoc#13 (comment)](https://github.com/vchrombie/gsoc/issues/13#issuecomment-669236168)
 - Apart from that, I also worked on implementing _githubqm_ enricher. All the enrichers, planned so far, are implemented. :100:

@@ -1,6 +1,6 @@
 ## Coding Period 1 Work
 
-### Week-3 Summary
+### semana tres
 
 - I was focusing only on building an enricher that converts the gitlab raw data to enriched items that can be fed to Prosoul.
 - The approach for making this enricher was simple, fetch all the raw items and filter them into a complex nested-dictionary data structure and fill it using the extracted metric values. Later, using this data structure, generate the enriched items. I framed and shaped this approach as we have a definite format of the data item which can be consumed by Prosoul.

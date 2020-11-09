@@ -1,6 +1,6 @@
 ## Coding Period 2 Work
 
-### Week-8 Summary
+### semana ocho
 
 - I worked on the _meetupqm_ enricher and completed it.
 - I started working on the tests for the existing enrichers. :test_tube: [vchrombie/gsoc#15](https://github.com/vchrombie/gsoc/issues/15)

@@ -1,6 +1,6 @@
 ## Coding Period 3 Work
 
-### Week-11 Summary
+### semana once
 
 - This week, I concentrated on working on the CHAOSS study and also for the documentation of the project.
 - As the planned enrichers are in place, it was the right time for the pilot study :airplane: on the CHAOSS Community projects. The targetted data sources are git and github repositories.

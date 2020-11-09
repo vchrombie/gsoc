@@ -1,6 +1,6 @@
 ## Coding Period 1 Work
 
-### Week-1 Summary
+### semana uno
 
 - I decided to start working on the QM enrichers and I took gitlab as the first option because I was familiar with it. 
 [vchrombie/gsoc#6](https://github.com/vchrombie/gsoc/issues/6).

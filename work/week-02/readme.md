@@ -1,6 +1,6 @@
 ## Coding Period 1 Work
 
-### Week-2 Summary
+### semana dos
 
 - Got a basic idea :bulb: of how the format of enriched items should look like. 
 

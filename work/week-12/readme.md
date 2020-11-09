@@ -1,6 +1,6 @@
 ## Coding Period 3 Work
 
-### Week-12 Summary
+### semana doce
 
 - This week, most of the work was around finalizing the PR. Also, I worked on the documentation :spiral_notepad: of the project. [vchrombie/gsoc#20](https://github.com/vchrombie/gsoc/issues/20)
 - I worked on revamping existing the prosoul with grimoirelab doc and updated it with the latest workflow :sparkles: ([Bitergia/prosoul#216](https://github.com/Bitergia/prosoul/pull/216)), and also updated the repository with the latest docker-compose file ([Bitergia/prosoul#215](https://github.com/Bitergia/prosoul/pull/215)) and latest images ([Bitergia/prosoul#213](https://github.com/Bitergia/prosoul/pull/213)) too. Thanks to Valerio, who helped me with designing them.

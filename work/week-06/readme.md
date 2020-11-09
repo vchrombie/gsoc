@@ -1,6 +1,6 @@
 ## Coding Period 2 Work
 
-### Week-6 Summary
+### semana seis
 
 - I was planning to work on the pilot study :small_airplane: this week. So, I have discussed with the mentors and decided to perform a study on the [amFOSS](https://amfoss.in/) projects as I'm a bit familiar with the projects. [vchrombie/gsoc#13](https://github.com/vchrombie/gsoc/issues/13)
 - For this pilot study, I have selected 12 projects of the [amFOSS](https://gitlab.com/amfoss/) organization and involved two data sources, gitlab & git (qm enrichers). 

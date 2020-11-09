@@ -1,6 +1,6 @@
 ## Coding Period 2 Work
 
-### Week-7 Summary
+### semana siete
 
 - This week, I mostly focused on adding support for other data sources like pipermail and meetup.
 - We discussed the metrics that we can add for _pipermailqm_. [vchrombie/gsoc#11](https://github.com/vchrombie/gsoc/issues/11)
