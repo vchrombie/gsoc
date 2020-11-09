@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://summerofcode.withgoogle.com/projects/#5489558193438720"><img src="notes/gsoc.png" width="720" alt="google-summer-of-code"></a>
+    <a href="https://summerofcode.withgoogle.com/archive/2020/projects/6524989651550208"><img src="notes/gsoc.png" width="720" alt="google-summer-of-code"></a>
     <h2>
     Creating Quality models using GrimoireLab and <a href="https://github.com/chaoss">CHAOSS</a> metrics
     </h2>
@@ -133,7 +133,7 @@ The main aim of the project is to design an approach to shape the GrimoireLab da
 ## Links
 
 - [GSoC 2020 Proposal CHAOSS - Venu](notes/gsoc-proposal-venu.pdf)
-- [Project Link](https://summerofcode.withgoogle.com/projects/#5489558193438720) on GSoC Website.
+- [Project Link](https://summerofcode.withgoogle.com/archive/2020/projects/6524989651550208) on GSoC Website.
 - [Microtasks](https://github.com/vchrombie/chaoss-microtasks) repository.
 - [Contributions](notes/application-period-contributions.md) during application period.
 
